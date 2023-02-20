@@ -6,21 +6,21 @@
     <macros>
       \newcommand{\R}{\mathbb R}
     </macros>
-    <latax-image-preamble>
+    <latex-image-preamble>
       \usepackage{tikz}
-    </latax-image-preamble>
+    </latex-image-preamble>
   </docinfo>
 
-  <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+  <book xml:id="ess-phy-hs">
+    <title>Essential Physics for Health Sciences</title>
+    <subtitle>An Interactive Learning Guide</subtitle>
 
     <frontmatter xml:id="frontmatter">
       <titlepage>
         <author>
-          <personname>You</personname>
-          <department>Your department</department>
-          <institution>Your institution</institution>
+          <personname>Karen Gipson</personname>
+          <department>Department of Physics</department>
+          <institution>Grand Valley State University</institution>
         </author>
         <date>
           <today />
@@ -28,32 +28,327 @@
       </titlepage>
 
       <colophon>
-
-        <website>
-          <name>
-            <c>example.org</c>
-          </name>
-          <address>https://example.org</address>
-        </website>
-
         <copyright>
-          <year>2020<ndash />2023</year>
-          <holder>You</holder>
+          <year>2023<ndash />2026</year>
+          <holder>Karen Gipson</holder>
           <shortlicense> 
             This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
           </shortlicense>
         </copyright>
       </colophon>
+
+    <preface> This book... </preface>
+
     </frontmatter>
 
-    <chapter xml:id="chapter-title">
-      <title>Chapter title</title>
+    <chapter xml:id="using-physics">
+      <title>Using Physics to Understand the Human Body</title>
+      <introduction>
+        <p>
+          this chapter...
+        </p>
+      </introduction>
 
-      <section xml:id="section-title">
-        <title>Section title</title>
+      <section xml:id="nature-of-science">
+        <title>The Nature of Science</title>
         <p>Hello</p>
       </section>
 
+      <section xml:id="prelim-concepts">
+        <title>Preliminary Concepts</title>
+        <p>Hello</p>
+      </section>
+    </chapter>
+
+    <chapter xml:id="linear-motion">
+      <title>Linear Motion</title>
+      <introduction>
+        <p>
+          this chapter...
+        </p>
+      </introduction>
+
+      <section xml:id="lin-kin">
+        <title>Linear Kinematics</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="lin-dyn">
+        <title>Linear Dynamics</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="lin-apps">
+        <title>Applications of Linear Motion</title>
+        <p>Hello</p>
+      </section>
+    </chapter>
+
+    <chapter xml:id="rotational-motion">
+      <title>Rotational Motion</title>
+      <introduction>
+        <p>
+          this chapter...
+        </p>
+      </introduction>
+
+      <section xml:id="rot-kin">
+        <title>Rotational Kinematics</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="rot-dyn">
+        <title>Rotational Dynamics</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="rot-apps">
+        <title>Applications of Rotational Motion</title>
+        <p>Hello</p>
+      </section>
+
+    </chapter>
+
+    <chapter xml:id="equilibrium">
+      <title>Mechanical Equilibrium</title>
+      <introduction>
+        <p>
+          this chapter...
+        </p>
+      </introduction>
+
+      <section xml:id="equib-cond">
+        <title>Conditions for Mechanical Equilibrium</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="equil-apps">
+        <title>Applications of Mechanical Equilibrium</title>
+        <p>Hello</p>
+      </section>
+    </chapter>
+    
+    <chapter xml:id="matter">
+      <title>Matter</title>
+      <introduction>
+        <p>
+          this chapter...
+        </p>
+      </introduction>
+
+      <section xml:id="states-of-matter">
+        <title>States of Matter</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="props-of-solids">
+        <title>Selected Properties of Solids</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="props-of-fluids">
+        <title>Selected Properties of Fluids</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="apps-matter">
+        <title>Applications of Material Science</title>
+        <p>Hello</p>
+      </section>
+
+    </chapter>
+    <chapter xml:id="thermo">
+      <title>Thermodynamics</title>
+      <introduction>
+        <p>
+          this chapter...
+        </p>
+      </introduction>
+
+      <section xml:id="kin-theory">
+        <title>Kinetic Theory</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="heat-transfer">
+        <title>Heat Transfer</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="thermo-laws">
+        <title>Laws of Thermodynamics</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="apps-thermo">
+        <title>Applications of Thermodynamics</title>
+        <p>Hello</p>
+      </section>
+    </chapter>
+
+    <chapter xml:id="sound">
+      <title>Sound</title>
+      <introduction>
+        <p>
+          this chapter...
+        </p>
+      </introduction>
+
+      <section xml:id="vibs-waves">
+        <title>Vibrations and Waves</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="wave-behav">
+        <title>Behavior of Waves</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="sound-props">
+        <title>Properties of Sound</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="apps-sound">
+        <title>Applications of Sound</title>
+        <p>Hello</p>
+      </section>
+  </chapter>
+
+      <chapter xml:id="electricity">
+        <title>Electricity</title>
+        <introduction>
+          <p>
+            this chapter...
+          </p>
+        </introduction>
+
+        <section xml:id="e-statics">
+          <title>Electrostatics</title>
+          <p>Hello</p>
+        </section>
+
+        <section xml:id="e-circuits">
+          <title>Simple Electric Circuits</title>
+          <p>Hello</p>
+        </section>
+
+        <section xml:id="e-energy">
+          <title>Electrical energy</title>
+          <p>Hello</p>
+        </section>
+
+        <section xml:id="apps-elect">
+          <title>Applications of Electrostatics</title>
+          <p>Hello</p>
+        </section>
+    </chapter>
+
+    <chapter xml:id="magnetism">
+      <title>Magnetism</title>
+      <introduction>
+        <p>
+          this chapter...
+        </p>
+      </introduction>
+
+      <section xml:id="m-statics">
+        <title>Magnetostatics</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="b-force">
+        <title>Magnetic forces</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="em-induction">
+        <title>Electromagnetic Induction</title>
+        <p>Hello</p>
+      </section>
+      
+      <section xml:id="apps-em">
+        <title>Applications of Electromagnetism</title>
+        <p>Hello</p>
+      </section>
+
+    </chapter>
+    <chapter xml:id="light">
+      <title>Light</title>
+      <introduction>
+        <p>
+          this chapter...
+        </p>
+      </introduction>
+
+      <section xml:id="em-spectrum">
+        <title>Light as an Electromagnetic Wave</title>
+        <p>Hello</p>
+      </section>
+      
+      <section xml:id="geo-optics">
+        <title>Geometric Optics</title>
+        <p>Hello</p>
+      </section>
+      
+      <section xml:id="phys-optics">
+        <title>Physical Optics</title>
+        <p>Hello</p>
+      </section>
+      
+      <section xml:id="apps-optics">
+        <title>Applications of Optics</title>
+        <p>Hello</p>
+      </section>
+    </chapter>
+
+    <chapter xml:id="atomic-phys">
+        <title>Atomic Physics</title>
+        <p>Hello</p>
+        <introduction>
+          <p>
+            this chapter...
+          </p>
+        </introduction>
+
+        <section xml:id="atoms">
+          <title>The Atom</title>
+          <p>Hello</p>
+        </section>
+  
+        <section xml:id="qm-basics">
+          <title>Basics of Quantum Mechanics</title>
+          <p>Hello</p>
+        </section>
+
+        <section xml:id="apps-atoms">
+          <title>Applications of Atomic Physics</title>
+          <p>Hello</p>
+        </section>
+    </chapter>
+
+    <chapter xml:id="nukes">
+      <title>Nuclear Physics</title>
+      <introduction>
+        <p>
+          this chapter...
+        </p>
+      </introduction>
+
+      <section xml:id="nucleus">
+        <title>The Nucleus</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="radioactivity">
+        <title>Radioactivity</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="apps-nukes">
+        <title>Applications of Nuclear Physics</title>
+        <p>Hello</p>
+      </section>
     </chapter>
 
     <backmatter xml:id="backmatter">

@@ -6,7 +6,7 @@
     <macros>
       \newcommand{\R}{\mathbb R}
     </macros>
-    <rename element="objectives">Motivating questions</rename>
+    <rename element="objectives">Guiding questions</rename>
     <latex-image-preamble>
       \usepackage{tikz}
     </latex-image-preamble>
@@ -39,8 +39,9 @@
         </copyright>
       </colophon>
 
-    <preface> This book... </preface>
-
+    <preface> 
+      <p>This book... </p>
+    </preface>
     </frontmatter>
 
     <chapter xml:id="using-physics">
@@ -66,6 +67,14 @@
       </section>
     </chapter>
 
+<part xml:id="motion">
+  <title>Mechanics of Individual Objects</title>
+  <introduction>
+    <p>
+      this part...
+    </p>
+  </introduction>
+  
     <chapter xml:id="linear-motion">
       <title>Linear Motion</title>
       <introduction>
@@ -81,6 +90,11 @@
 
       <section xml:id="lin-dyn">
         <title>Linear Dynamics</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="lin-conserv-laws">
+        <title>Momentum and Energy Analysis of Linear Motion</title>
         <p>Hello</p>
       </section>
 
@@ -105,6 +119,11 @@
 
       <section xml:id="rot-dyn">
         <title>Rotational Dynamics</title>
+        <p>Hello</p>
+      </section>
+
+      <section xml:id="rot-conserv-laws">
+        <title>Momentum and Energy Analysis of Rotational Motion</title>
         <p>Hello</p>
       </section>
 
@@ -133,7 +152,16 @@
         <p>Hello</p>
       </section>
     </chapter>
-    
+  </part>
+
+  <part xml:id="systems">
+    <title>Mechanical Behavior of Systems</title>
+    <introduction>
+      <p>
+        This part...
+      </p>
+    </introduction>
+
     <chapter xml:id="matter">
       <title>Matter</title>
       <introduction>
@@ -220,6 +248,15 @@
         <p>Hello</p>
       </section>
   </chapter>
+</part>
+
+<part xml:id="electromagnetism">
+  <title>Electromagnetism</title>
+  <introduction>
+    <p>
+      This part...
+    </p>
+  </introduction>
 
       <chapter xml:id="electricity">
         <title>Electricity</title>
@@ -307,7 +344,16 @@
         <p>Hello</p>
       </section>
     </chapter>
+</part>
 
+<part xml:id="qm">
+  <title>Selected Topics in Quantum Physics</title>
+  <introduction>
+    <p>
+      This part...
+    </p>
+  </introduction>
+  
     <chapter xml:id="atomic-phys">
         <title>Atomic Physics</title>
         <introduction>
@@ -355,6 +401,7 @@
         <p>Hello</p>
       </section>
     </chapter>
+  </part>
 
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>

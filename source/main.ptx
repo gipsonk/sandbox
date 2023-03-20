@@ -40,38 +40,36 @@
       </colophon>
 
     <preface> 
-      <p> Motivation... </p>
+      <p> The motivation... </p>
       <p> Use... </p>
     </preface>
     </frontmatter>
 
     <chapter xml:id="using-physics">
-      <title>Using Physics to Inform Health Sciences</title>
-      <objectives>
-        <ol>
-        <li>How can studying physics help health sciences? </li>
-        /</ol>
-      </objectives>
-      
+      <title>Using Physics to Inform Health Sciences</title>      
       <introduction>
         <p>
           this chapter...
         </p>
       </introduction>     
 
-      <section xml:id="nature-of-science">
-        <title>The Nature of Science</title>
-        <p>Hello</p>
-      </section>
-
       <section xml:id="prelim-concepts">
         <title>Preliminary Concepts</title>
         <p>Hello</p>
       </section>
+
+      <section xml:id="nature-of-science">
+        <title>The Nature of Science</title>
+        <p>Hello</p>
+
+      </section>
+
+     
     </chapter>
 
 <part xml:id="motion">
   <title>Mechanics: The Study of Motion</title>
+  
   <introduction>
     <p>
       this part...

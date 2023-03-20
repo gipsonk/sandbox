@@ -48,7 +48,9 @@
     <chapter xml:id="using-physics">
       <title>Using Physics to Inform Health Sciences</title>
       <objectives>
-        <p> How can studying physics help health sciences? </p>
+        <ol>
+        <li>How can studying physics help health sciences? </li>
+        /</ol>
       </objectives>
       
       <introduction>

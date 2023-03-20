@@ -15,7 +15,7 @@
 
   <book xml:id="ess-phy-hs">
     <title>Essential Physics for Health Sciences</title>
-    <subtitle>An Interactive Learning Guide</subtitle>
+    <subtitle>An Algebra-Based Interactive Learning Guide</subtitle>
 
     <frontmatter xml:id="frontmatter">
       <titlepage>
@@ -40,12 +40,13 @@
       </colophon>
 
     <preface> 
-      <p>This book... </p>
+      <p> Motivation... </p>
+      <p> Use... </p>
     </preface>
     </frontmatter>
 
     <chapter xml:id="using-physics">
-      <title>Using Physics to Understand the Human Body</title>
+      <title>Using Physics to Inform Health Sciences</title>
       <objectives>
         <p> How can studying physics help health sciences? </p>
       </objectives>
@@ -68,15 +69,15 @@
     </chapter>
 
 <part xml:id="motion">
-  <title>Mechanics of Individual Objects</title>
+  <title>Mechanics: The Study of Motion</title>
   <introduction>
     <p>
       this part...
     </p>
   </introduction>
   
-    <chapter xml:id="linear-motion">
-      <title>Linear Motion</title>
+    <chapter xml:id="kinematics">
+      <title>Kinematics: The Description of Motion</title>
       <introduction>
         <p>
           this chapter...
@@ -84,36 +85,36 @@
       </introduction>
 
       <section xml:id="lin-kin">
-        <title>Linear Kinematics</title>
+        <title>Translational Kinematics</title>
         <p>Hello</p>
       </section>
 
-      <section xml:id="lin-dyn">
-        <title>Linear Dynamics</title>
+      <section xml:id="rot-kin">
+        <title>Rotational Kinematics</title>
         <p>Hello</p>
       </section>
 
-      <section xml:id="lin-conserv-laws">
-        <title>Momentum and Energy Analysis of Linear Motion</title>
+      <section xml:id="combo-kin">
+        <title>Combination Motion</title>
         <p>Hello</p>
       </section>
 
-      <section xml:id="lin-apps">
-        <title>Applications of Linear Motion</title>
+      <section xml:id="kin-apps">
+        <title>Applications of Kinematics to Health Sciences</title>
         <p>Hello</p>
       </section>
     </chapter>
 
-    <chapter xml:id="rotational-motion">
-      <title>Rotational Motion</title>
+    <chapter xml:id="dynamics">
+      <title>Dynamics: The Causes of Motion </title>
       <introduction>
         <p>
           this chapter...
         </p>
       </introduction>
 
-      <section xml:id="rot-kin">
-        <title>Rotational Kinematics</title>
+      <section xml:id="lin-dyn">
+        <title>Translational Dynamics</title>
         <p>Hello</p>
       </section>
 
@@ -122,35 +123,56 @@
         <p>Hello</p>
       </section>
 
-      <section xml:id="rot-conserv-laws">
-        <title>Momentum and Energy Analysis of Rotational Motion</title>
+      <section xml:id="equilib">
+        <title>Mechanical Equilibrium</title>
         <p>Hello</p>
+        
+         <subsection xml:id="equib-cond">
+        <title>Conditions for Mechanical Equilibrium</title>
+        <p>Hello</p>
+        </subsection>
       </section>
 
-      <section xml:id="rot-apps">
-        <title>Applications of Rotational Motion</title>
+      <section xml:id="dyn-apps">
+        <title>Applications of Dynamics to Health Sciences</title>
         <p>Hello</p>
       </section>
 
     </chapter>
-
-    <chapter xml:id="equilibrium">
-      <title>Mechanical Equilibrium</title>
+  
+    <chapter xml:id="cons-laws">
+      <title>Conservation Laws for Mechanics</title>
       <introduction>
         <p>
           this chapter...
         </p>
-      </introduction>
+      </introduction>  
 
-      <section xml:id="equib-cond">
-        <title>Conditions for Mechanical Equilibrium</title>
+      <section xml:id="work-energy">
+        <title>Work and Energy</title>
         <p>Hello</p>
       </section>
-
-      <section xml:id="equil-apps">
-        <title>Applications of Mechanical Equilibrium</title>
+      
+      <section xml:id="cons-energy">
+        <title>Conservation of Mechanical Energy</title>
         <p>Hello</p>
       </section>
+      
+      <section xml:id="momentum">
+        <title>Momentum</title>
+        <p>Hello</p>
+      </section>
+      
+      <section xml:id="cons-momentum">
+        <title>Conservation of Momentum</title>
+        <p>Hello</p>
+      </section>
+      
+       <section xml:id="apps-conserve">
+        <title>Applications of Conservation Laws to Health Sciences</title>
+        <p>Hello</p>
+      </section>
+      
     </chapter>
   </part>
 
@@ -401,6 +423,7 @@
         <p>Hello</p>
       </section>
     </chapter>
+    <!-- <xi:include href="intro.ptx"/> -->
   </part>
 
     <backmatter xml:id="backmatter">

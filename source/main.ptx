@@ -47,21 +47,44 @@
 
     <chapter xml:id="using-physics">
       <title>Using Physics to Inform Health Sciences</title>      
-      <introduction>
-        <p>
-          this chapter...
-        </p>
-      </introduction>     
+      
+      <objectives xml:id="ch1-gq">
+        <introduction>
+          <p>
+            Here are some questions to keep in mind as you read and work through the content in Chapter 1:
+          </p>
+        </introduction>
+        <ul>
+          <li> What is physics? </li>
+          <li> What are some important considerations about the concepts encountered in physics? </li>   
+          <li> What are important details about the quantities encountered in physics? </li>
+          <li> How can physics help with understanding topics in health sciences? </li>
+        </ul>
+      </objectives>
 
       <section xml:id="prelim-concepts">
         <title>Preliminary Concepts</title>
-        <p>Hello</p>
+        <p>
+          At its core, physics is the study of the physical world. For this reason, physics is often defined as the <em>study of matter and energy</em>. Matter and energy will appear (both implicitly and explicitly) throughout this learning guide, along with many other related terms and theoretical constructs that have been developed over the centuries to explain the physical aspect of reality and make accurate predictions.  
+        </p>
+         <p> 
+          As stated above, energy is a core physics concept, and we will see beginning in the next chapter that one of the most fundamental theoretical constructs in physics is the <em>Law of Conservation of Energy</em>. The PhET simulation below introduces you to some of the diverse forms of energy. We will spend more time on the <q>Intro</q> tab of this PhET in <xref ref="thermo"/>; at this point you may prefer to instead focus on the <q>Systems</q> tab to see how one form of energy can be converted into another. (Future chapters will explore additional details of these basic forms of energy.) As you explore this PhET, consider the following suggestions: 
+           <ul> 
+            <li> Turn on the <q>Energy symbols</q> option (in the upper right corner) to observe how the various forms of energy convert into one another. </li> 
+            <li> Try different combinations of the various energy sources (on the lower left side) and generators (middle of lower side). </li>    
+            <li> When you find a particularly energetic combination of source and generator, experiment with connecting the various devices (on the lower right side) to the generator. </li> 
+          </ul>
+        
+          <figure xml:id="figure-phet-energy">
+            <caption>PhET: Energy forms and changes <c>iframe</c></caption>
+            <interactive xml:id="phet-energy" iframe="https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_en.html"/>
+          </figure>
+          </p>
       </section>
 
       <section xml:id="nature-of-science">
         <title>The Nature of Science</title>
         <p>Hello</p>
-
       </section>
 
      
@@ -78,12 +101,8 @@
   
     <chapter xml:id="kinematics">
       <title>Kinematics: The Description of Motion</title>
-      <introduction>
-        <p>
-          this chapter...
-        </p>
-      </introduction>
 
+         
       <section xml:id="lin-kin">
         <title>Translational Kinematics</title>
         <p>Hello</p>

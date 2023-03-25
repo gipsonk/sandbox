@@ -42,10 +42,10 @@
       <acknowledgement>
         <p> This learning guide makes frequent use of external open-source content. Two collections that are featured largely in the following pages merit specific acknowledgement:
           <ul>
-           <li> <em>PhET simulations</em> 
+           <li> <title> <em>PhET simulations</em> </title> 
               <p> These interactive simulations are created and maintained by a team of researchers at the University of Colorado Boulder. They focus on active learning through exploration and discovery in an intuitive, game-like environment.</p>
            </li>
-         <li> <q>Hewitt-Drew-It</q> youtube videos
+         <li> <title> <q>Hewitt-Drew-It</q> youtube videos </title>
          <p> Paul Hewitt has influenced thousands of students and educators (including the author of this learning guide) through his engagingly simple way of explaining and connecting physics concepts. Links to specific episodes in his youtube video series, <q>Hewitt-Drew-It</q>, are included to augment and illustrate the physics concepts presented. </p>        
        </li>
        </ul>
@@ -69,7 +69,7 @@
     <chapter xml:id="using-physics">
       <title>Using Physics to Inform Health Sciences</title>      
       
-      <objectives xml:id="ch1-gq">
+      <objectives xml:id="intro-gq">
         <introduction>
           <p>
             Here are some questions to keep in mind as you read and work through the content in Chapter 1:
@@ -77,56 +77,148 @@
         </introduction>
         <ul>
           <li> What is physics? </li>
+          <li> How can studying physics help with understanding topics in health sciences? </li>
           <li> What are some important considerations about the concepts encountered in physics? </li>   
           <li> What are important details about the quantities encountered in physics? </li>
-          <li> How can physics help with understanding topics in health sciences? </li>
         </ul>
       </objectives>
 
       <section xml:id="prelim-concepts">
         <title>Preliminary Concepts</title>
-        <p>
-          At its core, physics is the study of the physical world. For this reason, physics is often defined as the <em>study of matter and energy</em>. Matter and energy will appear (both implicitly and explicitly) throughout this learning guide, along with many other related terms and theoretical constructs that have been developed over the centuries to explain the physical aspect of reality and make accurate predictions.  
+        <p> We begin our study of physics by considering what physics actually is and its relation to health sciences.
+        </p> 
+        <subsection xml:id="matter-and-energy">
+        <title> Matter and Energy</title>
+        <p>At its core, physics is the study of the physical world. For this reason, physics is often defined as the <em>study of matter and energy</em>. Matter and energy will appear (both implicitly and explicitly) throughout this learning guide, along with many other related terms and theoretical constructs that have been developed over the centuries to explain the physical aspect of reality and make accurate predictions.  
         </p>
+        
          <p> 
-          As stated above, energy is a core physics concept, and we will see beginning in the next chapter that one of the most fundamental theoretical constructs in physics is the <em>Law of Conservation of Energy</em>. The PhET simulation below introduces you to some of the diverse forms of energy. We will spend more time on the <q>Intro</q> tab of this PhET in <xref ref="thermo"/>; at this point you may prefer to instead focus on the <q>Systems</q> tab to see how one form of energy can be converted into another. (Future chapters will explore additional details of these basic forms of energy.) As you explore this PhET, consider the following suggestions: 
+          As stated above, energy is a core physics concept. We will see beginning in the next chapter that one of the most fundamental theoretical constructs in physics is the <em>Law of Conservation of Energy</em>. The PhET simulation below introduces you to some of the diverse forms of energy that will be explored in more detail in subsequent chapters. In particular, we will spend more time on the <q>Intro</q> tab of this PhET in <xref ref="thermo"/>; at this point you may prefer to instead focus on the <q>Systems</q> tab to become familar with how the PhETs work and to see how one form of energy can be converted into another. As you explore this PhET, consider the following suggestions: 
            <ul> 
             <li> Turn on the <q>Energy symbols</q> option (in the upper right corner) to observe how the various forms of energy convert into one another. </li> 
             <li> Try different combinations of the various energy sources (on the lower left side) and generators (middle of lower side). </li>    
             <li> When you find a particularly energetic combination of source and generator, experiment with connecting the various devices (on the lower right side) to the generator. </li> 
           </ul>
-        
-          <figure xml:id="figure-phet-energy">
+         <figure xml:id="figure-phet-energy">
             <caption>PhET: Energy forms and changes <c>iframe</c></caption>
             <interactive xml:id="phet-energy" iframe="https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_en.html"/>
           </figure>
           </p>
+        </subsection>
+
+        <subsection xml:id="hs-connects">
+        <title>Relevance of Physics to Health Sciences </title>
+          <p> Physics undergirds health sciences in two main ways:
+            <ol>
+              <li> <title>Understanding the human body</title>            
+                <p>Health sciences aim to improve human health by understanding the human body, which on a physical level is composed of matter and energy. The material in Part 1 is relevant to understanding the motion of the human body, while the material in Parts 2 through 4 is relevant to understanding the internal workings of the human body as well as its interactions with the external world. 
+                  </p>
+              </li>
+              <li> <title>Understanding common health sciences technologies</title>
+                <p> Virtually all technology is based on physics. Many examples of technologies related to health sciences are discussed throughout this learning guide, and Part 4 is necessary to understand more modern technologies.   
+                  </p>
+              </li>
+            </ol> 
+          </p>
+        </subsection>
       </section>
 
       <section xml:id="nature-of-science">
         <title>The Nature of Science</title>
-        <p>Hello</p>
+        <p>Physics is sometimes said to be the most <em>fundamental science</em>, because all natural sciences <ndash/> such as biology, chemistry, geology, and the various interdisciplinary and applied sciences <ndash/> are essentially attempts to understand the <em>physical</em> aspects of the natural world through careful observation and experimentation. Specifically, <em>fundamental</em> in this sense doesn't mean <q>most important</q> but rather <q>most basic,</q> as all other natural sciences rely upon physics, at least at the microscopic scale. Therefore, although the following discussion about the nature of science uses physics examples, this discussion applies equally well to all natural sciences. (The reader is invited to consider whether it is also applicable to the various social and political sciences.)       
+          </p>
+        
+          <subsection xml:id="sci-method"> 
+          <title>The Scientific Method</title>  
+          <p> Since a hallmark of science is its reproducibility, the scientific method is an approach to investigating the natural world that seeks to remove biases of the investigator. It is generally presented as a series of sequential steps, but it's important to keep in mind that science is actually an iterative process; in practice the result of any given step often motivates the return to an earlier step before progressing to the next step. The short video below begins by showing how the scientific method applies to solving problems in every day life.     
+          </p>
+            <figure>
+              <title>One Version of the Scientific Method</title>
+              <caption>A video discussion of the scientific method (about 4 minutes)</caption>
+              <video xml:id="sci-meth-vid" youtube="SMGRe824kak"/>
+            </figure>   
+                    
+          <p> There are various ways to frame the scientific method, and different presentations typically include 4 <ndash/> 8 separate steps. The essential steps common to most presentations are: 
+            <ol>
+            <li> <title>Observation</title>
+              <p> Making observations of natural phenomena is the beginning of any scientific inquiry.   
+                </p> 
+            </li>
+            <li> <title>Hypothesis</title>
+              <p> A hypothesis is essentially an educated guess, based on existing knowledge. Generally research is useful in formulating a scientific hypothesis, and the hypothesis results in one or more specific predictions, so <em>research</em> and <em>predictions</em> are sometimes presented as separate steps (as in the video above).                
+                </p> 
+            </li> 
+            <li> <title>Experimentation</title>
+              <p>The predictions are tested in the context of carefully controlled experiments, ideally varying only one parameter at a time to isolate its effect.  
+                </p> 
+            </li> 
+            <li> <title>Theoretical Construct</title>
+              <p> Depending on the results of the previous steps, new theoretical constructs <ndash/> such as models, equations, theories, and laws <ndash/>  may emerge. If so, they are typically shared with the scientific community (via the process of professional presentations or peer reviewed publications) so that others can also engage in testing and refining them. (The video presents <em>sharing results</em> as the final step of the scientific method.)  
+                </p> 
+            </li> 
+            </ol>
+          </p>
+
+          <p> As an example, consider the behavior of a pendulum, which will be explored in more detail in <xref ref="sound"/>. A scientist may <em>observe</em> an object on a string oscillating to<ndash/>and<ndash/>fro and <em>hypothesize</em> about which of its physical characteristics (or <q>parameters</q>) affect the rate at which it oscillates. Predictions made be made about how parameters such as mass or shape of the object, the mass or length of the string, how far the object is pulled to the side before being released, etc. affect the rate of oscillation. Careful <em>experiments</em> could then be performed to test each of these predictions by varying only the parameter under consideration without changing any other parameters. The results of this process might be a <em>theoretical construct</em> in the form of an equation. 
+          </p>
+
+          <p> Two notes are appropriate in closing this discussion. First, many scientific discoveries have been made by other methods, and the history of science is flush with accidental discoveries as well as discoveries that were made by skipping steps in this process; still, most scientists agree that the process above provides a systematic method of approaching scientific inquiry. Secondly, there has been some skepticism surrounding the scientific method in recent years; the subsequent subsection places such skepticism in context, and there are many excellent resources for readers who may be impacted by such controversy. 
+          </p> 
+          </subsection>
+
+         <subsection xml:id="models"> 
+          <title>Important Philosophical Considerations</title>  
+          <p> 
+          </p>
+         </subsection>
       </section>
 
-     
-    </chapter>
+    <section xml:id="quantitative">
+        <title>Important Aspects Physical quantities</title>
+
+      <subsection xml:id="units"> 
+        <title>Units of Measurement</title>  
+        <p> 
+        </p>
+       </subsection>
+
+       <subsection xml:id="vectors"> 
+        <title>Scalars and Vectors</title>  
+        <p> 
+        </p>
+       </subsection>
+    </section>
+  </chapter>
 
 <part xml:id="motion">
   <title>Mechanics: The Study of Motion</title>
   
   <introduction>
     <p>
-      this part...
+      In physics, the term <q>mechanics</q> refers to the study of motion. The chapters in Part 1 discuss various aspects of the mechanics of individual objects.    
     </p>
   </introduction>
   
     <chapter xml:id="kinematics">
       <title>Kinematics: The Description of Motion</title>
-
+      <objectives xml:id="kin-gq">
+        <introduction>
+          <p>
+            Here are some questions to keep in mind as you read and work through the content in Chapter 1:
+          </p>
+        </introduction>
+        <ul>
+          <li>Why is it important to describe motion carefully? </li>
+          <li>What does “translational motion” mean?</li>   
+          <li>What does “rotational motion” mean?</li>
+          <li>What are the connections between linear and rotational motion?</li>
+          <li>What types of translational and rotational motions are relevant to the human body?</li> 
+        </ul>
+      </objectives>
          
       <section xml:id="lin-kin">
         <title>Translational Kinematics</title>
-        <p>Hello</p>
+        <p>hello</p>
       </section>
 
       <section xml:id="rot-kin">

@@ -33,17 +33,38 @@
         <copyright>
           <year>2023<ndash />2026</year>
           <holder>Karen Gipson</holder>
-          <shortlicense> 
+          <shortlicense>
             This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
           </shortlicense>
         </copyright>
       </colophon>
+ 
+      <acknowledgement>
+        <p> This learning guide makes frequent use of external open-source content. Two collections that are featured largely in the following pages merit specific acknowledgement:
+          <ul>
+           <li> <em>PhET simulations</em> 
+              <p> These interactive simulations are created and maintained by a team of researchers at the University of Colorado Boulder. They focus on active learning through exploration and discovery in an intuitive, game-like environment.</p>
+           </li>
+         <li> <q>Hewitt-Drew-It</q> youtube videos
+         <p> Paul Hewitt has influenced thousands of students and educators (including the author of this learning guide) through his engagingly simple way of explaining and connecting physics concepts. Links to specific episodes in his youtube video series, <q>Hewitt-Drew-It</q>, are included to augment and illustrate the physics concepts presented. </p>        
+       </li>
+       </ul>
+   </p> 
+   <p> </p>
+   <p> The author also expresses gratitude to the students, faculty, staff, and administration of Grand Valley State University, without whom this learning guide would not exist. Feedback from students over many years evidenced its need, faculty colleagues shared useful expertise, staff provided assistance with technical aspects, and the administration provided a sabbatical leave to begin this project. 
+  </p>    
+   </acknowledgement>
 
     <preface> 
-      <p> The motivation... </p>
-      <p> Use... </p>
-    </preface>
-    </frontmatter>
+      <p> This learning guide is intended to support students in a one-semester survey of physics topics that are most directly related to health sciences; it covers fundamental topics in classical physics and selected topics in quantum physics. The physics content is presented very succinctly, with the unifying theme of human body and health science applications providing context and motivation. Interactive features are included to foster student engagement and promote integration of the material. 
+        </p> 
+      <p> Mathematics is sometimes said to be the <q>language</q> of physics, because it allows complicated relationships to be expressed in simple terms. This learning guide uses only basic algebra, and learners without recent algebra experience may wish to review core concepts using the links provided in <xref ref="algebra"/>.
+       </p>
+      <p> Each chapter opens with a few guiding questions for learners to keep in mind while engaging with the material, and closes with an overview of selected health science applications. The body of each chapter includes succinct discussion of physics terms and concepts, illustrated and expanded via brief videos and interactive simulations and exercises. 
+      </p>   
+    </preface>  
+    
+  </frontmatter>
 
     <chapter xml:id="using-physics">
       <title>Using Physics to Inform Health Sciences</title>      
@@ -447,6 +468,10 @@
 
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>
+
+      <appendix xml:id="algebra" >
+        <p> links to algebra review </p>
+      </appendix>
 
       <colophon>
         <p> This book was authored in <pretext />. </p>

@@ -168,13 +168,33 @@
 
          <subsection xml:id="models"> 
           <title>Important Philosophical Considerations</title>  
-          <p> 
+          <p> Many discussions of the scientific method state the emergence of <em>theories</em> or <em>laws</em> as the final outcome, but physics also makes frequent use of other theoretical constructs, such as <em>models</em> and <em>equations</em>. In fact, many physics concepts (such as energy) are themselves theoretical constructs, in that they do not immediately correspond with directly measurable quantities. (The historical evolution of the concept of <em>energy</em> is a primary reason that there are so many different units for its measurement; people have not always been aware that its various manifestations were even related!) A few important philosophical notes are therefore important to consider.     
+            <ol>
+              <li> <title>Science is intended to change with new evidence</title>
+                <p> There has been much discussion in recent years that science is fundamentally flawed, because scientists keep changing their perspectives. Such critiques display a profound misunderstanding of what science is, because <em>science is intended to change</em> in response to new evidence. In the Western world, Aristotle is often considered the founder of <em>natural philosophy</em> (the basis of natural science); his theories were based on a combination of logic (philosophical <q>idealism</q>) and everyday observations, but his ideas about motion were seen to be flawed when Galileo began doing carefully<ndash/>controlled experiments in the 1600's. Galileo's conclusions, based on his underlying philosophy of <em>empericism,</em> are considered the beginning of the science of physics and led directly to Newton developing his famous laws of motion (to be explored in much more detail in <xref ref="dynamics"/>). For now, it's important to note that there have been numerous similar upheavals in the history of all natural sciences. However, earlier interpretations are seldom dismissed outright; instead, the new insights expand the domain under study. As a specific example: another significant upheaval in physics occured around 1910: <q>Modern Physics</q> (so<ndash/>named to distinguish it from the <q>Classical Physics</q> that preceeded it), emcompassing both <em>relativity theory</em> and <em>quantum mechanics</em>, was born as a consequence of irresolvable disputes between predictions of established branches of physics and new experimental evidence. However, classical physics is still valid within the everyday domain of objects of sizes comparable to human beings moving at moderate speeds. For this reason, classical physics ideas comprise most of this learning guide and most other introductory physics resources (texts, etc.), with modern physics content mostly regulated to <xref ref='qm'/>.  
+                </p> 
+              </li>
+              <li> <title>Categories are artificial</title>
+                <p> This learning guide is necessarily divided into parts and chapters, sequenced to build upon one another. However, it's important to keep in mind that nature doesn't care about these man<ndash/>made categories! Most topics in everyday life require knowledge from more than one category: for example, a thorough understanding of <em>light</em> requires understanding not only electromagnetism (as discussed in <xref ref="electromagnetism"), but also aspects of modern physics (relativity and light quanta) that are not covered thoroughly in this learning guide; similarly, a more complete description of </em>sound</em> requires understanding its quantum nature; and relativity theory has much more to say about <em>gravity</em>.              
+                  </p> 
+              </li> 
+              <li> <title>Models are not reality</title>
+                <p>This seems self-evident, but when  .  
+                  </p> 
+              </li> 
+              <li> <title>Theoretical Construct</title>
+                <p> Depending on the results of the previous steps, new theoretical constructs <ndash/> such as models, equations, theories, and laws <ndash/>  may emerge. If so, they are typically shared with the scientific community (via the process of professional presentations or peer reviewed publications) so that others can also engage in testing and refining them. (The video presents <em>sharing results</em> as the final step of the scientific method.)  
+                  </p> 
+              </li> 
+              </ol>
+          
           </p>
+
          </subsection>
       </section>
 
     <section xml:id="quantitative">
-        <title>Important Aspects Physical quantities</title>
+        <title>Important Aspects of Physical Quantities</title>
 
       <subsection xml:id="units"> 
         <title>Units of Measurement</title>  

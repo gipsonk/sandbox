@@ -179,10 +179,10 @@
                   </p> 
               </li> 
               <li> <title>Models are not reality</title>
-                <p>This seems self-evident, but upon closer inspection, the conflation of models with reality is worth discussing. For example, if you were asked whether the <q>Flat Earth</q> is a valid scientific model, how would you respond? If you're like most people, you'd likely either respond in the negative, or you'd wonder if this is a trick question. However, it's not a trick question, and the correct answer is often yes. Anytime we're close enough to the earth that its curvature isn't noticeable, it makes sense to consider the earth to be flat! Scientific models only need to do two things:
+                <p>This may seem self-evident, but the conflation of models with reality is worth discussing. For example, if you were asked whether the <q>Flat Earth</q> is a valid scientific model, how would you respond? If you're like most people, you'd likely either respond in the negative, or you'd wonder if this was a trick question. However, it's not a trick question, and the correct answer is often yes. Anytime we're close enough to the earth that its curvature isn't noticeable, it makes sense to consider the earth to be flat! Scientific models only need to do two things:
                   <ol> 
-                    <li>describe a physical phenomena within the domain of interest </li>
-                    <li> make accurate predictions within that domain</li>. 
+                    <li> Describe a physical phenomena within the domain of interest; </li>
+                    <li> Make accurate predictions within that domain.</li>. 
                   </ol>
                 </p> 
                 <p>Many models (like the flat earth) are known to be untrue or incomplete, but are still very useful scientific models. For example, the planetary model of the atom <mdash/> with negative particles called <em>electrons</em> orbiting a nucleus composed of positive <em>protons</em> and neutral <em>neutrons</em> <mdash/> will be used in <xref ref="systems"/> and again in <xref ref="electromagnetism"/>, even though we know it's not the most accurate description. In fact, the idea of an <em>atomic particle</em> is itself an incomplete model, as quantum physics has revealed the wave nature of all atomic <q>particles</q>. Similarly, sound and light will be treated as waves in <xref ref="sound"/> and <xref ref="light"/>, but quantum physics discloses their particulate natures. Entire philosophical treatises have been written on this <em>wave<ndash/>particle duality</em>, because no two concepts could be more opposite than particles and waves. (For example, particles stay intact (<q>localized</q>) as they move through space and interact via collisions, whereas waves spread out as they travel and can pass through one another.) The fact that two such opposite models are needed to fully describe common phenomena like matter, sound, and light discloses the limitations inherent in all models. As you enter other scientific models, please consider whether you ever conflate models with reality.
@@ -199,12 +199,36 @@
 
     <section xml:id="quantitative">
         <title>Important Aspects of Physical Quantities</title>
-
-      <subsection xml:id="units"> 
-        <title>Units of Measurement</title>  
-        <p> 
+       <p> We complete our overview of introductory ideas by discussing some important aspects of the quantities encountered in physics.
         </p>
-       </subsection>
+        <subsection xml:id="units"> 
+        <title>Units of Measurement</title>  
+        <p> Almost all quantities encountered in physics have <em>units</em>, which are as important as the numerical value associated with them. To illustrate the importance of units, imagine that you're in a marketplace in another country. You see a shirt that you're interested in purchasing, so you inquire about its cost. Do you have the information you need if the vendor responds, <q>This wonderful shirt takes 5</q>? No, because you don't know whether they're saying 5 US dollars, 5 of the local currency, 5 hours (or days) to construct, etc. Without units, the number <q>5</q> is quite meaningless.   
+        </p>
+        <p> Surprisingly enough, there are only seven fundamental physical quantities: 
+          <ul>
+            <li><p>length</p></li>
+            <li><p>time</p></li>
+            <li><p>mass</p></li>
+            <li><p>temperature</p></li>
+            <li><p>electric current</p></li>
+            <li><p>chemical concentration</p></li>
+            <li><p>luminous intensity</p></li>
+          </ul>
+        </p>
+        <p>There are certainly a great many additional physical quantities<mdash/>such as <em> speed, force, energy, etc.</em><mdash/>but all other quantities can be expressed as combinations of the seven fundamental ones. For example, <em>speed</em> is distance (or <em>length</em>) divided by <em>time</em> (the time it takes to travel the distance), so it's measured in length units divided by time units<mdash>mph (miles per hour) or m<solidus/>s (meters per second). As we'll see beginning in <xref ref="dynamics"/>, more complicated combinations are generally given their own names.   
+        </p>
+          <p> The previous paragraph included our first example of <em>systems of units</em>. If you grew up in the United States, you're likely already familiar with some aspects of the <q>US Customary</q> system, which (for example) reports distances in units of inches, feet, yards, miles (etc.). The rest of the world uses the metric system, because metric units are based on powers of 10, rendering unit conversions much more straight<ndash/>forward. Technically, the base unit for length in the US Customary system is the foot, with other length units defined in terms of the foot (1 inch is defined as 1<solidus/>12 of a foot, etc.). Similarly, there are two particularly useful versions of <q>the</q> metric system: the <em>System Internationale</em> (SI), which is useful for fairly large objects, and the <em>CGS</em> system, which is useful for smaller objects(<em>CGS</em> stands for <em>centimeters,grams,seconds</em>.) These three systems are summarized in the chart below. 
+            
+             </p>
+        *  <figure xml:id="units">
+         *   <image source="units.table" width="60%"> 
+          *    <description>A chart comparing units in SI, CGS, and US Customary systems</description>
+           * </image>
+            *</figure>
+          <p>  This learning guide will primarly use SI units (exceptions will be noted as they're encountered), but keep in mind that the CGS system may be more useful for laboratory work. 
+          </p>       
+          </subsection>
 
        <subsection xml:id="vectors"> 
         <title>Scalars and Vectors</title>  

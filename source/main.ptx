@@ -205,7 +205,7 @@
         <title>Units of Measurement</title>  
         <p> Almost all quantities encountered in physics have <em>units</em>, which are as important as the numerical value associated with them. To illustrate the importance of units, imagine that you're in a marketplace in another country. You see a shirt that you're interested in purchasing, so you inquire about its cost. Do you have the information you need if the vendor responds, <q>This wonderful shirt takes 5</q>? No, because you don't know whether they're saying 5 US dollars, 5 of the local currency, 5 hours (or days) to construct, etc. Without units, the number <q>5</q> is quite meaningless.   
         </p>
-        <p> Surprisingly enough, there are only seven fundamental physical quantities: 
+        <p> Interestingly enough, there are only seven fundamental physical quantities: 
           <ul>
             <li><p>length</p></li>
             <li><p>time</p></li>
@@ -216,18 +216,33 @@
             <li><p>luminous intensity</p></li>
           </ul>
         </p>
-        <p>There are certainly a great many additional physical quantities<mdash/>such as <em> speed, force, energy, etc.</em><mdash/>but all other quantities can be expressed as combinations of the seven fundamental ones. For example, <em>speed</em> is distance (or <em>length</em>) divided by <em>time</em> (the time it takes to travel the distance), so it's measured in length units divided by time units<mdash>mph (miles per hour) or m<solidus/>s (meters per second). As we'll see beginning in <xref ref="dynamics"/>, more complicated combinations are generally given their own names.   
+        <p>There are certainly a great many additional physical quantities<mdash/>such as <em>speed, force, energy, etc.</em><mdash/>but all other quantities can be expressed as combinations of these seven fundamental quantities (also called <em>base units</em>). For example, <em>speed</em> is distance (or <em>length</em>) divided by <em>time</em> (the time it takes to travel the distance), so it's measured in length units divided by time units<mdash/>mph (miles per hour) or m<solidus/>s (meters per second). As we'll see beginning in <xref ref="dynamics"/>, more complicated combinations of base units are generally given their own names.   
         </p>
-          <p> The previous paragraph included our first example of <em>systems of units</em>. If you grew up in the United States, you're likely already familiar with some aspects of the <q>US Customary</q> system, which (for example) reports distances in units of inches, feet, yards, miles (etc.). The rest of the world uses the metric system, because metric units are based on powers of 10, rendering unit conversions much more straight<ndash/>forward. Technically, the base unit for length in the US Customary system is the foot, with other length units defined in terms of the foot (1 inch is defined as 1<solidus/>12 of a foot, etc.). Similarly, there are two particularly useful versions of <q>the</q> metric system: the <em>System Internationale</em> (SI), which is useful for fairly large objects, and the <em>CGS</em> system, which is useful for smaller objects(<em>CGS</em> stands for <em>centimeters,grams,seconds</em>.) These three systems are summarized in the chart below. 
-            
-             </p>
-        *  <figure xml:id="units">
-         *   <image source="units.table" width="60%"> 
-          *    <description>A chart comparing units in SI, CGS, and US Customary systems</description>
-           * </image>
-            *</figure>
-          <p>  This learning guide will primarly use SI units (exceptions will be noted as they're encountered), but keep in mind that the CGS system may be more useful for laboratory work. 
-          </p>       
+        <p>The previous paragraph included our first example of <em>systems of units</em>. If you grew up in the United States, you're likely already familiar with some aspects of the <q>US Customary</q> system, which (for example) reports distances in units of inches, feet, yards, miles (etc.). The rest of the world uses the metric system, because metric units are based on powers of 10, rendering unit conversions much more straight<ndash/>forward. Technically, the base unit for length in the US Customary system is the foot, with other length units defined in terms of the foot (1 inch is defined as 1<solidus/>12 of a foot, etc.). Similarly, there are two particularly useful versions of the metric system: <em>SI</em>, the <q>International System of Units</q> (or <em>System Internationale</em>, in French), which is useful for fairly large objects, and the <em>CGS</em> system, which is useful for smaller objects (<em>CGS</em> stands for <em>Centimeters, Grams, Seconds</em>). These three systems are summarized in the chart below. 
+         </p>
+        <p>This learning guide will primarly use SI units (exceptions will be noted as they're encountered), but keep in mind that the CGS system may be more useful for laboratory work. Two features that make metric units much simpler are:
+          </p>            
+         <p> 
+           <ul>
+            <li><title>Metric prefixes</title>
+              <p>There are many good online tables of metric prefixes; one example is provided here: <url href="https://www.nist.gov/pml/owm/metric-si-prefixes"/>. Note that we'll generally only be concerned with prefixes from <m>10^{-9}</m> (<em>nano</em>, or a billionth) to <m>10^9</m> (<em>giga</em>, or a billion); it may be worth printing a chart of metric prefixes in this range to reference while engaged in numerical work.
+              </p>
+            </li>
+            <li><title>Scientific notation</title>
+              <p>There are likewise many good online overviews of scientific notation; one example is provided here: <url href="https://www.youtube.com/watch?v=c5qeypzlCaE"/>. The rules for combining exponents discussed in the referenced video may be of particular help if you've forgetten how to do this.
+              </p>
+            </li>
+          </ul>
+          </p>
+          <p> While converting from one metric unit to another just involves moving the decimal place, converting between systems of units requires more careful attention. If we know the <em>conversion factor</em> for the unit as measured in the two systems, we can write the number <em>1</em> in a useful way to convert the quantity as reported in the original system to that reported in the new system, as demonstrated in the video below.    
+          
+            <figure>
+              <title>Unit Conversions</title>
+              <caption>Hewitt-Drew-It video discussion of unit conversions (about 5 minutes)</caption>
+              <video xml:id="unit-conversions" youtube="4EhkFuVGmco?list=PL6Pw5RXSrjGNN6Kp1fq7X_rgoGu6qKM8j"/>
+            </figure>   
+          </p>
+
           </subsection>
 
        <subsection xml:id="vectors"> 

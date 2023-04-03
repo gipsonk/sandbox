@@ -246,7 +246,7 @@
 
         <subsection xml:id="vectors"> 
         <title>Scalars and Vectors</title>  
-        <p> 
+        <p> Every 
         </p>
        </subsection>
 
@@ -266,14 +266,16 @@
              </p>
             </li>
             <li><title>Wise choice of <q>zero</q> can simplify math</title>
-              <p> The number <em>zero</em> (0) sometimes has physical significance, while other times it doesn't. Examples abound in both categories and will generally be made clear when the physical quantity is introduced. For now, we'll rely on two examples: 
+              <p> The number <em>zero</em> (0) sometimes has physical significance, while other times it doesn't. Examples abound in both categories and will generally be made clear when the physical quantity is introduced. For now, we'll rely on two examples from everyday life: 
                 <ul>
-                  <li><title>Position of an object</title>
-                    <p>The number <em>zero</em> is completely arbitrary for position.For example, if we hold an object above a table, we could define its <zero> position to be at the floor, on top of the table, at the object's position above the table, or anywhere in between. The only physically meaningful quantity is its <em>change in position</em>, which will be the same regardless of what we choose to call the <q>zero</q> position. If we only care about the object's position relative to the top of the table (as will often be the case in the labs) the the math will be much simpler by choosing the zero position as either the table top or the object's initial position. This point will be discussed further in <xref ref="lin-kin"/> and thereafter.  
+                  <li><title>Example of arbitrary <em>zero</em>: position</title>
+                    <p>The number <em>zero</em> is completely arbitrary for position. For example, if we hold an object above a table, we could define its <zero> position to be at the floor, on top of the table, at the object's position above the table, or anywhere in between. The only physically meaningful quantity is its <em>change in position</em>, which will be the same regardless of what we choose to call the <q>zero</q> position. 
+                    </p>
+                    <p>NOTE: If we only care about the object's position relative to the top of the table (as in some of the labs) the the math will be much simpler by choosing the zero position as either the tabletop or the object's initial position. This point will be discussed further in <xref ref="lin-kin"/> and thereafter.  
                     </p>
                   </li>
-                  <li><title>Mass of an object</title>
-                    <p> The number <em>zero</em> has a definite meaning for mass: the mass of an object will have a different numerical value in different systems of units, but an object either has mass or it doesn't. 
+                  <li><title>Example of non-arbitrary <em>zero</em>: mass</title>
+                    <p> The number <em>zero</em> has a definite meaning for mass: the mass of an entity will have a different numerical value in different systems of units, but an entity either has mass or it doesn't. 
                       </p>
                   </li>
                 </ul> 

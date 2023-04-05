@@ -235,8 +235,7 @@
           </ul>
           </p>
           <p> While converting from one metric unit to another just involves moving the decimal place, converting between systems of units requires more careful attention. If we know the <em>conversion factor</em> for the unit as measured in the two systems, we can write the number <em>1</em> in a useful way to convert the quantity as reported in the original system to that reported in the new system, as demonstrated in the video below. (Note: the video uses <em>v</em> to represent <em>speed</em> and an overbar over the <em>v</em> to designate it as the <em>average</em> speed; <em>v</em> actually stands for <em>velocity</em> (<xref ref="vectors"/> will elucidate the connection between <em>speed</em> and <em>velocity</em>), and we'll explore the reason for specifying <em>average</em> speed in <xref ref="lin-kin"/>.)     
-          
-            <figure>
+           <figure>
               <title>Unit Conversions</title>
               <caption>Hewitt-Drew-It video discussion of unit conversions (about 5 minutes)</caption>
               <video xml:id="unit-conversions" youtube="4EhkFuVGmco" />
@@ -246,11 +245,55 @@
 
         <subsection xml:id="vectors"> 
         <title>Scalars and Vectors</title>  
-        <p> Eve 
+        <p> We'll encounter a variety of quantities in our study of physics, which can be divided into two broad categories:
+          <ul>
+            <li><title>Scalars</title>
+              <p>A scalar is a quantity that has only size (also called <q>magnitude</q>)<mdash/>or, in other words, <em>scale</em>). A scalar is represented by a number (along with appropriate units, or course). 
+                </p>
+            </li>
+            <li><title>Vectors</title>
+              <p>A vector is a quantity that has both magnitude and direction. A useful way to represent a vector quantity is an <em>arrow</em>, with the length of the arrow indicating its magnitude (with appropriate units) and the direction of the arrow indicating the direction of the vector quantity. NOTE: A vector quantity does <em>not</em> have a specific location; we can draw it anywhere on the page and it's still the same vector. (This fact will be exploited in the combining vectors.)
+                </p>
+            </li>
+          </ul>  
         </p>
+        <p> Whenever a new physics quantity is introduced, it will be important to understand whether the quantity is a scalar or vector, because that determines how to add it to another quantity of the same type. (Ordinarily rules of algebra still hold, just as you can't add objects of different types (apples and oranges is the canonical example), physics quantities must be of the same type to be added.)   
+        </p>
+          <p>  Everyday examples of scalars that we've already encountered include time, temperature, mass, and energy. Scalar quantities are added using simple arithmetic. For example, if it takes a time of 90 seconds to notice that a deer has jumped in front of your car and another 30 seconds to respond, the total time between the danger and your reaction is 120 seconds; the numbers are simply added. The example of temperature shows that scalars can be positive or negative numbers, so it's necessary to consider the algebraic sign when combining scalars. We'll meet many other examples of scalars in this learning guide.       
+          </p>
+          <p> A primary example of a vector in everyday life is a <em>force</em>. We'll discuss forces in more detail beginning in <xref ref="dynamics">, but given our everyday experience with forces as <em>pushes</em> or <em>pulls</em>, we can use force to illustrate the important distinction between scalars and vectors.
+          </p>
+          <p> If two people push on the same box, will the total force on the box be the same no matter how they push? Consider various cases: pushing in the same direction, pushing in exactly opposite directions, and pushing in random directions. Hopefully it is now clear that the direction matters as much as how hard the people push! When adding vector quantities, direction must be accounted for.
+          </p>
+         
+          <p> The figure below is a vector diagram of two people pushing on a box; 3 examples are shown: pushing in the same direction, pushing in opposite directions, and pushing in arbritrary directions.
+            <figure xml:id="figure-vector-intro">
+              <caption>Pushing on a box</caption>
+              <image > 
+            </figure>
+          </p>
 
-        
-       </subsection>
+          <p>  In one-dimension (1D) such as the first two examples in <xref ref="figure-vector-intro"/>, we can simply use positive and negative signs to account for the direction of each vector. However, things get a bit more complicated in 2 or 3 dimensions, as seen in the third example in <xref ref="figure-vector-intro"/>. Analytical methods for combining vectors require trigonometry and are thus beyond the scope of this learning guide. However, we can glean both quantitative and qualitative information about combining vectors using a visual method called <q>tip<ndash/>to<ndash/>tail vector addition</q>. Basically, the tail of the second vector is drawn at the tip of the first vector, and the combination<mdash>called the <em>resultant</em><mdash/> is drawn from the tip of the first vector to the tail of the second, as shown below. Note that this can be done as a quick sketch, drawing the vectors approximately to scale and oriented in approximate directions for a qualitative understanding of the physical situation, or by using a ruler and protractor to draw more accurately and then measuring the length and angle of the resultant vector to give a quantitative value (the latter is sometimes called the <q>graphical method</q> of vector addition). In either case, a reasonable way to double-check your work is to do the same process in the reverse order, forming a parallelogram as shown on the right side of the figure below.            
+          </p>
+        <p>
+          Figure of vector addition for 3rd case above, including parallelogram method.
+        </p>
+               
+      <p>The PhET simulation below is provided to enhance your understanding of combining vectors. As you explore this PhET, please consider the following hints and suggestions: 
+        <ul> 
+          <li>Each vector can be resized or reoriented by dragging on its <q>tip</q>. </li>
+          <li>Turn on the <q>Sum</q> option (in the upper right corner) to see the vector sum (or <em>resultant</em>) of the constituent vectors.</li> 
+          <li>Experiment with the <q>Explore 1D</q> tab first. Experiment with vectors of different lengths and orientations. (You may like to recreate the 1D examples in <xref ref="figure-vector-intro"/>.) </li>    
+          <li>Experiment with the <q>Explore 2D</q> tab next. Experiment with vectors of different lengths and orientations. (Clicking the <q>Components</q> tab will allow you to observe the horizontal and vertical components of each vector, which may facilitate your understanding of vector addition.)</li> 
+          <li>The <q>Equations</q> tab is mostly useful to observe that vector subtraction is equivalent to addition of a negative vector.</li>
+        </ul>
+
+        <figure xml:id="figure-phet-vectors">
+          <caption>PhET: Combining Vectors <c>iframe</c></caption>
+          <interactive xml:id="phet-vectors" iframe="https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_en.html"/> 
+        </figure>
+      </p>
+    </subsection>
 
        <subsection xml:id="subsec-precision">
         <title>Accuracy and Precision</title>

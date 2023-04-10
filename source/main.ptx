@@ -199,8 +199,12 @@
 
     <section xml:id="quantitative">
         <title>Important Aspects of Physical Quantities</title>
-       <p> We complete our overview of introductory ideas by discussing some important aspects of the quantities encountered in physics.
+       <introduction>
+        <p>
+          We complete our overview of introductory ideas by discussing some important aspects of the quantities encountered in physics.
         </p>
+       </introduction>
+      
         <subsection xml:id="units"> 
         <title>Units of Measurement</title>  
         <p> Almost all quantities encountered in physics have <em>units</em>, which are as important as the numerical value associated with them. To illustrate the importance of units, imagine that you're in a marketplace in another country. You see a shirt that you're interested in purchasing, so you inquire about its cost. Do you have the information you need if the vendor responds, <q>This wonderful shirt takes 5</q>? No, because you don't know whether they're saying 5 US dollars, 5 of the local currency, 5 hours (or days) to construct, etc. Without units, the number <q>5</q> is quite meaningless.   
@@ -218,8 +222,11 @@
         </p>
         <p>There are certainly a great many additional physical quantities<mdash/>such as <em>speed, force, energy, etc.</em><mdash/>but all other quantities can be expressed as combinations of these seven fundamental quantities (also called <em>base units</em>). For example, <em>speed</em> is distance (or <em>length</em>) divided by <em>time</em> (the time it takes to travel the distance), so it's measured in length units divided by time units<mdash/>mph (miles per hour) or m<solidus/>s (meters per second). As we'll see beginning in <xref ref="dynamics"/>, more complicated combinations of base units are generally given their own names.   
         </p>
-        <p>The previous paragraph included our first example of <em>systems of units</em>. If you grew up in the United States, you're likely already familiar with some aspects of the <q>US Customary</q> system, which (for example) reports distances in units of inches, feet, yards, miles (etc.). The rest of the world uses the metric system, because metric units are based on powers of 10, rendering unit conversions much more straight<ndash/>forward. Technically, the base unit for length in the US Customary system is the foot, with other length units defined in terms of the foot (1 inch is defined as 1<solidus/>12 of a foot, etc.). Similarly, there are two particularly useful versions of the metric system: <em>SI</em>, the <q>International System of Units</q> (or <em>System Internationale</em>, in French), which is useful for fairly large objects, and the <em>CGS</em> system, which is useful for smaller objects (<em>CGS</em> stands for <em>Centimeters, Grams, Seconds</em>). These three systems are summarized in the chart below. 
+        <p>The previous paragraph included our first example of <em>systems of units</em>. If you grew up in the United States, you're likely already familiar with some aspects of the <q>US Customary</q> system, which (for example) reports distances in units of inches, feet, yards, miles (etc.). The rest of the world uses the metric system, because metric units are based on powers of 10, rendering unit conversions much more straight<ndash/>forward. Technically, the base unit for length in the US Customary system is the foot, with other length units defined in terms of the foot (1 inch is defined as 1<solidus/>12 of a foot, etc.). Similarly, there are two particularly useful versions of the metric system: <em>SI</em>, the <q>International System of Units</q> (or <em>System Internationale</em>, in French), which is sometimes called <em>the</em> metric system, and the <em>CGS</em> system, which is useful for everyday objects (<em>CGS</em> stands for <em>Centimeters, Grams, Seconds</em>). These three systems are summarized in the chart below. 
          </p>
+
+        <p>CHART of system of units</p>
+
         <p>This learning guide will primarly use SI units (exceptions will be noted as they're encountered), but keep in mind that the CGS system may be more useful for laboratory work. Two features that make metric units much simpler are:
           </p>            
          <p> 
@@ -234,60 +241,61 @@
             </li>
           </ul>
           </p>
+
           <p> While converting from one metric unit to another just involves moving the decimal place, converting between systems of units requires more careful attention. If we know the <em>conversion factor</em> for the unit as measured in the two systems, we can write the number <em>1</em> in a useful way to convert the quantity as reported in the original system to that reported in the new system, as demonstrated in the video below. (Note: the video uses <em>v</em> to represent <em>speed</em> and an overbar over the <em>v</em> to designate it as the <em>average</em> speed; <em>v</em> actually stands for <em>velocity</em> (<xref ref="vectors"/> will elucidate the connection between <em>speed</em> and <em>velocity</em>), and we'll explore the reason for specifying <em>average</em> speed in <xref ref="lin-kin"/>.)     
-           <figure>
+          </p>
+          
+            <figure>
               <title>Unit Conversions</title>
               <caption>Hewitt-Drew-It video discussion of unit conversions (about 5 minutes)</caption>
               <video xml:id="unit-conversions" youtube="4EhkFuVGmco" />
             </figure>   
-          </p>
+      
         </subsection>
 
         <subsection xml:id="vectors"> 
-        <title>Scalars and Vectors</title>  
+        <title>Scalars and Vectors</title>
+          
         <p> We'll encounter a variety of quantities in our study of physics, which can be divided into two broad categories:
           <ul>
             <li><title>Scalars</title>
-              <p>A scalar is a quantity that has only size (also called <q>magnitude</q>)<mdash/>or, in other words, <em>scale</em>). A scalar is represented by a number (along with appropriate units, or course). 
+              <p>A scalar is a quantity that has only size (also called <q>magnitude</q>) <mdash/> or, in other words, <em>scale</em>). A scalar is represented by a number (along with appropriate units, of course). 
                 </p>
             </li>
             <li><title>Vectors</title>
-              <p>A vector is a quantity that has both magnitude and direction. A useful way to represent a vector quantity is an <em>arrow</em>, with the length of the arrow indicating its magnitude (with appropriate units) and the direction of the arrow indicating the direction of the vector quantity. NOTE: A vector quantity does <em>not</em> have a specific location; we can draw it anywhere on the page and it's still the same vector. (This fact will be exploited in the combining vectors.)
+              <p>A vector is a quantity that has both magnitude and direction. A useful way to represent a vector quantity is an <em>arrow</em>, with the length of the arrow indicating its magnitude (including any associated units) and the direction of the arrow indicating the direction of the vector quantity. NOTE: A vector quantity does <em>not</em> have a specific location; we can draw it anywhere on the page and it's still the same vector. (This fact will be exploited in the combining vectors.)
                 </p>
             </li>
           </ul>  
         </p>
-        <p> Whenever a new physics quantity is introduced, it will be important to understand whether the quantity is a scalar or vector, because that determines how to add it to another quantity of the same type. (Ordinarily rules of algebra still hold, just as you can't add objects of different types (apples and oranges is the canonical example), physics quantities must be of the same type to be added.)   
+        
+        <p>Whenever a new physics quantity is introduced, it will be important to understand whether the quantity is a scalar or vector, because that determines how to add it to another quantity of the same type. (Ordinarily rules of algebra still hold, just as you can't add <em>objects</em> of different types <mdash/>apples and oranges is the canonical example<mdash/> physics quantities must be of the same type to be added.)   
         </p>
-          <p>  Everyday examples of scalars that we've already encountered include time, temperature, mass, and energy. Scalar quantities are added using simple arithmetic. For example, if it takes a time of 90 seconds to notice that a deer has jumped in front of your car and another 30 seconds to respond, the total time between the danger and your reaction is 120 seconds; the numbers are simply added. The example of temperature shows that scalars can be positive or negative numbers, so it's necessary to consider the algebraic sign when combining scalars. We'll meet many other examples of scalars in this learning guide.       
-          </p>
-          <p> A primary example of a vector in everyday life is a <em>force</em>. We'll discuss forces in more detail beginning in <xref ref="dynamics">, but given our everyday experience with forces as <em>pushes</em> or <em>pulls</em>, we can use force to illustrate the important distinction between scalars and vectors.
-          </p>
-          <p> If two people push on the same box, will the total force on the box be the same no matter how they push? Consider various cases: pushing in the same direction, pushing in exactly opposite directions, and pushing in random directions. Hopefully it is now clear that the direction matters as much as how hard the people push! When adding vector quantities, direction must be accounted for.
-          </p>
-         
-          <p> The figure below is a vector diagram of two people pushing on a box; 3 examples are shown: pushing in the same direction, pushing in opposite directions, and pushing in arbritrary directions.
-            <figure xml:id="figure-vector-intro">
-              <caption>Pushing on a box</caption>
-              <image > 
-            </figure>
+        <p>Everyday examples of scalars that we've already encountered include time, temperature, mass, and energy. Scalar quantities are added using simple arithmetic. For example, if it takes a time of 90 seconds to notice that a deer has jumped in front of your car and another 30 seconds to respond, the total time between the danger and your reaction is 120 seconds; the numbers are simply added. The example of temperature shows that scalars can be positive or negative numbers, so it's necessary to consider the algebraic sign when combining scalars. We'll meet many other examples of scalars in this learning guide.       
           </p>
 
-          <p>  In one-dimension (1D) such as the first two examples in <xref ref="figure-vector-intro"/>, we can simply use positive and negative signs to account for the direction of each vector. However, things get a bit more complicated in 2 or 3 dimensions, as seen in the third example in <xref ref="figure-vector-intro"/>. Analytical methods for combining vectors require trigonometry and are thus beyond the scope of this learning guide. However, we can glean both quantitative and qualitative information about combining vectors using a visual method called <q>tip<ndash/>to<ndash/>tail vector addition</q>. Basically, the tail of the second vector is drawn at the tip of the first vector, and the combination<mdash>called the <em>resultant</em><mdash/> is drawn from the tip of the first vector to the tail of the second, as shown below. Note that this can be done as a quick sketch, drawing the vectors approximately to scale and oriented in approximate directions for a qualitative understanding of the physical situation, or by using a ruler and protractor to draw more accurately and then measuring the length and angle of the resultant vector to give a quantitative value (the latter is sometimes called the <q>graphical method</q> of vector addition). In either case, a reasonable way to double-check your work is to do the same process in the reverse order, forming a parallelogram as shown on the right side of the figure below.            
-          </p>
-        <p>
-          Figure of vector addition for 3rd case above, including parallelogram method.
+        <p>A primary example of a vector in everyday life is a <em>force</em>. We'll discuss forces in more detail beginning in <xref ref="dynamics"/>, but given our everyday experience with forces as <em>pushes</em> or <em>pulls</em>, we can use force to illustrate the important distinction between scalars and vectors.
         </p>
+         
+        <p>If two people push on the same box, will the total force on the box be the same no matter how they push? Consider various cases: pushing in the same direction, pushing in exactly opposite directions, and pushing in random directions. Hopefully this example makes clear that the direction matters as much as how hard the people push! 
+        </p>
+          </p> <em>When adding vector quantities, direction must be accounted for.</em> </p>
+
+         <p>FIGURE of pushing on a box</p> 
+
+        <p>In one-dimension (1D) such as the first two examples in <xref provisional="figure-vector-intro"/>, we can simply use positive and negative signs to account for the direction of each vector. However, things get a bit more complicated in 2 or 3 dimensions, as seen in the third example in <xref provisional="figure-vector-intro"/>. Analytical methods for combining vectors require trigonometry and are thus beyond the scope of this learning guide. However, we can glean both quantitative and qualitative information about combining vectors using a visual method called <q>tip<ndash/>to<ndash/>tail vector addition</q>. Basically, the tail of the second vector is drawn at the tip of the first vector, and the combination<mdash/>called the <em>resultant</em><mdash/> is drawn from the tip of the first vector to the tail of the second, as shown below. Note that this can be done as a quick sketch, drawing the vectors approximately to scale and oriented in approximate directions for a qualitative understanding of the physical situation, or by using a ruler and protractor to draw more accurately and then measuring the length and angle of the resultant vector to give a quantitative value (the latter is sometimes called the <q>graphical method</q> of vector addition). In either case, a reasonable way to double-check your work is to do the same process in the reverse order, forming a parallelogram as shown on the right side of the figure below.            
+        </p>
+
+        <p>FIGURE of vector addition for 3rd case above, including parallelogram method.</p>
                
       <p>The PhET simulation below is provided to enhance your understanding of combining vectors. As you explore this PhET, please consider the following hints and suggestions: 
         <ul> 
-          <li>Each vector can be resized or reoriented by dragging on its <q>tip</q>. </li>
+          <li>Each vector can be resized or reoriented by dragging on its <q>tip</q>.</li>
           <li>Turn on the <q>Sum</q> option (in the upper right corner) to see the vector sum (or <em>resultant</em>) of the constituent vectors.</li> 
           <li>Experiment with the <q>Explore 1D</q> tab first. Experiment with vectors of different lengths and orientations. (You may like to recreate the 1D examples in <xref ref="figure-vector-intro"/>.) </li>    
           <li>Experiment with the <q>Explore 2D</q> tab next. Experiment with vectors of different lengths and orientations. (Clicking the <q>Components</q> tab will allow you to observe the horizontal and vertical components of each vector, which may facilitate your understanding of vector addition.)</li> 
           <li>The <q>Equations</q> tab is mostly useful to observe that vector subtraction is equivalent to addition of a negative vector.</li>
         </ul>
-
         <figure xml:id="figure-phet-vectors">
           <caption>PhET: Combining Vectors <c>iframe</c></caption>
           <interactive xml:id="phet-vectors" iframe="https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_en.html"/> 
@@ -295,7 +303,7 @@
       </p>
     </subsection>
 
-       <subsection xml:id="subsec-precision">
+       <subsection xml:id="precision">
         <title>Accuracy and Precision</title>
         
         <p> In closing this section, some practical considerations for quantitative work also merit consideration. 
@@ -303,7 +311,7 @@
             <li><title>Accuracy and precision are different</title>
               <p> <em>Accuracy</em> refers to how close a reported measurement is its <q>true</q> value, while <em>precision</em> refers to the uncertainty of the measurement. All physical measurements include uncertainty; even if the person making the measurement does so <q>perfectly</q>, there's some uncertainty due to the limitations of the device used to make the measurement.
               </p>
-               <p> A common analogy is shooting darts: <em> accuracy</em> refers to how close a given dart is to the center of the target (the <q>bull's eye</q>), while <em>precision</em> is limited by the thickness of the dart itself. Taking this analogy a step further: after multiple darts are thrown, we can discuss the <em>overall accuracy</em> in terms of the average distance of the multiple darts from the bull's eye and the <em>systematic uncertainty</em> in terms how closely the darts are clustered together. Thus, darts being clustered close together in the bull's eye is both <em>accurate and precise</em>, whereas <em>precise but not accurate</em> describes the darts being clustered close together but not near the bull's eye, and <em>accurate but not precise</em> describes the darts being approximately the same distance away from the bull's eye but not close to one another. 
+               <p> A common analogy is shooting darts: <em> accuracy</em> refers to how close a given dart is to the center of the target (the <q>bull's eye</q>), while <em>precision</em> is limited by the thickness of the dart itself. Taking this analogy a step further: after multiple darts are thrown, we can discuss the <em>overall accuracy</em> in terms of the average distance of the multiple darts from the bull's eye and the <em>systematic uncertainty</em> in terms how closely the darts are clustered together. Thus, a situation of the darts being clustered close together in the bull's eye is both <em>accurate and precise</em>, whereas <em>precise but not accurate</em> describes the darts being clustered close together but not near the bull's eye, and <em>accurate but not precise</em> describes the darts being approximately the same distance away from the bull's eye but not close to one another. 
                </p>
               </li>
             <li><title>Significant digits indicate precision</title>
@@ -313,22 +321,24 @@
             <li><title>Wise choice of <q>zero</q> can simplify math</title>
               <p> The number <em>zero</em> (0) sometimes has physical significance, while other times it doesn't. Examples abound in both categories and will generally be made clear when the physical quantity is introduced. For now, we'll rely on two examples from everyday life: 
                 <ul>
+                  
                   <li><title>Example of arbitrary <em>zero</em>: position</title>
-                    <p>The number <em>zero</em> is completely arbitrary for position. For example, if we hold an object above a table, we could define its <zero> position to be at the floor, on top of the table, at the object's position above the table, or anywhere in between. The only physically meaningful quantity is its <em>change in position</em>, which will be the same regardless of what we choose to call the <q>zero</q> position. 
-                    </p>
-                    <p>NOTE: If we only care about the object's position relative to the top of the table (as in some of the labs) the the math will be much simpler by choosing the zero position as either the tabletop or the object's initial position. This point will be discussed further in <xref ref="lin-kin"/> and thereafter.  
+                    <p>The number <em>zero</em> is completely arbitrary for position. For example, if we hold an object above a table, we could define its <q>zero</q> position to be at the floor, on top of the table, at the object's position above the table, or anywhere in between. The only physically meaningful quantity is its <em>change in position</em>, which will be the same regardless of what we choose to call the <q>zero</q> position.(NOTE: If we only care about the object's position relative to the top of the table<mdash/>as in some of the labs<mdash/>the the math will be much simpler by choosing the zero position as either the tabletop or the object's initial position. This point will be discussed further in <xref ref="lin-kin"/> and thereafter.)  
                     </p>
                   </li>
+
                   <li><title>Example of non-arbitrary <em>zero</em>: mass</title>
                     <p> The number <em>zero</em> has a definite meaning for mass: the mass of an entity will have a different numerical value in different systems of units, but an entity either has mass or it doesn't. 
-                      </p>
+                    </p>
                   </li>
+
                 </ul> 
               </p>
             </li>
            </ol>
        </p>
       </subsection>
+
     </section>
   </chapter>
 
@@ -337,22 +347,27 @@
   
   <introduction>
     <p>
-      In physics, the term <q>mechanics</q> refers to the study of motion. The chapters in Part 1 discuss various aspects of the mechanics of individual objects.    
+      In physics, the term <q>mechanics</q> refers to the study of motion. The chapters in Part 1 discuss various aspects of the mechanics of individual objects. We'll begin with <em>kinematics: the description of motion</em>. After carefully discussing important kinematics definitions in <xref ref="kinematics"/>, we'll progress to exploring <em>dynamics: the causes of changes in motion</em> in <xref ref="dynamics"/>. Part 1 will close with an alternate approach to analyzing motion based on <em>conserved quantities</em> in <xref ref="cons-laws"/>.     
     </p>
   </introduction>
   
     <chapter xml:id="kinematics">
       <title>Kinematics: The Description of Motion</title>
-      <objectives xml:id="kin-gq">
         <introduction>
           <p>
-            Here are some questions to keep in mind as you read and work through the content in Chapter 1:
+           As previously indicated, <em>kinematics</em> refers to the <em>description of motion</em>. If we toss a pencil across the room, its motion may appear quite complicated, wobbling around as it moves through the air. However, its motion can be more readily analyzed by separating its flight across the room from its wobbly motion. We'll therefore explore two basic types of motion in this chapter: <em>translational</em> motion (e.g., the pencil's movement from one side of the room to the other) will be the focus of <xref ref="lin-kin"/>, while <em>rotational</em> motion (e.g., the pencil's wobbling as it moves) will be the focus of <xref ref="rot-kin"/>. We'll return to the case of combination motion in <xref ref="combo-kin"/>.  
           </p>
-        </introduction>
-        <ul>
+          <p>NOTE: In physics, the word <q>translation</q> refers to an object's movement through space; in 1D, <q>translational motion</q> is also called <q>linear motion</q>. We'll consider the words <em>translational</em> and <em>linear</em> to be equivalent for most of this learning guide. Similarly, another term for <em>rotational</em> motion is <em>angular</em> motion, and those terms will also be considered interchangeable.     
+          </p>
+          </introduction>
+          
+          <objectives xml:id="kin-gq">
+          <p> Here are some questions to keep in mind as you read and work through the content in this chapter:
+          </p>
+         <ul>
           <li>Why is it important to describe motion carefully? </li>
-          <li>What does “translational motion” mean?</li>   
-          <li>What does “rotational motion” mean?</li>
+          <li>What do the terms “translational motion” and "rotational motion" mean?</li>   
+          <li>What are the important kinematics definitions?</li>
           <li>What are the connections between linear and rotational motion?</li>
           <li>What types of translational and rotational motions are relevant to the human body?</li> 
         </ul>
@@ -360,7 +375,91 @@
          
       <section xml:id="lin-kin">
         <title>Translational Kinematics</title>
-        <p>hello</p>
+        <p> <em>Translational motion</em> can refers to a portion of combined motion, or it can fully describe the motion of interest. This section opens with an example of a case where translation is the only motion of interest, to motivate the definitions for kinematics quantities in the most straight-forward way possible.
+        </p>   
+         <paragraphs>
+          <title>Grocery Store Trip</title>  
+        <p>Imagine that you live on the same street as a grocery store, which is 6 blocks east of your home. One day, you leave your home to go to this store, but after traveling 2 blocks you realize that you've left your wallet at home, so you turn around to retrieve it. You then travel the 6 blocks to the store. If asked how far you traveled, how would you answer? The two possible answers illustrate our first important kinematics definitions:
+        </p>
+          <ul>
+            <li> Position
+              <p> <em>Position</em> refers to location in space. (As discussed in <xref ref="precision"/>, position is always measured with respect to an arbitrary reference point.)  
+                  </p>
+            </li>
+
+            <li> Distance
+              <p> <em>Distance</em> is the actual path traveled. It's a <em>scalar</em> quantity (see <xref ref="vectors"). Distance has no direction, so distances always add.  
+                  </p>
+            </li>
+            
+            <li> Displacement
+              <p> <em>Displacement</em> refers to change in position. It is a <em>vector</em> quantity, having both magnitude and direction. (NOTE: Even though position itself is arbitrary, <em>change in position</em> isn't; both the <em>initial</em> and <em> final</em> positions must be measured with respect to the same (arbitrary) reference point, and the subtraction process eliminates any ambiguity.)  
+                </p>
+            </li>
+          </ul>
+
+        <p> Using this example of the grocery store trip:
+         <exercise>
+            <statement>
+              <p>
+                What two choices of <em>zero</em> position are most logical?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                Choosing <em>zero</em> position at either your home or the store would simplify the math.
+              </p>
+            </answer>
+          </exercise> 
+          <exercise>
+            
+          <exercise>
+          <statement>
+            <p>
+              What <em>distance</em> did you travel?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              You traveled a distance of 10 blocks: 2 blocks towards the store, then 2 blocks to go back home to retrive your wallet, then the final 6 blocks to the store. In equation form, we can use <em>d</em> to represent <em>distance</em> and write 
+            </p>
+            <p> <m>d = 2 bks + 2 bks + 6 bks = 10 bks</m> </p>
+          </answer>
+        </exercise>
+
+        <exercise>
+          <statement>
+            <p>
+              What was your <em>displacement</em>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Your displacement was 6 blocks to the east. (Don't forget that <em>direction</em> is part of the answer for any vector!) Let's calculate the displacement for each of the two most logical choices of <em>zero</em> position to confirm that we get the same result: 
+            </p> 
+            <p>
+              <ul>
+                <li> Choose <em>zero</em> position at your home:
+                  <p> In this case, the initial position is 0 blocks and the final position is 6 blocks to the east, so displacement (delta x) is given by:
+                  </p> 
+                    <m>   </m>
+                  </p>
+                </li>
+                <li> Choose <em>zero</em> position at the store:
+                  <p> In this case, the initial position is 6 blocks to the west (or <em>negative east</em>) and the final position is 0 blocks, so displacement (delta x) is given by:
+                  </p> 
+                    <m>   </m>
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </answer>
+        </exercise> 
+      </p>
+
+       </paragraphs>
+
+
       </section>
 
       <section xml:id="rot-kin">

@@ -10,10 +10,9 @@
     <latex-image-preamble>
       \usepackage{tikz}
     </latex-image-preamble>
- 
   </docinfo>
 
-  <book xml:id="ess-phy-hs">
+  <book xml:id="essential-physics-health-science">
     <title>Essential Physics for Health Sciences</title>
     <subtitle>An Algebra-Based Interactive Learning Guide</subtitle>
 
@@ -40,17 +39,19 @@
       </colophon>
  
       <acknowledgement>
-        <p> This learning guide makes frequent use of external open-source content. Two collections that are featured largely in the following pages merit specific acknowledgement:
-          <ul>
+      <p> This learning guide makes frequent use of external open-source content. Two collections that are featured largely in the following pages merit specific acknowledgement:
+        <ul>
            <li> <title> <em>PhET simulations</em> </title> 
-              <p> These interactive simulations are created and maintained by a team of researchers at the University of Colorado Boulder. They focus on active learning through exploration and discovery in an intuitive, game-like environment.</p>
+              <p> These interactive simulations are created and maintained by a team of researchers at the University of Colorado Boulder. They focus on active learning through exploration and discovery in an intuitive, game-like environment.
+              </p>
            </li>
          <li> <title> <q>Hewitt-Drew-It</q> youtube videos </title>
-         <p> Paul Hewitt has influenced thousands of students and educators (including the author of this learning guide) through his engagingly simple way of explaining and connecting physics concepts. Links to specific episodes in his youtube video series, <q>Hewitt-Drew-It</q>, are included to augment and illustrate the physics concepts presented. </p>        
+              <p> Paul Hewitt has influenced thousands of students and educators (including the author of this learning guide) through his engagingly simple way of explaining and connecting physics concepts. Links to specific episodes in his youtube video series, <q>Hewitt-Drew-It</q>, are included to augment and illustrate the physics concepts presented. 
+             </p>        
        </li>
        </ul>
-   </p> 
-   <p> </p>
+      </p>
+       <p> </p>
    <p> The author also expresses gratitude to the students, faculty, staff, and administration of Grand Valley State University, without whom this learning guide would not exist. Feedback from students over many years evidenced its need, faculty colleagues shared useful expertise, staff provided assistance with technical aspects, and the administration provided a sabbatical leave to begin this project. 
   </p>    
    </acknowledgement>
@@ -63,7 +64,6 @@
       <p> Each chapter opens with a few guiding questions for learners to keep in mind while engaging with the material, and closes with an overview of selected health science applications. The body of each chapter includes succinct discussion of physics terms and concepts, illustrated and expanded via brief videos and interactive simulations and exercises. 
       </p>   
     </preface>  
-    
   </frontmatter>
 
     <chapter xml:id="using-physics">
@@ -72,21 +72,24 @@
       <objectives xml:id="intro-gq">
         <introduction>
           <p>
-            Here are some questions to keep in mind as you read and work through the content in Chapter 1:
+            Here are some questions to keep in mind as you read and work through the content in this chapter:
           </p>
         </introduction>
+        <p>
         <ul>
           <li> What is physics? </li>
           <li> How can studying physics help with understanding topics in health sciences? </li>
           <li> What are some important considerations about the concepts encountered in physics? </li>   
           <li> What are important details about the quantities encountered in physics? </li>
         </ul>
+        </p>
       </objectives>
 
       <section xml:id="prelim-concepts">
         <title>Preliminary Concepts</title>
         <p> We begin our study of physics by considering what physics actually is and its relation to health sciences.
         </p> 
+
         <subsection xml:id="matter-and-energy">
         <title> Matter and Energy</title>
         <p>At its core, physics is the study of the physical world. For this reason, physics is often defined as the <em>study of matter and energy</em>. Matter and energy will appear (both implicitly and explicitly) throughout this learning guide, along with many other related terms and theoretical constructs that have been developed over the centuries to explain the physical aspect of reality and make accurate predictions.  
@@ -94,16 +97,16 @@
         
          <p> 
           As stated above, energy is a core physics concept. We will see beginning in the next chapter that one of the most fundamental theoretical constructs in physics is the <em>Law of Conservation of Energy</em>. The PhET simulation below introduces you to some of the diverse forms of energy that will be explored in more detail in subsequent chapters. In particular, we will spend more time on the <q>Intro</q> tab of this PhET in <xref ref="thermo"/>; at this point you may prefer to instead focus on the <q>Systems</q> tab to become familar with how the PhETs work and to see how one form of energy can be converted into another. As you explore this PhET, consider the following suggestions: 
-           <ul> 
+          <ul> 
             <li> Turn on the <q>Energy symbols</q> option (in the upper right corner) to observe how the various forms of energy convert into one another. </li> 
             <li> Try different combinations of the various energy sources (on the lower left side) and generators (middle of lower side). </li>    
             <li> When you find a particularly energetic combination of source and generator, experiment with connecting the various devices (on the lower right side) to the generator. </li> 
           </ul>
+        </p>
          <figure xml:id="figure-phet-energy">
             <caption>PhET: Energy forms and changes <c>iframe</c></caption>
             <interactive xml:id="phet-energy" iframe="https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_en.html"/>
-          </figure>
-          </p>
+          </figure>         
         </subsection>
 
         <subsection xml:id="hs-connects">
@@ -171,7 +174,9 @@
           <p> Many discussions of the scientific method assert the emergence of <em>theories</em> or <em>laws</em> as the final outcome, but physics also makes frequent use of other theoretical constructs, such as <em>models</em> and <em>equations</em>. In fact, many physics concepts (such as energy) are themselves theoretical constructs, in that they do not immediately correspond with directly measurable quantities. (The historical evolution of the concept of <em>energy</em> is a primary reason that there are so many different units for its measurement; people have not always been aware that its various manifestations were even related!) A few important philosophical notes are therefore important to consider.     
             <ul>
               <li> <title>Science is intended to change with new evidence</title>
-                <p> There has been much discussion in recent years that science is fundamentally flawed, because scientists keep changing their perspectives. Such critiques display a profound misunderstanding of what science is, because <em>science is intended to change</em> in response to new evidence. In the Western world, Aristotle is often considered the founder of <em>natural philosophy</em> (the basis of natural science); his theories were based on a combination of logic (philosophical <q>idealism</q>) and everyday observations, but his ideas about motion were seen to be flawed when Galileo began doing carefully<ndash/>controlled experiments in the 1600's. Galileo's conclusions, based on his underlying philosophy of <em>empiricism,</em> are considered the beginning of the science of physics and led directly to Newton developing his famous laws of motion (to be explored in much more detail in <xref ref="dynamics"/>). For now, it's important to note that there have been numerous similar upheavals (or <q>paradigm shifts</q>) in the history of all natural sciences. However, earlier interpretations are seldom dismissed outright; instead, the new insights expand the domain of investigation. As a specific example: another significant paradigm shift in physics occured around 1910: <q>Modern Physics</q> (so<ndash/>named to distinguish it from the <q>Classical Physics</q> that preceeded it), emcompassing both <em>relativity theory</em> and <em>quantum mechanics</em>, was born as a consequence of irresolvable disputes between predictions of established branches of physics and new experimental evidence. However, classical physics is still valid within the everyday domain of objects of sizes comparable to human beings moving at moderate speeds. For this reason, classical physics ideas comprise most of this learning guide <ndash/> and, indeed, most other introductory physics resources (texts, etc.) <ndash/> with modern physics content mostly regulated to <xref ref='qm'/>.  
+                <p> There has been much discussion in recent years that science is fundamentally flawed, because scientists keep changing their perspectives. Such critiques display a profound misunderstanding of what science is, because <em>science is intended to change</em> in response to new evidence. In the Western world, Aristotle is often considered the founder of <em>natural philosophy</em> (the basis of natural science); his theories were based on a combination of logic (philosophical <q>idealism</q>) and everyday observations, but his ideas about motion were seen to be flawed when Galileo began doing carefully<ndash/>controlled experiments in the 1600's. 
+                </p>
+                <p>Galileo's conclusions, based on his underlying philosophy of <em>empiricism,</em> are considered the beginning of the science of physics and led directly to Newton developing his famous laws of motion (to be explored in much more detail in <xref ref="dynamics"/>). For now, it's important to note that there have been numerous similar upheavals (or <q>paradigm shifts</q>) in the history of all natural sciences. However, earlier interpretations are seldom dismissed outright; instead, the new insights expand the domain of investigation. As a specific example: another significant paradigm shift in physics occured around 1910: <q>Modern Physics</q> (so<ndash/>named to distinguish it from the <q>Classical Physics</q> that preceeded it), emcompassing both <em>relativity theory</em> and <em>quantum mechanics</em>, was born as a consequence of irresolvable disputes between predictions of established branches of physics and new experimental evidence. However, classical physics is still valid within the everyday domain of objects of sizes comparable to human beings moving at moderate speeds. For this reason, classical physics ideas comprise most of this learning guide <ndash/> and, indeed, most other introductory physics resources (texts, etc.) <ndash/> with modern physics content mostly regulated to <xref ref='qm'/>.  
                 </p> 
               </li>
               <li> <title>Categories are artificial</title>
@@ -194,7 +199,7 @@
               </li> 
             </ul>
           </p>
-         </subsection>
+          </subsection>
       </section>
 
       <section xml:id="quantitative">
@@ -240,25 +245,22 @@
               </p>
             </li>
           </ul>
-          </p>
+        </p>
 
           <p> While converting from one metric unit to another just involves moving the decimal place, converting between systems of units requires more careful attention. If we know the <em>conversion factor</em> for the unit as measured in the two systems, we can write the number <em>1</em> in a useful way to convert the quantity as reported in the original system to that reported in the new system, as demonstrated in the video below. (Note: the video uses <em>v</em> to represent <em>speed</em> and an overbar over the <em>v</em> to designate it as the <em>average</em> speed; <em>v</em> actually stands for <em>velocity</em> (<xref ref="vectors"/> will elucidate the connection between <em>speed</em> and <em>velocity</em>), and we'll explore the reason for specifying <em>average</em> speed in <xref ref="lin-kin"/>.)     
           </p>
-          
             <figure>
               <title>Unit Conversions</title>
               <caption>Hewitt-Drew-It video discussion of unit conversions (about 5 minutes)</caption>
               <video xml:id="unit-conversions" youtube="4EhkFuVGmco" />
-            </figure>   
-       </subsection>
-
+            </figure>
+        </subsection>
+       
        <subsection xml:id="vectors"> 
-        <title>Scalars and Vectors</title>
-        <introduction> 
+        <title> Scalars and Vectors</title>
           <p>We'll encounter a variety of quantities in our study of physics, which can be divided into two broad categories:
           </p>
-          </introduction>
-       <!-- 
+         
         <p>  
         <ul>
             <li><title>Scalars</title>
@@ -272,7 +274,7 @@
             </li>
           </ul>  
         </p>
-      -->
+     
         <p>Whenever a new physics quantity is introduced, it will be important to understand whether the quantity is a scalar or vector, because that determines how to add it to another quantity of the same type. (Ordinarily rules of algebra still hold, just as you can't add <em>objects</em> of different types <mdash/>apples and oranges is the canonical example<mdash/> physics quantities must be of the same type to be added.)   
         </p>
 
@@ -293,25 +295,24 @@
         </p>
 
         <p>FIGURE of vector addition for 3rd case above, including parallelogram method.</p>
-        <!--       
+              
       <p>The PhET simulation below is provided to enhance your understanding of combining vectors. As you explore this PhET, please consider the following hints and suggestions: 
         <ul> 
-          <li>Each vector can be resized or reoriented by dragging on its <q>tip</q>.</li>
-          <li>Turn on the <q>Sum</q> option (in the upper right corner) to see the vector sum (or <em>resultant</em>) of the constituent vectors.</li> 
-          <li>Experiment with the <q>Explore 1D</q> tab first. Experiment with vectors of different lengths and orientations. (You may like to recreate the 1D examples in <xref ref="figure-vector-intro"/>.) </li>    
-          <li>Experiment with the <q>Explore 2D</q> tab next. Experiment with vectors of different lengths and orientations. (Clicking the <q>Components</q> tab will allow you to observe the horizontal and vertical components of each vector, which may facilitate your understanding of vector addition.)</li> 
-          <li>The <q>Equations</q> tab is mostly useful to observe that vector subtraction is equivalent to addition of a negative vector.</li>
+          <li><p>Each vector can be resized or reoriented by dragging on its <q>tip</q>.</p></li>
+          <li><p>Turn on the <q>Sum</q> option (in the upper right corner) to see the vector sum (or <em>resultant</em>) of the constituent vectors.</p></li> 
+          <li><p>Experiment with the <q>Explore 1D</q> tab first. Experiment with vectors of different lengths and orientations. (You may like to recreate the 1D examples in <xref ref="figure-vector-intro"/>.) </p></li>    
+          <li><p>Experiment with the <q>Explore 2D</q> tab next. Experiment with vectors of different lengths and orientations. (Clicking the <q>Components</q> tab will allow you to observe the horizontal and vertical components of each vector, which may facilitate your understanding of vector addition.)</p></li> 
+          <li><p>The <q>Equations</q> tab is mostly useful to observe that vector subtraction is equivalent to addition of the negative vector.</p></li>
         </ul>
       </p>
-      <p>
+
         <figure xml:id="figure-phet-vectors">
           <caption>PhET: Combining Vectors <c>iframe</c></caption>
           <interactive xml:id="phet-vectors" iframe="https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_en.html"/> 
         </figure>
-      </p>
-    -->
-    </subsection>
- 
+    
+        </subsection>
+     
       <subsection xml:id="precision">
         <title>Accuracy and Precision</title>
         <introduction>
@@ -330,7 +331,7 @@
              <p> You should always measure as carefully as possible and record your measurements to an appropriate number of <em>significant digits</em> to make the precision of the measurement clear. For example, if you are able to measure to the nearest millimeter, you should record your answer to the nearest millimeter: e.g., <em>1.240 m</em> rather than <em>1.24m</em>, since  <em>1.24 m</em> indicates a measurement to the nearest centimeter (the measurement is only known to be somewhere between <em>1.235 m</em> and <em>1.245 m</em>), whereas <em>1.240m</em> shows that the measurement was made to the nearest millimeter (is known to be somewhere between <em>1.2395 m</em> and <em>1.2405 m</em>).   
              </p>
             </li>
-            <li><title>Wise choice of <q>zero</q> can simplify math</title>
+           <!--  <li><title>Wise choice of <q>zero</q> can simplify math</title>
               <p> The number <em>zero</em> (0) sometimes has physical significance, while other times it doesn't. Examples abound in both categories and will generally be made clear when the physical quantity is introduced. For now, we'll rely on two examples from everyday life: 
                 <ul>
                   <li><title>Example of arbitrary <em>zero</em>: position</title>
@@ -342,11 +343,11 @@
                     <p> The number <em>zero</em> has a definite meaning for mass: the mass of an entity will have a different numerical value in different systems of units, but an entity either has mass or it doesn't. 
                     </p>
                   </li>
-
                 </ul> 
               </p>
             </li>
-           </ol>
+          -->
+          </ol>
        </p>
       </subsection>
 
@@ -375,7 +376,6 @@
           
           <objectives xml:id="kin-gq">
           <p> Here are some questions to keep in mind as you read and work through the content in this chapter:
-          </p>
          <ul>
           <li>Why is it important to describe motion carefully? </li>
           <li>What do the terms “translational motion” and "rotational motion" mean?</li>   
@@ -383,17 +383,17 @@
           <li>What are the connections between linear and rotational motion?</li>
           <li>What types of translational and rotational motions are relevant to the human body?</li> 
         </ul>
-      </objectives>
+        </p>
+        </objectives>
          
       <section xml:id="lin-kin">
         <title>Translational Kinematics</title>
-        <p> <em>Translational motion</em> can refer to a portion of combined motion, or it can fully describe the motion of interest. This section opens with an example of a case where translation is the only motion of interest, to motivate the definitions for kinematics quantities in the most straight-forward way possible.
+        <p><em>Translational motion</em> can refer to a portion of combined motion, or it can fully describe the motion of interest. This section opens with an example of a case where translation is the only motion of interest, to motivate the definitions for kinematics quantities in the most straight-forward way possible.
         </p> 
 
          <paragraphs>
           <title>Grocery Store Trip</title>  
         <p>Imagine that you live on the same street as a grocery store, which is 6 blocks east of your home. One day, you leave your home to go to this store, but after traveling 2 blocks you realize that you've left your wallet at home, so you turn around to retrieve it. You then travel the 6 blocks to the store. If asked how far you traveled, how would you answer? The two possible answers illustrate our first important kinematics definitions:
-        </p>
           <ul>
             <li> Position
               <p> <em>Position</em> refers to location in space. (As discussed in <xref ref="precision"/>, position is always measured with respect to an arbitrary reference point.)  
@@ -410,77 +410,18 @@
                 </p>
             </li>
           </ul>
+        </p>
 
           <p> Apply the definitions above to the <q>Grocery Store Trip</q> by considering the following questions:
-          </p>
             <ul>
               <li>What are the two logical choices for <em>zero</em> position?</li>
               <li>What <em>distance</em> did you travel?</li> 
               <li>What was your <em>displacement</em>?</li> 
             </ul>
+          </p>
 
             </paragraphs>
-        
-         <!--  <exercisegroup xml:id="grocery-trip-x">
-          <title>Kinematics definitions applied to grocery store trip</title> 
-             <introduction>
-            <p> Let's use the example of the grocery store trip to explore these initial kinematics definitions. 
-            </p>
-          </introduction>
-
-          <exercise>
-          <statement>
-              <p>
-                What two choices of <em>zero</em> position are most logical?
-              </p>
-            </statement>
-            <answer>
-              <p>
-                Choosing <em>zero</em> position at either your home or the store would simplify the math.
-              </p>
-            </answer>
-          </exercise>
-            
-          <exercise>
-          <statement>
-            <p>
-              What <em>distance</em> did you travel?
-            </p>
-          </statement>
-          <answer>
-            <p>
-              You traveled a distance of 10 blocks: 2 blocks towards the store, then 2 blocks to go back home to retrive your wallet, then the final 6 blocks to the store. In equation form, we can use <em>d</em> to represent <em>distance</em> and write 
-            </p>
-            <p> <m>d = 2 bks + 2 bks + 6 bks = 10 bks</m> </p>
-          </answer>
-         </exercise>
-
-        <exercise>
-          <statement>
-            <p>
-              What was your <em>displacement</em>?
-            </p>
-          </statement>
-          <answer>
-            <p>
-              Your displacement was 6 blocks to the east. (Don't forget that <em>direction</em> is part of the answer for any vector!) Let's calculate the displacement for each of the two most logical choices of <em>zero</em> position to confirm that we get the same result: 
-            </p> 
-            <p>
-              <ul>
-                <li> Choose <em>zero</em> position at your home:
-                  <p> In this case, the initial position is 0 blocks and the final position is 6 blocks to the east, so displacement (delta x) is given by:
-                  </p> 
-                </li>
-                <li> Choose <em>zero</em> position at the store:
-                  <p> In this case, the initial position is 6 blocks to the west (or <em>negative east</em>) and the final position is 0 blocks, so displacement (delta x) is given by:
-                  </p> 
-                </li>
-              </ul>
-            </p>
-          </answer>
-        </exercise> 
-      </exercisegroup>
-    -->
+       
     </section>
 
       <section xml:id="rot-kin">
@@ -531,14 +472,12 @@
         <title>Applications of Dynamics to Health Sciences</title>
         <p>Hello</p>
       </section>
-
     </chapter>
  
     <chapter xml:id="cons-laws">
       <title>Conservation Laws for Mechanics</title>
       <introduction>
-        <p>
-          this chapter...
+        <p> this chapter
         </p>
       </introduction>  
 
@@ -566,16 +505,14 @@
         <title>Applications of Conservation Laws to Health Sciences</title>
         <p>Hello</p>
       </section>
-      
     </chapter>
-  -->
   </part>
 
   <part xml:id="systems">
     <title>Mechanical Behavior of Systems</title>
     <introduction>
       <p>
-        This part...
+        This part
       </p>
     </introduction>
 
@@ -583,7 +520,7 @@
       <title>Matter</title>
       <introduction>
         <p>
-          this chapter...
+          this chapter
         </p>
       </introduction>
 
@@ -612,7 +549,7 @@
       <title>Thermodynamics</title>
       <introduction>
         <p>
-          this chapter...
+          this chapter
         </p>
       </introduction>
 
@@ -641,7 +578,7 @@
       <title>Sound</title>
       <introduction>
         <p>
-          this chapter...
+          this chapter
         </p>
       </introduction>
 
@@ -671,7 +608,7 @@
   <title>Electromagnetism</title>
   <introduction>
     <p>
-      This part...
+      This part
     </p>
   </introduction>
 
@@ -679,7 +616,7 @@
         <title>Electricity</title>
         <introduction>
           <p>
-            this chapter...
+            this chapter
           </p>
         </introduction>
 
@@ -708,7 +645,7 @@
       <title>Magnetism</title>
       <introduction>
         <p>
-          this chapter...
+          this chapter
         </p>
       </introduction>
 
@@ -731,13 +668,13 @@
         <title>Applications of Electromagnetism</title>
         <p>Hello</p>
       </section>
-
     </chapter>
+
     <chapter xml:id="light">
       <title>Light</title>
       <introduction>
         <p>
-          this chapter...
+          this chapter
         </p>
       </introduction>
 
@@ -767,7 +704,7 @@
   <title>Selected Topics in Quantum Physics</title>
   <introduction>
     <p>
-      This part...
+      This part
     </p>
   </introduction>
   
@@ -775,7 +712,7 @@
         <title>Atomic Physics</title>
         <introduction>
           <p>
-            this chapter...
+            this chapter
           </p>
         </introduction>
 
@@ -799,7 +736,7 @@
       <title>Nuclear Physics</title>
       <introduction>
         <p>
-          this chapter...
+          this chapter
         </p>
       </introduction>
 
@@ -818,7 +755,7 @@
         <p>Hello</p>
       </section>
     </chapter>
-    </part>
+  </part>
 
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>

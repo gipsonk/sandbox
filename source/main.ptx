@@ -65,7 +65,8 @@
       </p>   
     </preface>  
   </frontmatter>
-
+  <part xml:id="part-intro">
+    <title>PART TITLE</title>
     <chapter xml:id="using-physics">
       <title>Using Physics to Inform Health Sciences</title>      
       
@@ -75,20 +76,23 @@
             Here are some questions to keep in mind as you read and work through the content in this chapter:
           </p>
         </introduction>
-        <p>
+        
         <ul>
           <li> What is physics? </li>
           <li> How can studying physics help with understanding topics in health sciences? </li>
           <li> What are some important considerations about the concepts encountered in physics? </li>   
           <li> What are important details about the quantities encountered in physics? </li>
         </ul>
-        </p>
+        
       </objectives>
 
       <section xml:id="prelim-concepts">
         <title>Preliminary Concepts</title>
+
+        <introduction>
         <p> We begin our study of physics by considering what physics actually is and its relation to health sciences.
         </p> 
+      </introduction>
 
         <subsection xml:id="matter-and-energy">
         <title> Matter and Energy</title>
@@ -106,7 +110,8 @@
          <figure xml:id="figure-phet-energy">
             <caption>PhET: Energy forms and changes <c>iframe</c></caption>
             <interactive xml:id="phet-energy" iframe="https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_en.html"/>
-          </figure>         
+          </figure>    
+          
         </subsection>
 
         <subsection xml:id="hs-connects">
@@ -128,8 +133,10 @@
 
       <section xml:id="nature-of-science">
         <title>The Nature of Science</title>
+        <introduction>
         <p>Physics is sometimes said to be the most <em>fundamental science</em>, because all natural sciences <ndash/> such as biology, chemistry, geology, and the various interdisciplinary and applied sciences <ndash/> are essentially attempts to understand the <em>physical</em> aspects of the natural world through careful observation and experimentation. Specifically, <q>fundamental</q> in this sense doesn't mean <q>most important</q> but rather <q>most basic,</q> as all other natural sciences rely upon physics, at least at the microscopic scale. Therefore, although the following discussion about the nature of science uses physics examples, this discussion applies equally well to all natural sciences. (You're invited to consider for yourself whether it's also applicable to the various social and political sciences.)       
           </p>
+        </introduction>
         
           <subsection xml:id="sci-method"> 
           <title>The Scientific Method</title>  
@@ -187,7 +194,7 @@
                 <p>This may seem self-evident, but the conflation of models with reality is worth discussing. For example, if you were asked whether the <q>Flat Earth</q> is a valid scientific model, how would you respond? If you're like most people, you'd likely either respond in the negative, or you'd wonder if this was a trick question. However, it's not a trick question, and the correct answer is often yes. Anytime we're close enough to the earth that its curvature isn't noticeable, it makes sense to consider the earth to be flat! Scientific models only need to do two things:
                   <ol> 
                     <li> Describe a physical phenomena within the domain of interest; </li>
-                    <li> Make accurate predictions within that domain.</li>. 
+                    <li> Make accurate predictions within that domain.</li>
                   </ol>
                 </p> 
                 <p>Many models (like the flat earth) are known to be untrue or incomplete, but are still very useful scientific models. For example, the planetary model of the atom <mdash/> with negative particles called <em>electrons</em> orbiting a nucleus composed of positive <em>protons</em> and neutral <em>neutrons</em> <mdash/> will be used in <xref ref="systems"/> and again in <xref ref="electromagnetism"/>, even though we know it's not the most accurate description. In fact, the idea of an <em>atomic particle</em> is itself an incomplete model, as quantum physics has revealed the wave nature of all atomic <q>particles</q>. Similarly, sound and light will be treated as waves in <xref ref="sound"/> and <xref ref="light"/>, but quantum physics discloses their particulate natures. Entire philosophical treatises have been written on this <em>wave<ndash/>particle duality</em>, because no two concepts could be more opposite than particles and waves. (For example, particles stay intact (<q>localized</q>) as they move through space and interact via collisions, whereas waves spread out as they travel and can pass through one another.) The fact that two such opposite models are needed to fully describe common phenomena like matter, sound, and light discloses the limitations inherent in all models. As you enter other scientific models, please consider whether you ever conflate models with reality.
@@ -286,7 +293,7 @@
          
         <p>If two people push on the same box, will the total force on the box be the same no matter how they push? Consider various cases: pushing in the same direction, pushing in exactly opposite directions, and pushing in random directions. Hopefully this example makes clear that the direction matters as much as how hard the people push! 
         </p>
-          </p><em>When adding vector quantities, direction must be accounted for.</em>
+          <p><em>When adding vector quantities, direction must be accounted for.</em>
         </p>
 
          <p>FIGURE of pushing on a box</p> 
@@ -300,7 +307,7 @@
         <ul> 
           <li><p>Each vector can be resized or reoriented by dragging on its <q>tip</q>.</p></li>
           <li><p>Turn on the <q>Sum</q> option (in the upper right corner) to see the vector sum (or <em>resultant</em>) of the constituent vectors.</p></li> 
-          <li><p>Experiment with the <q>Explore 1D</q> tab first. Experiment with vectors of different lengths and orientations. (You may like to recreate the 1D examples in <xref ref="figure-vector-intro"/>.) </p></li>    
+          <li><p>Experiment with the <q>Explore 1D</q> tab first. Experiment with vectors of different lengths and orientations. (You may like to recreate the 1D examples in <xref provisional="figure-vector-intro"/>.) </p></li>    
           <li><p>Experiment with the <q>Explore 2D</q> tab next. Experiment with vectors of different lengths and orientations. (Clicking the <q>Components</q> tab will allow you to observe the horizontal and vertical components of each vector, which may facilitate your understanding of vector addition.)</p></li> 
           <li><p>The <q>Equations</q> tab is mostly useful to observe that vector subtraction is equivalent to addition of the negative vector.</p></li>
         </ul>
@@ -315,10 +322,10 @@
      
       <subsection xml:id="precision">
         <title>Accuracy and Precision</title>
-        <introduction>
+        
         <p> In closing this section, some practical considerations for quantitative work also merit consideration. 
         </p>
-        </introduction>
+        
         <p>
           <ol>
             <li><title>Accuracy and precision are different</title>
@@ -354,15 +361,16 @@
     </section>
  
    </chapter>
+  </part>
 
    <part xml:id="motion">
   <title>Mechanics: The Study of Motion</title>
   
-  <introduction>
+  <!-- <introduction>
     <p>
       In physics, the term <q>mechanics</q> refers to the study of motion. The chapters in Part 1 discuss various aspects of the mechanics of individual objects. We'll begin with <em>kinematics: the description of motion</em>. After carefully discussing important kinematics definitions in <xref ref="kinematics"/>, we'll progress to exploring <em>dynamics: the causes of changes in motion</em> in <xref ref="dynamics"/>. Part 1 will close with an alternate approach to analyzing motion based on <em>conserved quantities</em> in <xref ref="cons-laws"/>.     
     </p>
-  </introduction>
+  </introduction> -->
   
     <chapter xml:id="kinematics">
       <title>Kinematics: The Description of Motion</title>
@@ -375,7 +383,12 @@
           </introduction>
           
           <objectives xml:id="kin-gq">
-          <p> Here are some questions to keep in mind as you read and work through the content in this chapter:
+            <introduction>
+              <p>
+                Here are some questions to keep in mind as you read and work through the content in this chapter:
+              </p>
+            </introduction>
+           
          <ul>
           <li>Why is it important to describe motion carefully? </li>
           <li>What do the terms “translational motion” and "rotational motion" mean?</li>   
@@ -383,7 +396,7 @@
           <li>What are the connections between linear and rotational motion?</li>
           <li>What types of translational and rotational motions are relevant to the human body?</li> 
         </ul>
-        </p>
+        
         </objectives>
          
       <section xml:id="lin-kin">
@@ -395,17 +408,17 @@
           <title>Grocery Store Trip</title>  
         <p>Imagine that you live on the same street as a grocery store, which is 6 blocks east of your home. One day, you leave your home to go to this store, but after traveling 2 blocks you realize that you've left your wallet at home, so you turn around to retrieve it. You then travel the 6 blocks to the store. If asked how far you traveled, how would you answer? The two possible answers illustrate our first important kinematics definitions:
           <ul>
-            <li> Position
+            <li> <title>Position</title>
               <p> <em>Position</em> refers to location in space. (As discussed in <xref ref="precision"/>, position is always measured with respect to an arbitrary reference point.)  
               </p>
             </li>
 
-            <li> Distance
+            <li> <title>Distance</title>
               <p><em>Distance</em> is the actual path traveled. It's a <em>scalar</em> quantity (see <xref ref="vectors"/>). Distance has no direction, so distances always add.  
                   </p>
             </li>
             
-            <li> Displacement
+            <li> <title>Displacement</title>
               <p><em>Displacement</em> refers to change in position. It is a <em>vector</em> quantity, having both magnitude and direction. (NOTE: Even though position itself is arbitrary, <em>change in position</em> isn't; both the <em>initial</em> and <em> final</em> positions must be measured with respect to the same (arbitrary) reference point, and the subtraction process eliminates any ambiguity.)  
                 </p>
             </li>
@@ -460,8 +473,9 @@
 
       <section xml:id="equilib">
         <title>Mechanical Equilibrium</title>
+        <introduction>
         <p>Hello</p>
-        
+        </introduction>
          <subsection xml:id="equib-cond">
         <title>Conditions for Mechanical Equilibrium</title>
         <p>Hello</p>
@@ -510,11 +524,11 @@
 
   <part xml:id="systems">
     <title>Mechanical Behavior of Systems</title>
-    <introduction>
+    <!-- <introduction>
       <p>
         This part
       </p>
-    </introduction>
+    </introduction> -->
 
     <chapter xml:id="matter">
       <title>Matter</title>
@@ -606,11 +620,11 @@
 
 <part xml:id="electromagnetism">
   <title>Electromagnetism</title>
-  <introduction>
+  <!-- <introduction>
     <p>
       This part
     </p>
-  </introduction>
+  </introduction> -->
 
       <chapter xml:id="electricity">
         <title>Electricity</title>
@@ -702,11 +716,11 @@
 
 <part xml:id="qm">
   <title>Selected Topics in Quantum Physics</title>
-  <introduction>
+  <!-- <introduction>
     <p>
       This part
     </p>
-  </introduction>
+  </introduction> -->
   
     <chapter xml:id="atomic-phys">
         <title>Atomic Physics</title>
@@ -761,6 +775,7 @@
       <title>Backmatter</title>
 
       <appendix xml:id="algebra" >
+        <title>TITLE HERE</title>
         <p> links to algebra review </p>
       </appendix>
 

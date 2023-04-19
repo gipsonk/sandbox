@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="light">
+  <title>Light</title>
+  <introduction>
+    <p>
+      this chapter
+    </p>
+  </introduction>
+
+  <section xml:id="em-spectrum">
+    <title>Light as an Electromagnetic Wave</title>
+    <p>Hello</p>
+  </section>
+  
+  <section xml:id="geo-optics">
+    <title>Geometric Optics</title>
+    <p>Hello</p>
+  </section>
+  
+  <section xml:id="phys-optics">
+    <title>Physical Optics</title>
+    <p>Hello</p>
+  </section>
+  
+  <section xml:id="apps-optics">
+    <title>Applications of Optics</title>
+    <p>Hello</p>
+  </section>
+</chapter>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="nukes">
+  <title>Nuclear Physics</title>
+  <introduction>
+    <p>
+      this chapter
+    </p>
+  </introduction>
+
+  <section xml:id="nucleus">
+    <title>The Nucleus</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="radioactivity">
+    <title>Radioactivity</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="apps-nukes">
+    <title>Applications of Nuclear Physics</title>
+    <p>Hello</p>
+  </section>
+</chapter>

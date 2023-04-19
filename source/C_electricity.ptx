@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="electricity">
+  <title>Electricity</title>
+  <introduction>
+    <p>
+      this chapter
+    </p>
+  </introduction>
+
+  <section xml:id="e-statics">
+    <title>Electrostatics</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="e-circuits">
+    <title>Simple Electric Circuits</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="e-energy">
+    <title>Electrical energy</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="apps-elect">
+    <title>Applications of Electrostatics</title>
+    <p>Hello</p>
+  </section>
+</chapter>

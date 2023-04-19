@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="sound">
+  <title>Sound</title>
+  <introduction>
+    <p>
+      this chapter
+    </p>
+  </introduction>
+
+  <section xml:id="vibs-waves">
+    <title>Vibrations and Waves</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="wave-behav">
+    <title>Behavior of Waves</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="sound-props">
+    <title>Properties of Sound</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="apps-sound">
+    <title>Applications of Sound</title>
+    <p>Hello</p>
+  </section>
+</chapter>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="dynamics" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Dynamics: The Causes of Motion </title>
+
+  <introduction>
+    <p>
+      this chapter...
+    </p>
+  </introduction>
+
+  <section xml:id="lin-dyn">
+    <title>Translational Dynamics</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="rot-dyn">
+    <title>Rotational Dynamics</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="equilib">
+    <title>Mechanical Equilibrium</title>
+  
+    <introduction>
+      <p>
+        Hello
+      </p>
+    </introduction>
+    
+    <subsection xml:id="equib-cond">
+      <title>Conditions for Mechanical Equilibrium</title>
+      
+      <p>
+        Hello
+      </p>
+  
+    </subsection>
+  </section>
+
+  <section xml:id="dyn-apps">
+    <title>Applications of Dynamics to Health Sciences</title>
+    <p>Hello</p>
+  </section>
+
+  
+</chapter>

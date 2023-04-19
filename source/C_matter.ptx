@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="matter" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Matter</title>
+  <introduction>
+    <p>
+      this chapter
+    </p>
+  </introduction>
+
+  <section xml:id="states-of-matter">
+    <title>States of Matter</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="props-of-solids">
+    <title>Selected Properties of Solids</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="props-of-fluids">
+    <title>Selected Properties of Fluids</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="apps-matter">
+    <title>Applications of Material Science</title>
+    <p>Hello</p>
+  </section>
+
+</chapter>

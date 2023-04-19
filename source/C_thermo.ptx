@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="thermo">
+  <title>Thermodynamics</title>
+  <introduction>
+    <p>
+      this chapter
+    </p>
+  </introduction>
+
+  <section xml:id="kin-theory">
+    <title>Kinetic Theory</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="heat-transfer">
+    <title>Heat Transfer</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="thermo-laws">
+    <title>Laws of Thermodynamics</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="apps-thermo">
+    <title>Applications of Thermodynamics</title>
+    <p>Hello</p>
+  </section>
+</chapter>

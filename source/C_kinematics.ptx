@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="kinematics" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Kinematics: The Description of Motion</title>
+    <introduction>
+      <p>
+        As previously indicated, <em>kinematics</em> refers to the <em>description of motion</em>. If we toss a pencil across the room, its motion may appear quite complicated, wobbling around as it moves through the air. However, its motion can be more readily analyzed by separating its flight across the room from its wobbly motion. We'll therefore explore two basic types of motion in this chapter: <em>translational</em> motion (e.g., the pencil's movement from one side of the room to the other) will be the focus of <xref ref="lin-kin"/>, while <em>rotational</em> motion (e.g., the pencil's wobbling as it moves) will be the focus of <xref ref="rot-kin"/>. We'll return to the case of combination motion in <xref ref="combo-kin"/>.  
+      </p>
+      <p>
+        NOTE: In physics, the word <q>translation</q> refers to an object's movement through space; in 1D, <q>translational motion</q> is also called <q>linear motion</q>. We'll consider the words <em>translational</em> and <em>linear</em> to be equivalent for most of this learning guide. Similarly, another term for <em>rotational</em> motion is <em>angular</em> motion, and those terms will also be considered interchangeable.     
+      </p>
+    </introduction>
+      
+      <objectives xml:id="kin-gq">
+        <introduction>
+          <p>
+            Here are some questions to keep in mind as you read and work through the content in this chapter:
+          </p>
+        </introduction>
+       
+     <ul>
+      <li>Why is it important to describe motion carefully? </li>
+      <li>What do the terms “translational motion” and "rotational motion" mean?</li>   
+      <li>What are the important kinematics definitions?</li>
+      <li>What are the connections between linear and rotational motion?</li>
+      <li>What types of translational and rotational motions are relevant to the human body?</li> 
+    </ul>
+    
+    </objectives>
+
+    <section xml:id="lin-kin">
+      <title>Translational Kinematics</title>
+      <p>
+        <em>Translational motion</em> can refer to a portion of combined motion, or it can fully describe the motion of interest. This section opens with an example of a case where translation is the only motion of interest, to motivate the definitions for kinematics quantities in the most straight-forward way possible.
+      </p> 
+    
+       <paragraphs>
+        <title>Grocery Store Trip</title>  
+          <p>
+            Imagine that you live on the same street as a grocery store, which is 6 blocks east of your home. One day, you leave your home to go to this store, but after traveling 2 blocks you realize that you've left your wallet at home, so you turn around to retrieve it. You then travel the 6 blocks to the store. If asked how far you traveled, how would you answer? The two possible answers illustrate our first important kinematics definitions:
+        <ul>
+          <li> <title>Position</title>
+            <p> 
+              <em>Position</em> refers to location in space. (As discussed in <xref ref="precision"/>, position is always measured with respect to an arbitrary reference point.)  
+            </p>
+          </li>
+    
+          <li> <title>Distance</title>
+            <p>
+              <em>Distance</em> is the actual path traveled. It's a <em>scalar</em> quantity (see <xref ref="vectors"/>). Distance has no direction, so distances always add.  
+            </p>
+          </li>
+          
+          <li> <title>Displacement</title>
+            <p>
+              <em>Displacement</em> refers to change in position. It is a <em>vector</em> quantity, having both magnitude and direction. (NOTE: Even though position itself is arbitrary, <em>change in position</em> isn't; both the <em>initial</em> and <em> final</em> positions must be measured with respect to the same (arbitrary) reference point, and the subtraction process eliminates any ambiguity.)  
+              </p>
+          </li>
+        </ul>
+      </p>
+    
+        <p> 
+          Apply the definitions above to the <q>Grocery Store Trip</q> by considering the following questions:
+          <ul>
+            <li>What are the two logical choices for <em>zero</em> position?</li>
+            <li>What <em>distance</em> did you travel?</li> 
+            <li>What was your <em>displacement</em>?</li> 
+          </ul>
+        </p>
+    
+      </paragraphs>
+     
+    </section>
+
+    <section xml:id="rot-kin">
+      <title>Rotational Kinematics</title>
+      <p>Hello</p>
+    </section>
+
+    <section xml:id="combo-kin">
+      <title>Combination Motion</title>
+      <p>Hello</p>
+    </section>
+
+    <section xml:id="kin-apps">
+      <title>Applications of Kinematics to Health Sciences</title>
+      <p>Hello</p>
+    </section>
+
+</chapter>

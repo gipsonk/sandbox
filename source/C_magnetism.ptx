@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="magnetism">
+  <title>Magnetism</title>
+  <introduction>
+    <p>
+      this chapter
+    </p>
+  </introduction>
+
+  <section xml:id="m-statics">
+    <title>Magnetostatics</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="b-force">
+    <title>Magnetic forces</title>
+    <p>Hello</p>
+  </section>
+
+  <section xml:id="em-induction">
+    <title>Electromagnetic Induction</title>
+    <p>Hello</p>
+  </section>
+  
+  <section xml:id="apps-em">
+    <title>Applications of Electromagnetism</title>
+    <p>Hello</p>
+  </section>
+</chapter>

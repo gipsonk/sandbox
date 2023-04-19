@@ -23,9 +23,9 @@
     <xi:include href="frontmatter.ptx" />
 
     <part xml:id="intro">
-      <title>PART TITLE</title>
+      <title>Introduction</title>
 
-      <xi:include href="C_using_physics.ptx" />
+    <xi:include href="C_using_physics.ptx" />
     
     </part>
 

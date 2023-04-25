@@ -32,11 +32,11 @@
    <part xml:id="motion">
     <title>Mechanics: The Study of Motion</title>
   
-  <!-- <introduction>
+  <introduction>
     <p>
-      In physics, the term <q>mechanics</q> refers to the study of motion. The chapters in Part 1 discuss various aspects of the mechanics of individual objects. We'll begin with <em>kinematics: the description of motion</em>. After carefully discussing important kinematics definitions in <xref ref="kinematics"/>, we'll progress to exploring <em>dynamics: the causes of changes in motion</em> in <xref ref="dynamics"/>. Part 1 will close with an alternate approach to analyzing motion based on <em>conserved quantities</em> in <xref ref="cons-laws"/>.     
+      In physics, the term <q>mechanics</q> refers to the study of motion. The chapters in Part 2 discuss various aspects of the mechanics of individual objects. We'll begin with <em>kinematics: the description of motion</em>. After carefully discussing important kinematics definitions in <xref ref="kinematics"/>, we'll progress to exploring <em>dynamics: the causes of changes in motion</em> in <xref ref="dynamics"/>. Part 2 will close with an alternate approach to analyzing motion based on <em>conserved quantities</em> in <xref ref="cons-laws"/>.     
     </p>
-  </introduction> -->
+  </introduction>
   
     
   <xi:include href="C_kinematics.ptx" />
@@ -47,11 +47,11 @@
 
   <part xml:id="systems">
     <title>Mechanical Behavior of Systems</title>
-    <!-- <introduction>
+    <introduction>
       <p>
-        This part
+        Part 2 explored the motion of individual objects, which were often modeled as <em>particles</em>. Part 3 extends the study of motion to systems of particles. The behavior of systems containing many particles can be predicted by applying statistical methods to the numerous particles that comprise the system and accounting for the interactions between them; our discussion in this learning guide is limited to the results of such endeavors. In <xref ref="C_matter.ptx" />, various states and properties of <em>matter</em> will be discussed, before proceeding to the study of <em>thermodynamics</em> in <href ref="C_thermo.ptx" />. The physical aspects of <em>sound</em> will be explored in <href ref="C_sound.ptx"/>.       
       </p>
-    </introduction> -->
+    </introduction>
 
     <xi:include href="C_matter.ptx" />
     <xi:include href="C_thermo.ptx" />
@@ -61,26 +61,25 @@
 
 <part xml:id="electromagnetism">
   <title>Electromagnetism</title>
-  <!-- <introduction>
+  <introduction>
     <p>
-      This part
+      Part 4 of this learning guide opens another realm of physics called <em>electromagnetism</em>. We'll begin by investigating the behavior of <em>electric charges </em> in <href ref="C_electricity.ptx"/>. We'll then progress to doing the same for <em>magnets</em> in <href ref="C_magnetism" />, where our investigations will reveal both similarities and differences between <em>electricity</em> and <em>magnetism</em>. Part 4 culminates in <href ref="C_light.ptx" />, which explores the creation, characteristics, and behavior of <em>electromagnetic waves</em>.     
     </p>
-  </introduction> -->
+  </introduction>
 
   <xi:include href="C_electricity.ptx" />
   <xi:include href="C_magnetism.ptx" />
   <xi:include href="C_light.ptx" />
-
     
 </part>
 
 <part xml:id="qm">
   <title>Selected Topics in Quantum Physics</title>
-  <!-- <introduction>
+  <introduction>
     <p>
-      This part
+      The previous content in this learning guide has focused on what is commonly called <q>Classical Physics</q>; here <em> classical</em> is used in the sense of <em>original</em>. In the late 1800's, some experimental results were found to be inconsistent with the predictions of Classical Physics - and furthermore, contradictions became apparent between certain predictions of two main branches of Classical Physics (namely <em>mechanics</em> and <em>electromagnetism</em>). These various conflicts were reconciled in the early 1900's, and a new physics emerged, aptly named <q>Modern Physics</q>. Modern Physics also includes two main branches:<em>relativity theory</em> and <em>quantum mechanics</em> (also called <em>quantum theory</em> or <em>quantum physics</em>). Relativity theory<mdash/>while fascinating<mdash/>is beyond the scope of this learning guide, but Part 5 includes some highlights of quantum physics that are highly relevant to health sciences. Highlights of <em>atomic physics</em> are explored in <href ref="C_atoms.ptx"/>, while highlights of <em>nuclear physics</em> are explored in <href ref="C_nukes.ptx"/>.       
     </p>
-  </introduction> -->
+  </introduction>
   
   <xi:include href="C_atom_phys.ptx" />
   <xi:include href="C_nukes.ptx" />

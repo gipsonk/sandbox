@@ -49,12 +49,14 @@
             <p>
               <em>Distance</em> is the actual path traveled. It's a <em>scalar</em> quantity (see <xref ref="vectors"/>). Distance has no direction, so distances always add.  
             </p>
+            <me> d = d_{1} + d2 + d3 + \cdots </me> 
           </li>
           
           <li> <title>Displacement</title>
             <p>
               <em>Displacement</em> refers to change in position. It is a <em>vector</em> quantity, having both magnitude and direction. (NOTE: Even though position itself is arbitrary, <em>change in position</em> isn't; both the <em>initial</em> and <em> final</em> positions must be measured with respect to the same (arbitrary) reference point, and the subtraction process eliminates any ambiguity.)  
               </p>
+              <me> \vec{x} = \vec{x}_{final} -\vec{x}_{initial} </me> 
           </li>
         </ul>
       </p>

@@ -34,10 +34,10 @@
     "vscode": {
       "settings": {
         "editor.quickSuggestions": {
-          "other": "off"
+          "other": "on"
         },
         "editor.snippetSuggestions": "top",
-        "xml.validation.enabled": false
+        "xml.validation.enabled": true
       },
       "extensions": ["ms-vscode.live-server", "oscarlevin.pretext-tools"]
     }

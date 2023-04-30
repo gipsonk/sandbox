@@ -3,7 +3,7 @@
 <chapter xml:id="kinematics" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title></title>
    
-    <!--  
+   
           <exercisegroup xml:id="grocery-trip-x">
           <title>Kinematics definitions applied to grocery store trip</title> 
              <introduction>
@@ -50,11 +50,11 @@
             </p> 
             <p>
               <ul>
-                <li> Choose <em>zero</em> position at your home:
+                <li> <title><p>Choose <em>zero</em> position at your home:</p></title>
                   <p> In this case, the initial position is 0 blocks and the final position is 6 blocks to the east, so displacement (delta x) is given by:
                   </p> 
                 </li>
-                <li> Choose <em>zero</em> position at the store:
+                <li><title><p> Choose <em>zero</em> position at the store:</p></title>
                   <p> In this case, the initial position is 6 blocks to the west (or <em>negative east</em>) and the final position is 0 blocks, so displacement (delta x) is given by:
                   </p> 
                 </li>

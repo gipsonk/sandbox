@@ -32,7 +32,7 @@
     <subsection xml:id="matter-and-energy">
       <title>Matter and Energy</title>
       <idx><h>matter</h></idx>
-      <idx><h>energy</h><see>sun</see></idx> 
+      <idx><h>energy</h><see>conservation of energy</see></idx> 
       <!-- These are sample index entries. They will automatically show up at the end of the book. -->
       <p>
         At its core, physics is the study of the physical world. For this reason, physics is often defined as the <em>study of matter and energy</em>. Matter and energy will appear (both implicitly and explicitly) throughout this learning guide, along with many other related terms and theoretical constructs that have been developed over the centuries to explain the physical aspect of reality and make accurate predictions.
@@ -229,8 +229,10 @@
         The previous paragraph included our first example of <em>systems of units</em>. If you grew up in the United States, you're likely already familiar with some aspects of the <q>US Customary</q> system, which (for example) reports distances in units of inches, feet, yards, miles (etc.). The rest of the world uses the metric system, because metric units are based on powers of 10, rendering unit conversions much more straight<ndash />forward. Technically, the base unit for length in the US Customary system is the foot, with other length units defined in terms of the foot (1 inch is defined as 1<solidus />12 of a foot, etc.). Similarly, there are two particularly useful versions of the metric system: <em>SI</em>, the <q>International System of Units</q> (or <foreign>System Internationale</foreign>, in French), which is sometimes called <em>the</em> metric system, and the <em>CGS</em> system, which is useful for everyday objects (<em>CGS</em> stands for <em>Centimeters, Grams, Seconds</em>). These three systems are summarized in the chart below.
       </p>
   
-      <p>CHART of system of units</p>
-  
+      <image source="units.table.PNG" width="80%"> 
+      <description>Table of various unit systems</description>
+      </image> 
+   
       <p>
         This learning guide will primarly use SI units (exceptions will be noted as they're encountered), but keep in mind that the CGS system may be more useful for laboratory work. Two features that make metric units much simpler are:
       </p>

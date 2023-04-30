@@ -2,12 +2,14 @@
 
 <chapter xml:id="kinematics" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Kinematics: The Description of Motion</title>
+  <idx><h>kinematics</h></idx>
+  <idx><h>translational motion</h></idx>
+  <idx><h>rotational motion</h></idx>
     <introduction>
-      <p>
-        As previously indicated, <em>kinematics</em> refers to the <em>description of motion</em>. If we toss a pencil across the room, its motion may appear quite complicated, wobbling around as it moves through the air. However, its motion can be more readily analyzed by separating its flight across the room from its wobbly motion. We'll therefore explore two basic types of motion in this chapter: <em>translational</em> motion (e.g., the pencil's movement from one side of the room to the other) will be the focus of <xref ref="lin-kin"/>, while <em>rotational</em> motion (e.g., the pencil's wobbling as it moves) will be the focus of <xref ref="rot-kin"/>. We'll return to the case of combination motion in <xref ref="combo-kin"/>.  
+      <p> As previously indicated, <term>kinematics</term> refers to the <em>description of motion</em>. If we toss a pencil across the room, its motion may appear quite complicated, wobbling around as it moves through the air. Its behavior can be more readily analyzed by separating its motion across the room from its wobbly motion. We'll therefore explore two basic types of motion in this chapter: <term>translational motion</term> (e.g., the pencil's movement from one side of the room to the other) will be the focus of <xref ref="lin-kin"/>, while <term>rotational motion</term> (e.g., the pencil's wobbling as it moves) will be the focus of <xref ref="rot-kin"/>. We'll return to the case of combination motion in <xref ref="combo-kin"/>.  
       </p>
-      <p>
-        NOTE: In physics, the word <q>translation</q> refers to an object's movement through space; in 1D, <q>translational motion</q> is also called <q>linear motion</q>. We'll consider the words <em>translational</em> and <em>linear</em> to be equivalent for most of this learning guide. Similarly, another term for <em>rotational</em> motion is <em>angular</em> motion, and those terms will also be considered interchangeable.     
+
+      <p> NOTE: In physics, the word <q>translation</q> refers to an object's movement through space; in 1D, <q>translational motion</q> is also called <q>linear motion</q>. We'll consider the words <em>translational</em> and <em>linear</em> to be equivalent for most of this learning guide. Similarly, another term for <em>rotational motion</em> is <em>angular motion</em>, and those terms will also be considered interchangeable.     
       </p>
     </introduction>
       
@@ -17,61 +19,143 @@
             Here are some questions to keep in mind as you read and work through the content in this chapter:
           </p>
         </introduction>
-       
-     <ul>
+   
+    <ul>
       <li>Why is it important to describe motion carefully? </li>
       <li>What do the terms “translational motion” and "rotational motion" mean?</li>   
       <li>What are the important kinematics definitions?</li>
       <li>What are the connections between linear and rotational motion?</li>
       <li>What types of translational and rotational motions are relevant to the human body?</li> 
     </ul>
-    
+  
     </objectives>
 
     <section xml:id="lin-kin">
       <title>Translational Kinematics</title>
+      <idx><h>translational motion</h></idx>
+      <idx><h>linear motion</h></idx>
       <p>
-        <em>Translational motion</em> can refer to a portion of combined motion, or it can fully describe the motion of interest. This section opens with an example of a case where translation is the only motion of interest, to motivate the definitions for kinematics quantities in the most straight-forward way possible.
+        As discussed at the beginning of this chapter, <em>translational motion</em> can refer to a portion of combined motion, or it can fully describe the motion. This section opens with an example of a case where translation is the only motion of interest, to motivate the definitions for kinematics quantities in the most straight-forward way possible. 
       </p> 
     
+    <subsection xml:id="subsec-lin-kin-defns">
+      <title>Kinematics Definitions (Translational)</title> 
+       <introduction>
+        <p>
+          The equations in this subsection are <em>definitions</em>, which means that they are <em>always true</em>, in constrast to the special case equations in <xref ref="constant-a-lin-eqns"/>. 
+        </p>
+       </introduction>  
+
        <paragraphs>
-        <title>Grocery Store Trip</title>  
+        <title>Grocery Store Trip</title>
+
           <p>
-            Imagine that you live on the same street as a grocery store, which is 6 blocks east of your home. One day, you leave your home to go to this store, but after traveling 2 blocks you realize that you've left your wallet at home, so you turn around to retrieve it. You then travel the 6 blocks to the store. If asked how far you traveled, how would you answer? The two possible answers illustrate our first important kinematics definitions:
+            Imagine that you live on the same street as a grocery store, which is 6 blocks east of your home. You leave your home one day to go to this store, but after traveling 2 blocks you realize that you've left your wallet at home, so you turn around to retrieve it. You then travel the 6 blocks to the store. If asked how far you traveled, how would you answer? The two possible answers illustrate our first important kinematics definitions:
         <ul>
-          <li> <title>Position</title>
+          <li>
             <p> 
-              <em>Position</em> refers to location in space. (As discussed in <xref ref="precision"/>, position is always measured with respect to an arbitrary reference point.)  
+              <term>Position</term> refers to location in space. (As discussed in <xref ref="precision"/>, position is always measured with respect to an arbitrary reference point.)  
             </p>
           </li>
     
-          <li> <title>Distance</title>
+          <li> 
             <p>
-              <em>Distance</em> is the actual path traveled. It's a <em>scalar</em> quantity (see <xref ref="vectors"/>). Distance has no direction, so distances always add.  
-            </p>
-            <me> d = d_{1} + d2 + d3 + \cdots </me> 
+              <term>Distance</term> is the actual path traveled. It's a <em>scalar</em> quantity (see <xref ref="vectors"/>). Distance has no direction, so distances always add. 
+              </p>
+              <p> Using <m>d</m> to represent <em>distance</em>, we can write this definition in equation form:   
+                 <men> d = d_{1} + d_{2} + d_{3} + \cdots </men>
+            </p> 
           </li>
           
-          <li> <title>Displacement</title>
+          <li> 
             <p>
-              <em>Displacement</em> refers to change in position. It is a <em>vector</em> quantity, having both magnitude and direction. (NOTE: Even though position itself is arbitrary, <em>change in position</em> isn't; both the <em>initial</em> and <em> final</em> positions must be measured with respect to the same (arbitrary) reference point, and the subtraction process eliminates any ambiguity.)  
+              <term>Displacement</term> is the change in position. It is a <em>vector</em> quantity, having both magnitude and direction. (NOTE: Even though position itself is arbitrary, <em>change in position</em> isn't; both the <em>initial</em> and <em> final</em> positions must be measured with respect to the same (arbitrary) reference point, and the subtraction process eliminates any ambiguity.)  
               </p>
-              <me> \vec{x} = \vec{x}_{final} -\vec{x}_{initial} </me> 
+
+            <p> Using <m>\vec{x}</m> to represent position (and <m>\Delta</m> to represent <q>change</q>), this definition can be written in equation form as:
+                   <men> \Delta\vec{x} = \vec{x}_{\text{final}} - \vec{x}_{\text{initial}} </men>
+             </p>
           </li>
+
         </ul>
       </p>
-    
-        <p> 
-          Apply the definitions above to the <q>Grocery Store Trip</q> by considering the following questions:
-          <ul>
-            <li>What are the two logical choices for <em>zero</em> position?</li>
-            <li>What <em>distance</em> did you travel?</li> 
-            <li>What was your <em>displacement</em>?</li> 
-          </ul>
-        </p>
-    
       </paragraphs>
+
+      <exercise>
+        <introduction>
+          <p> Let's use the example of the grocery store trip to explore these first three kinematics definitions. 
+            </p>
+        </introduction>
+
+        <task>
+          <statement>
+              <p>
+                What two choices of <em>zero position</em> are most logical?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                Choosing <em>zero position</em> at either your home or the store would simplify the math.
+              </p>
+            </answer>
+       </task>
+
+      <task>
+           <statement>
+            <p>
+              What <em>distance</em> did you travel?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              You traveled a distance of 10 blocks: 2 blocks towards the store, then 2 blocks to go back home to retrive your wallet, then the final 6 blocks to the store. 
+                <me>d = 2 \text{bks} + 2 \text{bks} + 6 \text{bks} = 10 \text{bks} </me> 
+             </p>
+          </answer>
+       </task>
+
+       <task>
+        <statement>
+            <p>
+              What was your <em>displacement</em>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Your displacement was 6 blocks to the east. (Don't forget that <em>direction</em> is part of the answer for any vector!) Let's calculate the displacement for each of the two most logical choices of <em>zero position</em> to confirm that we get the same result. 
+            </p>
+
+            <p>
+              <ul>
+                <li><title><p>Choose <em>zero</em> position at your home</p></title>
+                  <p> In this case, the initial position is 0 blocks and the final position is 6 blocks to the east, so displacement (<m>\Delta\vec{x}</m>) is given by:
+                     <me> \Delta\vec{x} = 6 \text{bks} - 0 \text{bks} = 6 \text{bks, to the east} </me> 
+                  </p>
+                </li>
+
+                <li><title><p>Choose <em>zero</em> position at the store</p></title>
+                  <p> In this case, the initial position is 6 blocks to the west (or <em>negative east</em>) and the final position is 0 blocks, so displacement (<m>\Delta\vec{x}</m>) is given by:
+                     <me> \Delta\vec{x} = 0 \text{bks} - (-6) \text{bks} = 6 \text{bks, to the east}</me>  
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </answer>
+       </task>
+      </exercise>
+
+    </subsection>
+
+    <subsection xml:id="constant-a-lin-eqns">
+      <title>Special case: Motion with Constant (Translational) Acceleration </title> 
+       <introduction>
+        <p>
+          The equations in this subsection are only true for the <em>special case of constant acceleration</em>. Constant acceleration is a special case of motion, so take care to ask yourself whether the motion of interest is under constant acceleration <em>before</em> you try to use these equations. That said, constant acceleration is somewhat common in nature; for example, objects falling only under the influence of gravity (no air resistance). 
+        </p>      
+       </introduction>
      
+
+    </subsection>
     </section>
 
     <section xml:id="rot-kin">
@@ -90,3 +174,66 @@
     </section>
 
 </chapter>
+<!--<exercises xml:id="exercises-">
+            
+         <exercisegroup xml:id="grocery-trip-x">
+          <title>Kinematics definitions applied to grocery store trip</title> 
+             <introduction>
+            <p> Let's use the example of the grocery store trip to explore these initial kinematics definitions. 
+            </p>
+          </introduction>
+
+          <exercise>
+          <statement>
+              <p>
+                What two choices of <em>zero</em> position are most logical?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                Choosing <em>zero</em> position at either your home or the store would simplify the math.
+              </p>
+            </answer>
+          </exercise>
+            
+          <exercise>
+          <statement>
+            <p>
+              What <em>distance</em> did you travel?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              You traveled a distance of 10 blocks: 2 blocks towards the store, then 2 blocks to go back home to retrive your wallet, then the final 6 blocks to the store. In equation form, we can use <em>d</em> to represent <em>distance</em> and write 
+            </p>
+            <p> <m>d = 2 bks + 2 bks + 6 bks = 10 bks</m> </p>
+          </answer>
+         </exercise>
+
+        <exercise>
+          <statement>
+            <p>
+              What was your <em>displacement</em>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Your displacement was 6 blocks to the east. (Don't forget that <em>direction</em> is part of the answer for any vector!) Let's calculate the displacement for each of the two most logical choices of <em>zero</em> position to confirm that we get the same result: 
+            </p> 
+            <p>
+              <ul>
+                <li> Choose <em>zero</em> position at your home:
+                  <p> In this case, the initial position is 0 blocks and the final position is 6 blocks to the east, so displacement (delta x) is given by:
+                  </p> 
+                </li>
+                <li> Choose <em>zero</em> position at the store:
+                  <p> In this case, the initial position is 6 blocks to the west (or <em>negative east</em>) and the final position is 0 blocks, so displacement (delta x) is given by:
+                  </p> 
+                </li>
+              </ul>
+            </p>
+          </answer>
+        </exercise> 
+      </exercisegroup> 
+     </exercises>
+     -->

@@ -274,7 +274,7 @@
           <li>
             <title>Scalars</title>
             <p>
-              A scalar is a quantity that has only size (also called <q>magnitude</q>) <mdash /> or, in other words, <em>scale</em>). A scalar is represented by a number (along with appropriate units, of course).
+              A scalar is a quantity that has only size (also called <q>magnitude</q>) <mdash /> or, in other words, <em>scale</em>. A scalar is represented by a number (along with appropriate units, of course).
             </p>
           </li>
   
@@ -288,7 +288,7 @@
       </p>
   
       <p>
-        Whenever a new physics quantity is introduced, it will be important to understand whether the quantity is a scalar or vector, because that determines how to add it to another quantity of the same type. (Ordinarily rules of algebra still hold, just as you can't add <em>objects</em> of different types <mdash />apples and oranges is the canonical example<mdash />physics quantities must be of the same type to be added.)
+        Whenever a new physics quantity is introduced, it will be important to understand whether the quantity is a scalar or vector, because that determines how to add it to another quantity of the same type. (Ordinarily rules of algebra still hold, just as you can't add <em>objects</em> of different types <mdash/>apples and oranges is the canonical example<mdash/> physics quantities must be of the same type to be added.)
       </p>
   
       <p>
@@ -370,7 +370,7 @@
               <em>Accuracy</em> refers to how close a reported measurement is its <q>true</q> value, while <em>precision</em> refers to the uncertainty of the measurement. All physical measurements include uncertainty; even if the person making the measurement does so <q> perfectly</q>, there's some uncertainty due to the limitations of the device used to make the measurement.
             </p>
             <p>
-              A common analogy is shooting darts: <em> accuracy</em> refers to how close a given dart is to the center of the target (the <q>bull's eye</q>), while <em>precision</em> is limited by the thickness of the dart itself. Taking this analogy a step further: after multiple darts are thrown, we can discuss the <em>overall accuracy</em> in terms of the average distance of the multiple darts from the bull's eye and the <em>systematic uncertainty</em> in terms how closely the darts are clustered together. Thus, a situation of the darts being clustered close together in the bull's eye is both <em>accurate and precise</em>, whereas <em>precise but not accurate</em> describes the darts being clustered close together but not near the bull's eye, and <em>accurate but not precise</em> describes the darts being approximately the same distance away from the bull's eye but not close to one another.
+              A common analogy is shooting darts: <em> accuracy</em> refers to how close a given dart is to the center of the target (the <q>bull's eye</q>), while <em>precision</em> is limited by the thickness of the dart itself. Taking this analogy a step further: after multiple darts are thrown, we can discuss the <em>overall accuracy</em> in terms of the average distance of the multiple darts from the bull's eye and the <em>systematic uncertainty</em> in terms how closely the darts are clustered together. Thus, a situation of the darts being clustered close together in the bull's eye is both <em>accurate and precise</em>, whereas <em>precise but not accurate</em> describes the darts being clustered close together but not near the bull's eye, and <em>accurate but not precise</em> describes the darts being fairly close to and approximately the same distance away from the bull's eye but not close to one another.
             </p>
           </li>
           <li>

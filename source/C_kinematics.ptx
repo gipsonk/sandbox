@@ -37,20 +37,22 @@
       <p>
         As discussed at the beginning of this chapter, <em>translational motion</em> can refer to a portion of combined motion, or it can fully describe the motion. This section opens with an example of a case where translation is the only motion of interest, to motivate the definitions for kinematics quantities in the most straight-forward way possible. 
       </p> 
-    
-    <subsection xml:id="subsec-lin-kin-defns">
+
+    <subsection xml:id="lin-kin-defns">
       <title>Kinematics Definitions (Translational)</title> 
        <introduction>
-        <p>
-          The equations in this subsection are <em>definitions</em>, which means that they are <em>always true</em>, in constrast to the special case equations in <xref ref="constant-a-lin-eqns"/>. 
+        <p> Kinematics is the description of motion, so we'll be considering <em> where</em> an object is at specific <em>times</em>. The first three kinematics definitions <mdash/> <em> position, distance,</em> and <em>displacement</em><mdash/> will be motivated by a considering the specific example of going to a store. (Note that we aren't using SI units in this example in order to maintain a closer connection to everyday life, but we could easily convert to SI units in <xref ref="grocery-store-trip"/> if given the number of meters in a city block.) After a bit of practice with the initial definitions, the same example will be extended to motivate the definitions of <em>speed, velocity,</em> and <em>acceleration</em>. (We could easily convert to SI units in <xref ref="more-grocery-store"/> by recalling that one minute equals 60 seconds.)   
         </p>
+        
+        <p>
+          SPECIAL NOTE: The equations in this subsection are <em>definitions</em>, which means that they are <em>always true</em>, in contrast to the special case equations in <xref ref="constant-a-lin-eqns"/>. 
+          </p>
        </introduction>  
 
-       <paragraphs>
-        <title>Grocery Store Trip</title>
-
+       <subsubsection xml:id="grocery-store-trip">
+        <title>Position, Distance, and Displacement</title>
           <p>
-            Imagine that you live on the same street as a grocery store, which is 6 blocks east of your home. You leave your home one day to go to this store, but after traveling 2 blocks you realize that you've left your wallet at home, so you turn around to retrieve it. You then travel the 6 blocks to the store. If asked how far you traveled, how would you answer? The two possible answers illustrate our first important kinematics definitions:
+            Imagine that you live on the same street as a grocery store, which is 6 blocks east of your home. You leave your home one day to go to this store, but after traveling 2 blocks you realize that you've left your wallet at home, so you turn around to retrieve it. You then travel the 6 blocks to the store. If asked how far you traveled, how would you answer? The two possible answers illustrate our first three  kinematics definitions:
         <ul>
           <li>
             <p> 
@@ -76,14 +78,13 @@
                    <men> \Delta\vec{x} = \vec{x}_{\text{final}} - \vec{x}_{\text{initial}} </men>
              </p>
           </li>
-
         </ul>
       </p>
-      </paragraphs>
+      </subsubsection>
 
-      <exercise>
+      <exercise xml:id="ex-distance-displacement"> 
         <introduction>
-          <p> Let's use the example of the grocery store trip to explore these first three kinematics definitions. 
+          <p> Let's use the example of the grocery store trip to explore these first three kinematics definitions.    
             </p>
         </introduction>
 
@@ -108,7 +109,7 @@
           </statement>
           <answer>
             <p>
-              You traveled a distance of 10 blocks: 2 blocks towards the store, then 2 blocks to go back home to retrive your wallet, then the final 6 blocks to the store. 
+              You traveled a distance of 10 blocks: 2 blocks towards the store, then 2 blocks going back home to retrive your wallet, then the final 6 blocks to the store. 
                 <me>d = 2 \text{bks} + 2 \text{bks} + 6 \text{bks} = 10 \text{bks} </me> 
              </p>
           </answer>
@@ -144,13 +145,134 @@
        </task>
       </exercise>
 
+     <subsubsection xml:id="more-grocery-store">
+       <title>Speed and Velocity</title>
+          <p>
+            To motivate the remaining kinematics defintions, we need to also consider <em>time</em>. Let's imagine it took you 3 minutes to walk the first 2 blocks towards the store, 4 minutes to walk back to your house to retrieve your wallet, and then 8 minutes to walk the 6 blocks to the store. If asked how fast you traveled, how would you answer? The multiple ways to answer that question illustrate important aspects of our next two kinematics definitions, <em>speed</em> and <em>velocity</em>.
+          </p>
+        <p>
+          First of all, we notice that the time interval under consideration matters alot! Are we concerned with the trip as a whole, or with the various portions of the trip? We'll explore this point more carefully after defining the terms and practicing with the equations, but for now just know that the concept of <q>average</q> (denoted by the subscript ,<q>ave</q> in the subsequent equations) is included to acknowledge that both speed and velocity depend on the time interval. 
+          </p> 
+        
+        <ul>
+         <li> 
+            <p>
+              <term>Speed</term> is the rate at which distance is covered. 
+              </p>
+              <p> Using <m>d</m> to again represent distance, <m>t</m> to represent the time it takes to travel that distance, and <m>s_{\text{ave}}</m> to represent the average speed over that interval, we can write this definition in equation form:   
+                 <men> s_{\text{ave}} = \frac{d}{t} </men>
+            Notice that since distance and time are both scalars, speed is also a <em>scalar</em> quantity. 
+            </p> 
+          </li>
+          
+          <li> 
+            <p>
+              <term>Velocity</term> is the rate at which displacement occurs. 
+            </p>
+            <p> Using <m>\Delta\vec{x}</m> to again represent displacement, <m>\Delta t</m> to represent the time interval over which the displacement occurred, and <m>\vec{v}_{\text{ave}}</m> to represent the average velocity over that time interval, this definition can be written in equation form as:
+                   <men> \vec{v}_{\text{ave}} = \frac{\Delta\vec{x}}{\Delta t}  </men>
+             Notice that since displacement is a vector (and time is a scalar), velocity is also a <em>vector</em> quantity, having both magnitude and direction (see <xref ref="vectors"/>). The direction of the velocity is the same as the direction of the displacement.  
+             </p>
+          </li>
+        </ul>
+    </subsubsection>
+
+      <exercise xml:id="ex-speed-velocity">
+        <introduction>
+          <p> Let's return to the example of the grocery store trip to explore the kinematics definitions of speed and velocity.    
+            </p>
+        </introduction>
+
+        <task>
+          <statement>
+              <p>
+                What was your average speed for the entire trip?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                To calculate your average speed for the entire trip, we must use the total distance you traveled (found in <xref ref="ex-distance-displacement"/> to be 10 blocks) and the total time it took you to travel that distance (15 minutes, found by adding the times for each portion of the trip). Your average speed for the entire trip was therefore:
+                <me> s_{\text{ave}} = \frac{10\text{blks}}{15\text{mins}} = 0.7\text{bks/min} </me>
+              </p>
+            </answer>
+       </task>
+
+        <task>
+          <statement>
+              <p>
+                What was your average velocity for the entire trip?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                To calculate your average velocity for the entire trip, we must use your total displacement (found in <xref ref="ex-distance-displacement"/> to be 6 blocks to the east) and the total time it took for that displacement to occur (15 minutes). Your average velocity for the entire trip was therefore:
+                <me> \vec{v}_{\text{ave}}= \frac{6\text{blks to the east}}{15\text{mins}} = 0.4\text{bks/min, to the east} </me>
+              </p>
+            </answer>
+       </task>
+
+      <task>
+           <statement>
+            <p>
+              What were your average speeds and velocities for each portion of the trip? 
+            </p>
+          </statement>
+          <answer>
+            <p> You should be able to work these out on your own by now.  The answers are:
+            Part 1 of trip (2 blocks towards store in 3 minutes):
+            <me> s_{\text{ave}_1} = \frac{2\text{blks}}{3\text{mins}} = 0.7\text{bks/min} </me>
+            <me>\vec{v}_{\text{ave}_1}= \frac{2\text{blks to the east}}{3\text{mins}} = 0.7\text{bks/min, to the east} </me>
+            
+            Part 2 of trip (2 blocks back home in 4 minutes):
+            <me> s_{\text{ave}_2} = \frac{2\text{blks}}{4\text{mins}} = 0.5\text{bks/min} </me>
+            <me>\vec{v}_{\text{ave}_2}= \frac{-2\text{blks to the east}}{4\text{mins}} = - 0.5\text{bks/min to the east} </me>
+            <p> NOTE: In physical terms, this is <m> 0.5\text{blks/min to the west}</m> </p>
+            
+            Part 3 of trip (6 blocks to store in 8 minutes):
+            <me> s_{\text{ave}_3} = \frac{6\text{blks}}{8\text{mins}} = 0.8\text{bks/min} </me>
+            <me>\vec{v}_{\text{ave}_3}= \frac{6\text{blks to the east}}{8\text{mins}} = 0.8\text{bks/min, to the east} </me>
+            </p> 
+         </answer>
+       </task>
+     </exercise>
+
+     <p>
+      Before continuing, we should take note of a few things from <xref ref="ex-speed-velocity"/>: (a) that both your speed and your velocity changed during your trip to the grocery store (you were walking slowest during Part 2 of the trip), and (b) that the magnitude of the average velocity for each portion of the trip was the same as the average speed, but that wasn't true when the time interval was expanded to include the entire trip. These observations motivate the general statements below:  
+     </p>
+
+     <ul>
+         <li> 
+            <p>
+              <term>Time-averaged values</term> or more simply, <em> average values</em> always depend on the time interval under consideration. We saw this with our calculations of average speed and average velocity in the grocery store trip: the average values for the entire trip were very different from the averages for each part of the trip.  
+              </p>
+              <p> GENERAL STATEMENT: As the time interval under consideration gets smaller, more detailed information emerges. 
+            </p> 
+          </li>
+          
+          <li> 
+            <p>
+              <term>Instantaneous values</term> are when the time interval shrinks down to an instant. (Although mathematically, this requires the concept of a <em>limit</em>, which is beyond the scope of this learning guide, in practice there are often other ways to determine instantaneous values.)    
+            </p>
+            <p> GENERAL STATEMENT: The magnitude of the instantaneous velocity is <em>always</em> equal to the instantaneous speed.
+             </p>
+          </li>
+        </ul>
+      
+    <subsubsection xml:id="last-grocery-store">
+        <title>Acceleration</title>
+          <p>
+            
+          </p>
+     </subsubsection>      
     </subsection>
+      
+     
 
     <subsection xml:id="constant-a-lin-eqns">
       <title>Special case: Motion with Constant (Translational) Acceleration </title> 
        <introduction>
         <p>
-          The equations in this subsection are only true for the <em>special case of constant acceleration</em>. Constant acceleration is a special case of motion, so take care to ask yourself whether the motion of interest is under constant acceleration <em>before</em> you try to use these equations. That said, constant acceleration is somewhat common in nature; for example, objects falling only under the influence of gravity (no air resistance). 
+          The equations in this subsection are only true for the <em>special case of constant acceleration</em>. Constant acceleration is a special case of motion, so take care to ask yourself whether the motion of interest is under constant acceleration <em>before</em> you try to use these equations. That said, constant acceleration is somewhat common in nature; for example, objects falling only under the influence of gravity (without air resistance) undergo constant acceleration. Furthermore, there are numerous examples of motion that can be approximated as constant acceleration, such as speeding up or slowing down at a relatively constant rate while walking or driving a car. 
         </p>      
        </introduction>
      

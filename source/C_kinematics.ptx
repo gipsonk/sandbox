@@ -58,6 +58,7 @@
             <p> 
               <term>Position</term> refers to location in space. (As discussed in <xref ref="precision"/>, position is always measured with respect to an arbitrary reference point.)  
             </p>
+            <p> SI UNITS: meters, abbreviated by <m>m</m> </p>
           </li>
     
           <li> 
@@ -67,6 +68,7 @@
               <p> Using <m>d</m> to represent <em>distance</em>, we can write this definition in equation form:   
                  <men> d = d_{1} + d_{2} + d_{3} + \cdots </men>
             </p> 
+            <p> SI UNITS: meters, abbreviated by <m>m</m> </p> 
           </li>
           
           <li> 
@@ -77,6 +79,7 @@
             <p> Using <m>\vec{x}</m> to represent position (and <m>\Delta</m> to represent <q>change</q>), this definition can be written in equation form as:
                    <men> \Delta\vec{x} = \vec{x}_{\text{final}} - \vec{x}_{\text{initial}} </men>
              </p>
+             <p> SI UNITS: meters, abbreviated by <m>m</m> </p>
           </li>
         </ul>
       </p>
@@ -170,8 +173,9 @@
               <term>Velocity</term> is the rate at which displacement occurs. 
             </p>
             <p> Using <m>\Delta\vec{x}</m> to again represent displacement, <m>\Delta t</m> to represent the time interval over which the displacement occurred, and <m>\vec{v}_{\text{ave}}</m> to represent the average velocity over that time interval, this definition can be written in equation form as:
-                   <men> \vec{v}_{\text{ave}} = \frac{\Delta\vec{x}}{\Delta t}  </men>
-             Notice that since displacement is a vector (and time is a scalar), velocity is also a <em>vector</em> quantity, having both magnitude and direction (see <xref ref="vectors"/>). The direction of the velocity is the same as the direction of the displacement.  
+                   <men> \vec{v}_{\text{ave}} = \frac{\Delta\vec{x}}{\Delta t} = \frac{\vec{x}_{\text{final}} - \vec{x}_{\text{initial}}}{t_{\text{final}} - t_{\text{initial}}}  </men>
+             Here, the positions and times are correlated:the initial position is the location of the object at the initial time (which could be zero, if you start your clock when the motion begins), and the final position is the location of the object at the final time (which could only be a step along the entire journey). As we'll see in <xref ref="ex-speed-velocity"/>, often only the displacements and time intervals matter. </p>
+             <p>It's also important to note that since displacement is a vector (and time is a scalar), velocity is also a <em>vector</em> quantity, having both magnitude and direction (see <xref ref="vectors"/>). The direction of the velocity is the same as the direction of the displacement (its magnitude is just <q>scaled</q> by the numerical value of the time interval).  
              </p>
           </li>
         </ul>
@@ -226,8 +230,8 @@
             Part 2 of trip (2 blocks back home in 4 minutes):
             <me> s_{\text{ave}_2} = \frac{2\text{blks}}{4\text{mins}} = 0.5\text{bks/min} </me>
             <me>\vec{v}_{\text{ave}_2}= \frac{-2\text{blks to the east}}{4\text{mins}} = - 0.5\text{bks/min to the east} </me>
-            <p> NOTE: In physical terms, this is <m> 0.5\text{blks/min to the west}</m> </p>
-            
+            <p> (NOTE: In physical terms, this is <m> 0.5\text{blks/min to the west}</m>) </p>
+            <p> </p>
             Part 3 of trip (6 blocks to store in 8 minutes):
             <me> s_{\text{ave}_3} = \frac{6\text{blks}}{8\text{mins}} = 0.8\text{bks/min} </me>
             <me>\vec{v}_{\text{ave}_3}= \frac{6\text{blks to the east}}{8\text{mins}} = 0.8\text{bks/min, to the east} </me>
@@ -237,13 +241,15 @@
      </exercise>
 
      <p>
-      Before continuing, we should take note of a few things from <xref ref="ex-speed-velocity"/>: (a) that both your speed and your velocity changed during your trip to the grocery store (you were walking slowest during Part 2 of the trip), and (b) that the magnitude of the average velocity for each portion of the trip was the same as the average speed, but that wasn't true when the time interval was expanded to include the entire trip. These observations motivate the general statements below:  
+      Before continuing, we should take note of a few things from <xref ref="ex-speed-velocity"/>: (a) both your speed and your velocity changed during your trip to the grocery store (e.g., you were traveling slowest during Part 2 of the trip), and (b) the magnitude of the average velocity for each portion of the trip was the same as the average speed, but that wasn't true when the time interval was expanded to include the entire trip. These observations motivate the general statements below:  
      </p>
 
      <ul>
          <li> 
             <p>
-              <term>Time-averaged values</term> or more simply, <em> average values</em> always depend on the time interval under consideration. We saw this with our calculations of average speed and average velocity in the grocery store trip: the average values for the entire trip were very different from the averages for each part of the trip.  
+              <term>Time-averaged values</term> or more simply, <em> average values</em> always depend on the time interval under consideration. 
+              </p>
+              <p> GENERAL STATEMENT: The magnitide of the average velocity is equal to the average speed only for the special case of one-dimensional motion in a single direction. 
               </p>
               <p> GENERAL STATEMENT: As the time interval under consideration gets smaller, more detailed information emerges. 
             </p> 
@@ -251,18 +257,50 @@
           
           <li> 
             <p>
-              <term>Instantaneous values</term> are when the time interval shrinks down to an instant. (Although mathematically, this requires the concept of a <em>limit</em>, which is beyond the scope of this learning guide, in practice there are often other ways to determine instantaneous values.)    
+              <term>Instantaneous values</term> are when the time interval shrinks down to an instant. (Although mathematically, this requires the concept of a <em>limit</em>, which is beyond the scope of this learning guide, we will soon see that there are often other ways to determine instantaneous values in practice.)    
             </p>
-            <p> GENERAL STATEMENT: The magnitude of the instantaneous velocity is <em>always</em> equal to the instantaneous speed.
+             <p>GENERAL STATEMENT: The magnitude of the instantaneous velocity is <em>always</em> equal to the instantaneous speed.
              </p>
           </li>
         </ul>
+
+        <p>
+        Finally, let's consider what a graph of position vs time can tell us. Recall the equation of a straight line: 
+         <me>y=m \cdot x + b </me>,
+         where <m>y</m> is the dependent variable (plotted along the vertical axis), <m>x</m> is the independent variable (plotted along the horizontal axis), and <m>m</m> is the <em>slope</em> of the line, given by the equation: 
+         <me>m=\frac{\Delta y}{\Delta x}=\frac{y_2 - y_1} {x_2-x_1} </me>.
+         Comparison of the definition of slope to the equation for average velocity,
+         <me>\vec{v}_{\text{ave}} = \frac{\Delta\vec{x}}{\Delta t} = \frac{\vec{x}_{\text{final}} - \vec{x}_{\text{initial}}}{t_{\text{final}} - t_{\text{initial}}} </me>, 
+      we can see that if we plot position vs time, the slope will be the average velocity: the position <m>\vec{x}</m> plays the role of the dependent variable <m>y</m>, the time <m>t</m> plays the role of the independent variable  <m>x</m>, and the average velocity plays the role of the slope, <m>m</m>.
+      </p> 
+      <p>
+       If the velocity is constant, the graph of position vs time will be a straight line, with the instantaneous velocity at each point equal to the value of the average velocity. If the velocity is changing, as will often be the case, we can make use of definition of instantaneous values to realize that the value of the instantaneous velocity at any given time can be found from the slope of curve at that point on the position vs time graph. Graphing motion will be discussed in much more detail at the end of <xref ref="last-grocery-store"/>.    
+      </p>
+                     
+      <p>GENERAL STATEMENT: The slope of a position vs time graph is the velocity. 
+      </p>
+        
       
     <subsubsection xml:id="last-grocery-store">
         <title>Acceleration</title>
           <p>
-            
+          The example of the grocery store trip also motivates our final kinematics definition, as we can see that the velocity (and speed) changed from one part of the trip to another.        
           </p>
+      <p>
+        <term>Acceleration</term> is the rate at which velocity changes. 
+            </p>
+            <p> Using <m>\vec{a}_{\text{ave}}</m> to represent the average acceleration over the time interval <m>\Delta t</m>, this definition can be written in equation form as:
+                  <men> \vec{a}_{\text{ave}} = \frac{\Delta\vec{v}}{\Delta t} = \frac{\vec{v}_{\text{final}} - \vec{v}_{\text{initial}}}{t_{\text{final}} - t_{\text{initial}}}  </men>
+             Here, too, the velocities and times are correlated:the initial velocity is the velocity of the object at the initial time (which could be zero, if you start your clock when the motion begins), and the final velocity is the location of the object at the final time (which could only be a step along the entire journey). 
+             </p>
+             <p>
+             The same distinctions hold for average and instantaneous accelerations (as well as for many other dynamics quantities in Part 1 of this learning guide).
+             </p>  
+             <p>
+             We can also note that since velocity is a vector, acceleration is a vector quantity having the same direction as the <em>change in velocity</em> vector.
+             
+               happens when the magnitude or direction of the velocity changes.
+             </p>  
      </subsubsection>      
     </subsection>
       

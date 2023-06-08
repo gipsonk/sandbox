@@ -41,16 +41,23 @@
     <subsection xml:id="lin-kin-defns">
       <title>Kinematics Definitions (Translational)</title> 
        <introduction>
-        <p> Kinematics is the description of motion, so we'll be considering <em> where</em> an object is at specific <em>times</em>. The first three kinematics definitions <mdash/> <em> position, distance,</em> and <em>displacement</em><mdash/> will be motivated by a considering the specific example of going to a store. (Note that we aren't using SI units in this example in order to maintain a closer connection to everyday life, but we could easily convert to SI units in <xref ref="grocery-store-trip"/> if given the number of meters in a city block.) After a bit of practice with the initial definitions, the same example will be extended to motivate the definitions of <em>speed, velocity,</em> and <em>acceleration</em>. (We could easily convert to SI units in <xref ref="more-grocery-store"/> by recalling that one minute equals 60 seconds.)   
+        <p> Kinematics is the description of motion, so we'll be considering <em> where</em> an object is at specific <em>times</em>. The first three kinematics definitions <mdash/> <em> position, distance,</em> and <em>displacement</em><mdash/> will be motivated by a considering the specific example of going to a store. After pausing to practice with the initial definitions, the same example will be extended to motivate the definitions of <em>speed, velocity,</em> and <em>acceleration</em>. 
         </p>
-        
         <p>
-          SPECIAL NOTE: The equations in this subsection are <em>definitions</em>, which means that they are <em>always true</em>, in contrast to the special case equations in <xref ref="constant-a-lin-eqns"/>. 
+          SPECIAL NOTE: The equations in this subsection are <em>definitions</em>, which means that they are <em>always true</em>, in contrast to the specialized equations in <xref ref="constant-a-lin-eqns"/>, which aren't always true. 
           </p>
-       </introduction>  
+        <p>
+        A note on units: we aren't restricting our consideration to SI units in this subsection in order to motivate a closer connection to everyday life, but we could easily convert to SI units if we knew the appropriate conversion factors (see <xref ref="units"/> for review). For example, we could convert to SI units in <xref ref="grocery-store-trip"/> if given the number of meters in a city block, and we could convert to SI units in <xref ref="more-grocery-store"/> by recalling that one minute equals 60 seconds.   
+        </p>
+      </introduction>  
 
        <subsubsection xml:id="grocery-store-trip">
         <title>Position, Distance, and Displacement</title>
+        <idx><h>position</h></idx>
+        <idx><h>distance</h></idx>
+        <idx><h>displacement</h></idx>
+
+         <p> (SI UNITS: meters, abbreviated as <m>m</m>) </p>
           <p>
             Imagine that you live on the same street as a grocery store, which is 6 blocks east of your home. You leave your home one day to go to this store, but after traveling 2 blocks you realize that you've left your wallet at home, so you turn around to retrieve it. You then travel the 6 blocks to the store. If asked how far you traveled, how would you answer? The two possible answers illustrate our first three  kinematics definitions:
         <ul>
@@ -58,7 +65,6 @@
             <p> 
               <term>Position</term> refers to location in space. (As discussed in <xref ref="precision"/>, position is always measured with respect to an arbitrary reference point.)  
             </p>
-            <p> SI UNITS: meters, abbreviated by <m>m</m> </p>
           </li>
     
           <li> 
@@ -68,8 +74,7 @@
               <p> Using <m>d</m> to represent <em>distance</em>, we can write this definition in equation form:   
                  <men> d = d_{1} + d_{2} + d_{3} + \cdots </men>
             </p> 
-            <p> SI UNITS: meters, abbreviated by <m>m</m> </p> 
-          </li>
+         </li>
           
           <li> 
             <p>
@@ -78,8 +83,7 @@
 
             <p> Using <m>\vec{x}</m> to represent position (and <m>\Delta</m> to represent <q>change</q>), this definition can be written in equation form as:
                    <men> \Delta\vec{x} = \vec{x}_{\text{final}} - \vec{x}_{\text{initial}} </men>
-             </p>
-             <p> SI UNITS: meters, abbreviated by <m>m</m> </p>
+             </p>            
           </li>
         </ul>
       </p>
@@ -150,11 +154,15 @@
 
      <subsubsection xml:id="more-grocery-store">
        <title>Speed and Velocity</title>
+       <idx><h>speed</h></idx>
+       <idx><h>velocity</h></idx>
+
+       <p> (SI UNITS: meters/second, abbreviated as <m>m/s</m>)</p>
           <p>
             To motivate the remaining kinematics defintions, we need to also consider <em>time</em>. Let's imagine it took you 3 minutes to walk the first 2 blocks towards the store, 4 minutes to walk back to your house to retrieve your wallet, and then 8 minutes to walk the 6 blocks to the store. If asked how fast you traveled, how would you answer? The multiple ways to answer that question illustrate important aspects of our next two kinematics definitions, <em>speed</em> and <em>velocity</em>.
           </p>
         <p>
-          First of all, we notice that the time interval under consideration matters alot! Are we concerned with the trip as a whole, or with the various portions of the trip? We'll explore this point more carefully after defining the terms and practicing with the equations, but for now just know that the concept of <q>average</q> (denoted by the subscript ,<q>ave</q> in the subsequent equations) is included to acknowledge that both speed and velocity depend on the time interval. 
+          First of all, we notice that the time interval under consideration matters alot! Are we concerned with the trip as a whole, or with the various portions of the trip? We'll explore this point more carefully after defining the terms and practicing with the equations, but for now just know that the concept of <q>average</q> (denoted by the subscript <q>ave</q> in the subsequent equations) is included to acknowledge that both speed and velocity depend on the time interval. 
           </p> 
         
         <ul>
@@ -162,7 +170,7 @@
             <p>
               <term>Speed</term> is the rate at which distance is covered. 
               </p>
-              <p> Using <m>d</m> to again represent distance, <m>t</m> to represent the time it takes to travel that distance, and <m>s_{\text{ave}}</m> to represent the average speed over that interval, we can write this definition in equation form:   
+                <p> Using <m>d</m> to again represent distance, <m>t</m> to represent the time it takes to travel that distance, and <m>s_{\text{ave}}</m> to represent the average speed over that interval, we can write this definition in equation form:   
                  <men> s_{\text{ave}} = \frac{d}{t} </men>
             Notice that since distance and time are both scalars, speed is also a <em>scalar</em> quantity. 
             </p> 
@@ -174,10 +182,10 @@
             </p>
             <p> Using <m>\Delta\vec{x}</m> to again represent displacement, <m>\Delta t</m> to represent the time interval over which the displacement occurred, and <m>\vec{v}_{\text{ave}}</m> to represent the average velocity over that time interval, this definition can be written in equation form as:
                    <men> \vec{v}_{\text{ave}} = \frac{\Delta\vec{x}}{\Delta t} = \frac{\vec{x}_{\text{final}} - \vec{x}_{\text{initial}}}{t_{\text{final}} - t_{\text{initial}}}  </men>
-             Here, the positions and times are correlated:the initial position is the location of the object at the initial time (which could be zero, if you start your clock when the motion begins), and the final position is the location of the object at the final time (which could only be a step along the entire journey). As we'll see in <xref ref="ex-speed-velocity"/>, often only the displacements and time intervals matter. </p>
-             <p>It's also important to note that since displacement is a vector (and time is a scalar), velocity is also a <em>vector</em> quantity, having both magnitude and direction (see <xref ref="vectors"/>). The direction of the velocity is the same as the direction of the displacement (its magnitude is just <q>scaled</q> by the numerical value of the time interval).  
+             Here, the positions and times are correlated: the initial position is the location of the object at the initial time (which could be zero, if you start your clock when the motion begins), and the final position is the location of the object at the final time (which could only be a step along the entire journey). As we'll see in <xref ref="ex-speed-velocity"/>, often only the displacements and time intervals matter. </p>
+             <p>It's also important to note that since displacement is a vector (and time is a scalar), velocity is also a <em>vector</em> quantity, having both magnitude and direction (see <xref ref="vectors"/>). The direction of the velocity is the same as the direction of the displacement (its magnitude is just <q>scaled</q> by the numerical value of the time interval, as are its units).  
              </p>
-          </li>
+           </li>
         </ul>
     </subsubsection>
 
@@ -222,7 +230,8 @@
             </p>
           </statement>
           <answer>
-            <p> You should be able to work these out on your own by now.  The answers are:
+            <p> You should be able to work these out on your own by now. </p>
+            <p> The answers are:
             Part 1 of trip (2 blocks towards store in 3 minutes):
             <me> s_{\text{ave}_1} = \frac{2\text{blks}}{3\text{mins}} = 0.7\text{bks/min} </me>
             <me>\vec{v}_{\text{ave}_1}= \frac{2\text{blks to the east}}{3\text{mins}} = 0.7\text{bks/min, to the east} </me>
@@ -247,9 +256,9 @@
      <ul>
          <li> 
             <p>
-              <term>Time-averaged values</term> or more simply, <em> average values</em> always depend on the time interval under consideration. 
+              <term>Time-averaged values</term><mdash/> or, more simply, <em> average values</em><mdash/> always depend on the time interval under consideration. 
               </p>
-              <p> GENERAL STATEMENT: The magnitide of the average velocity is equal to the average speed only for the special case of one-dimensional motion in a single direction. 
+              <p> GENERAL STATEMENT: The magnitide of the average velocity is equal to the average speed only for the special case of one-dimensional motion in a single direction (because that's the only case where the magnitude of the displacement is equal to the distance).  
               </p>
               <p> GENERAL STATEMENT: As the time interval under consideration gets smaller, more detailed information emerges. 
             </p> 
@@ -257,63 +266,380 @@
           
           <li> 
             <p>
-              <term>Instantaneous values</term> are when the time interval shrinks down to an instant. (Although mathematically, this requires the concept of a <em>limit</em>, which is beyond the scope of this learning guide, we will soon see that there are often other ways to determine instantaneous values in practice.)    
+              <term>Instantaneous values</term> are when the time interval shrinks down to an instant. (Although mathematically, this requires the concept of a <em>limit</em>, which is beyond the scope of this learning guide, we will soon see that in practice there are often other ways to determine instantaneous values.)    
             </p>
              <p>GENERAL STATEMENT: The magnitude of the instantaneous velocity is <em>always</em> equal to the instantaneous speed.
              </p>
           </li>
         </ul>
-
-        <p>
-        Finally, let's consider what a graph of position vs time can tell us. Recall the equation of a straight line: 
-         <me>y=m \cdot x + b </me>,
-         where <m>y</m> is the dependent variable (plotted along the vertical axis), <m>x</m> is the independent variable (plotted along the horizontal axis), and <m>m</m> is the <em>slope</em> of the line, given by the equation: 
-         <me>m=\frac{\Delta y}{\Delta x}=\frac{y_2 - y_1} {x_2-x_1} </me>.
-         Comparison of the definition of slope to the equation for average velocity,
-         <me>\vec{v}_{\text{ave}} = \frac{\Delta\vec{x}}{\Delta t} = \frac{\vec{x}_{\text{final}} - \vec{x}_{\text{initial}}}{t_{\text{final}} - t_{\text{initial}}} </me>, 
-      we can see that if we plot position vs time, the slope will be the average velocity: the position <m>\vec{x}</m> plays the role of the dependent variable <m>y</m>, the time <m>t</m> plays the role of the independent variable  <m>x</m>, and the average velocity plays the role of the slope, <m>m</m>.
-      </p> 
-      <p>
-       If the velocity is constant, the graph of position vs time will be a straight line, with the instantaneous velocity at each point equal to the value of the average velocity. If the velocity is changing, as will often be the case, we can make use of definition of instantaneous values to realize that the value of the instantaneous velocity at any given time can be found from the slope of curve at that point on the position vs time graph. Graphing motion will be discussed in much more detail at the end of <xref ref="last-grocery-store"/>.    
-      </p>
-                     
-      <p>GENERAL STATEMENT: The slope of a position vs time graph is the velocity. 
-      </p>
         
-      
     <subsubsection xml:id="last-grocery-store">
         <title>Acceleration</title>
+        <idx><h>acceleration</h></idx>
+
+         <p> SI UNITS: (meters/second)/second, abbreviated as <m>m/s^2</m>. </p>
           <p>
           The example of the grocery store trip also motivates our final kinematics definition, as we can see that the velocity (and speed) changed from one part of the trip to another.        
           </p>
-      <p>
-        <term>Acceleration</term> is the rate at which velocity changes. 
-            </p>
-            <p> Using <m>\vec{a}_{\text{ave}}</m> to represent the average acceleration over the time interval <m>\Delta t</m>, this definition can be written in equation form as:
+      <p> <term>Acceleration</term> is the rate at which velocity changes.     
+          </p>         
+          <p> Using <m>\vec{a}_{\text{ave}}</m> to represent the average acceleration over the time interval <m>\Delta t</m>, this definition can be written in equation form as:
                   <men> \vec{a}_{\text{ave}} = \frac{\Delta\vec{v}}{\Delta t} = \frac{\vec{v}_{\text{final}} - \vec{v}_{\text{initial}}}{t_{\text{final}} - t_{\text{initial}}}  </men>
-             Here, too, the velocities and times are correlated:the initial velocity is the velocity of the object at the initial time (which could be zero, if you start your clock when the motion begins), and the final velocity is the location of the object at the final time (which could only be a step along the entire journey). 
+             Here, too, the (instantaneous) velocities and times are correlated: the initial velocity is the velocity of the object at the initial time (which could be zero, if you start your clock when the motion begins), and the final velocity is the location of the object at the final time (which could only be a step along the entire journey). 
              </p>
-             <p>
-             The same distinctions hold for average and instantaneous accelerations (as well as for many other dynamics quantities in Part 1 of this learning guide).
-             </p>  
-             <p>
-             We can also note that since velocity is a vector, acceleration is a vector quantity having the same direction as the <em>change in velocity</em> vector.
-             
-               happens when the magnitude or direction of the velocity changes.
-             </p>  
-     </subsubsection>      
+
+      <exercise xml:id="ex-acceleration">
+        <introduction>
+          <p> Let's pause here for a moment to explore the kinematics definition of acceleration.    
+            </p>
+        </introduction>
+
+        <task>
+          <statement>
+              <p>
+                Where were the places of acceleration in the grocery store trip?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                Acceleration <em>definitely</em> occured during two time intervals of the trip: the transition period from Part 1 to Part 2 and the transition period from Part 2 to Part 3; both the magnitude and the direction of the velocity changed during each of these transition periods. Without knowing the amount of time for each change to occur, however, the numerical value of the acceleration cannot be determined.
+              </p>
+              <p>
+                NOTE: There may have also been periods of acceleration within each part of the trip. (For example, compare the two "Grocery Store Trip" graphs in <xref ref="graphing-motion"/>.) The consistency of motion is sometimes stated explicitly, while other times it's implicit in the problem's statement. It's crucial to consider the consistency of motion before attempting to use the special-case equations in <xref ref="constant-a-lin-eqns"/>.  
+              </p>
+          </answer>
+        </task>
+
+      <task>
+         <statement>
+            <p>
+              How can acceleration affect an object's state of motion? (HINT: three different physical changes are possible.)
+            </p>
+        </statement>
+        <answer>
+            <p> 
+              The object can speed up, slow down, or change direction. We can calculate changes in magnitude directly from the equation for acceleration, and we can employ graphical methods to that equation to determine the acceleration resulting from changes in direction. (See <xref ref="vectors"/> as a reminder of the background upon which <xref ref="figure-car-on-curve"/> and <xref ref="figure-acceleration-cases"/> both rely.)     
+            </p> 
+        </answer>
+       </task>
+     </exercise>   
+
+       <p>
+             Returning now to the definition of acceleration, we also note that since velocity is a vector, acceleration is a vector quantity having the same direction as the <em>change in velocity</em> vector (just scaled by the time interval). Acceleration happens when the magnitude and/or direction of the velocity changes. See <xref ref="figure-car-on-curve"/>  for a specific example and <xref ref="figure-acceleration-cases"/> for the other generic possibilities.
+       </p>  
+
+      <figure width="80%" xml:id="figure-car-on-curve">
+           <title>Acceleration of car rounding a curve</title>
+           <caption>Acceleration of a car rounding a curve at constant speed. Left:top view diagram of the physical situation, with the instantaneous velocity vectors at two points labeled. Right: analysis of the <em>change in velocity</em> vector, consistent with <m>\vec{v}_1+\Delta \vec{v} = \vec{v}_2 </m>. This <m>\Delta \vec{v} </m> vector is also shown on the top view diagram at left, along with the average acceleration vector over the time interval associated with the car's motion from point 1 to point 2. </caption>
+        <image source="car.on.curve.PNG" width="80%"> 
+          <description>Acceleration of a car rounding a curve. Left: top view of the physical situation, with the instantaneous velocity vecotrs at points 1 and 2 labeled; Right:  analysis of change in velocity vector, consistent with <m>\vec{v}_1+\Delta \vec{v} = \vec{v}_2 </m>. </description>
+        </image> 
+     </figure>
+      
+    <figure width="80%" xml:id="figure-acceleration-cases">
+      <title>Vector depiction of acceleration</title>
+        <caption>Vector depiction of acceleration. Four cases are shown, each consistent with <m>\vec{v}_1+\Delta \vec{v} = \vec{v}_2 </m>: Top two cases show changing magnitude only; Third case shows changing direction only; Bottom shows changing both magnitude and direction. </caption>
+      <image source="acceleration.vectors.PNG" width="80%"> 
+      <description>Vector depiction of acceleration. Four cases are shown, each consistent with <m>\vec{v}_1+\Delta \vec{v} = \vec{v}_2 </m>: Top two cases show changing magnitude only; Third case shows changing direction only; Bottom shows changing both magnitude and direction. </description>
+      </image> 
+    </figure>
+
+      <p>
+       We can glean the physical meaning of acceleration from <xref ref="figure-acceleration-cases"/>. The following GENERAL RULES hold:
+        <ul>
+          <li><title> Speeding up </title>
+            <p>When the acceleration is in the same direction as the original velocity, the object speeds up; this is shown by the final velocity vector being larger than the original velocity vector (by the amount <m>\Delta \vec{v} </m>).    
+            </p>
+          </li>
+          <li><title> Slowing down </title>
+            <p>When the acceleration is in the opposite direction as the original velocity, the object slows down; this is shown by the final velocity vector being smaller than the original velocity vector (by the amount <m>\Delta\vec{v} </m>).    
+            </p>
+          </li>
+          <li><title> Changing direction </title> 
+          <p> When the acceleration is perpendicular to the direction of the original velocity, the object changes direction only; this is shown by the final velocity vector being the same size as the original velocity vector.    
+          </p>
+          </li>
+          <li> <title>Other possibilities</title>
+          <p> When the acceleration is at any other angle with respect to the direction of the original velocity, the object's final velocity will change in both magnitude and direction.
+          </p>
+          </li> 
+       </ul>
+      </p> 
+         
+        <p>
+             Note also that the same distinctions hold for average and instantaneous accelerations (as well as for many other dynamics quantities in Part 1 of this learning guide). For example, as the two points in <xref ref ="figure-car-on-curve"/> become closer to one another, the time interval shrinks, and the average acceleration approaches an instantaneous value.    
+             </p> 
+  </subsubsection>
+
+  <exercise xml:id="kin-num-practice">
+  <introduction>
+    <p>
+      Let's now explore a few additional kinematics examples to get more practice with these basic definitions and equations.   
+    </p>
+  </introduction>
+    <task>
+         <statement>
+            <p>
+              If you travel at 60 mph for one hour, how far do you travel?
+            </p>
+        </statement>
+        <answer>
+            <p> 
+              This first question is intended to be simple enough for you to get the answer from your everyday experience. However, we can connect this question with our kinematics discussion by recognizing that <q>60 mph</q> is a rate of covering distance, or a <em>speed</em>. We can therefore use the definition of speed, <m> s=\frac{d}{t}</m>. Since we're given both the speed and the time, we can easily rearrange the speed equation<mdash/> i.e, by multiplying both sides of the equation by <m>t</m><mdash/> to solve for <m>d</m>:  
+            <me>d=s \cdot t = (60 \text{mph})(1 \text{hour})= \frac{60 \text{miles}}{1 \text{hour}}\cdot 1 \text{hour} = 60 miles</me>
+            </p>
+            <p> Note that the same approach would apply for any time period, such as 8 minutes, though some conversation of units would be necessary. We could choose to either convert 60mph into <q>miles per minute</q> or convert the 8 minutes into hours (or convert miles into meters and both hours and minutes into seconds if we wanted to report the answer in SI units). Let's do the simplest calculation possible:
+            <me>d=s \cdot t = (60 \text{mph})(8 \text{minutes})= \frac{60 \text{miles}}{60 \text{minutes}}\cdot 8 \text{minutes} = 8 miles</me>
+            </p>
+        </answer>
+    </task>
+    <task>
+         <statement>
+            <p>
+              A bird can fly 25 kilometers per hour (25 km/h). How long does it take to fly 15 km?
+            </p>
+        </statement>
+        <answer>
+            <p> 
+              We can connect this question with our kinematics discussion by recognizing that <q>25 km/h</q> is a speed. We can therefore use the definition of speed (<m> s=\frac{d}{t}</m>) again. However, in this case we are given the speed and the distance traveled, so we need to rearrange the speed equation to solve for the time. (We can do so by multiplying both sides by <m>t</m> and then dividing both sides by <m>s</m>.) 
+            <me>t= \frac{d}{s} = \frac{15 \text{km}}{25 \text{km/h}}= \frac{15 \text{km}}{25 \text{km/h}} = .60 \text{h}</me>.
+            Notice that we could convert the time into minutes (more practical) or seconds (if we wanted to report the answer in SI units):
+            <me> .60 \text{h} = (.60 \text{h})\cdot \frac{60 \text{min}}{1 \text{h}}=36 \text{min} </me>
+            or
+            <me>.60 \text{h}= (.60 \text{h})\cdot \frac{3600 \text{sec}}{1 \text{h}}=2200\text{s} </me>
+          </p>   
+        </answer>
+    </task>
+    <task>
+      <statement>
+        <p>
+          A car advertisement states that a car can acceleration from rest to 60 mph in 6.0 seconds. What is the magnitude of its average acceleration over this time interval?
+        </p>
+      </statement>
+      <answer>
+        <p> To solve this problem, we need to first recognize that both "rest" and "60 mph" represent instantaneous speeds and recall that the magnitude of the instantaneous velocity is the instantanteous speed. We can then use the definition of average acceleration to find the answer:
+        <me> \vec{a}_{\text{ave}} = \frac{\Delta\vec{v}}{\Delta t} =\frac {60 \text{mph}}{6.0 \text{seconds}} = \frac {10 \text{mph}}{s} </me>
+        We notice that this answer has mixed units, but we can still interpret that physically, this indicates that the car's speed increases by 10 mph for every second of travel. If desired, we could convert to standard US Customary units (since a mile is equal to 5280 ft and an hour is equal to 3600 seconds) or SI units (since a mile is equal to 1.609 kilometers). You're encouraged to do both; the answers are provided below so that you can check your work.
+        <me> \frac{10 \text{mph}}{s} = \frac {10 mi}{hr \cdot s} = 15 ft/s^2 = 4.5 m/s^2</me>
+        </p>
+      </answer>
+    </task>
+  </exercise>
+
+  <subsubsection xml:id="graphing-motion">
+  <title>Kinematics Graphs</title>
+  <idx><h>kinematics graphs</h></idx>
+
+  <p> To motivate this discussion, let's return to the example of the grocery store trip from <xref ref="grocery-store-trip"/>. A graph of the motion previously described is shown in <xref ref="figure-grocery-graph"/> below. 
+  </p>
+<figure width="85%" xml:id="figure-grocery-graph">
+      <title>Graph of Grocery Store Trip</title>
+        <caption> Graph of grocery store trip. Left: position vs time graph of grocery store trip, plotted directly from data; Right: same graph with overlay of total displacement for entire trip.</caption>
+      <sidebyside widths="42% 42%" margins="auto" valign="bottom">
+         <image source="graph.grocery.plain.PNG">
+         <description> Position vs time graph of grocery store trip, plotted directly from data.</description> 
+          </image> 
+         <image source="graph.grocery.ave.PNG">
+             <description> Same graph with overlay of total displacement for entire trip.</description>    
+         </image>
+      </sidebyside>       
+     </figure>
+
+  <p>There are several things to notice from the graphs above:
+  <ul>
+    <li>
+      <p>
+        The <em>direction</em> of the motion is evident from the slope of the postion graph: the slope is positive when moving towards the store and negative when moving away.  
+      </p>
+    </li>
+    <li>
+      <p>
+        The <em>speed</em> of the motion is also related to the slope of the position graph: a slope of larger magnitude indicates higher speed. (For example, compare the slope of the first part of the trip to the slope of the last part, and relate to the results cited in <xref ref="ex-speed-velocity "/>.)     
+      </p>
+    </li>
+    <li>
+      <p>
+        We can use the graphs above to visualize our previous observation that the time interval determines the value of average velocity. For example, compare the slope of the each part of the trip to the slope of the overall trip (the red line shown in the above graph at right), and relate to the results cited in <xref ref="ex-speed-velocity "/>.)     
+      </p>
+    </li>
+    <li>
+      <p>
+        The graphs above are both unrealistic at the turning-around points, as the graphs show zero time needed to make those changes. More realistic graphs of the trip are shown below.       
+      </p>
+    </li>
+  </ul>
+  </p>
+
+<p> </p>
+<figure width="85%" xml:id="figure-real-grocery-graphs">
+      <title>More Realistic Graphs of Grocery Store Trip</title>
+        <caption>More realistic graphs of grocery store trip. Left: graph shows smooth transistions between various parts of the trip; Right: graph shows more details of the motion during each part of the trip.</caption>
+      <sidebyside widths="42% 42%" margins="auto" valign="bottom">
+         <image source="graph.grocery.real.total.PNG">
+         <description>More realistic graph of grocery store trip, showing smooth transistions between various parts of the trip.</description> 
+          </image> 
+         <image source="graph.grocery.more.real.B.PNG">
+             <description>Even more realistic graph showing more details of the motion during each part of the trip.</description>    
+         </image>
+      </sidebyside>       
+    </figure>
+  
+  <p>
+        Let's consider what a graph of position vs time can tell us in general terms. Recall the equation of a straight line: 
+         <me>y=m \cdot x + b </me>
+         where <m>y</m> is the dependent variable (plotted along the vertical axis), <m>x</m> is the independent variable (plotted along the horizontal axis), <m>b</m> is the "y-intercept" (the value of <m>y</m> when <m>x=0</m>), and <m>m</m> is the <em>slope</em> of the line, given by the equation: 
+         <me>m=\frac{\text{rise}}{\text{run}}=\frac{\Delta y}{\Delta x}=\frac{y_2 - y_1} {x_2-x_1} </me>.
+         Comparing the definition of slope to the equation for average velocity,
+         <me>\vec{v}_{\text{ave}} = \frac{\Delta\vec{x}}{\Delta t} = \frac{\vec{x}_{\text{final}} - \vec{x}_{\text{initial}}}{t_{\text{final}} - t_{\text{initial}}} </me>, 
+      we can see that if we plot position vs time, the slope will be the average velocity: the position <m>\vec{x}</m> plays the role of the dependent variable <m>y</m>, the time <m>t</m> plays the role of the independent variable  <m>x</m>, and <m>\vec{v}_{\text{ave}}</m> plays the role of the slope, <m>m</m>.
+      </p> 
+      <p>
+       If the velocity is constant, the graph of position vs time will have a constant slope (in other words, it will be a straight line), with the instantaneous velocity at each point equal to the value of the average velocity. If the velocity is changing, as will often be the case, we can make use of definition of instantaneous values to realize that the value of the instantaneous velocity at any given time can be found from the slope of curve at that point on the position vs time graph.    
+      </p>
+    <p>GENERAL STATEMENT: The slope at any point of a position vs time graph is the (instantaneous) velocity at that point. 
+      </p>
+    <p>
+       Similarly, if we consider a graph of velocity vs time, we find that its slope is given by the equation for average acceleration, as given in <xref ref="last-grocery-store"/>:  
+         <me>\text{slope} =\frac{\text{rise}}{\text{run}} =\frac{\Delta\vec{v}}{\Delta t} = \frac{\vec{v}_{\text{final}} - \vec{v}_{\text{initial}}}{t_{\text{final}} - t_{\text{initial}}} = \vec{a}_{\text{ave}} </me>. 
+       So we see that if we plot velocity vs time, the slope will be the average acceleration: the (instantaneous) velocity <m>\vec{v}</m> plays the role of the dependent variable <m>y</m>, the time <m>t</m> plays the role of the independent variable  <m>x</m>, and <m>\vec{a}_{\text{ave}}</m> plays the role of the slope, <m>m</m>.
+      </p> 
+    <p>
+       If the acceleration is constant (as will be the case in <xref ref="constant-a-lin-eqns"/>), the graph of velocity vs time will be a straight line, with the instantaneous acceleration at each point equal to the value of the average acceleration. If the acceleration is changing, as is often the case in real life, we can make use of definition of instantaneous values to realize that the value of the instantaneous acceleration at any given time can be found from the slope of curve at that point on the velocity vs time graph.    
+      </p>
+      <p>GENERAL STATEMENT: The slope at any point of a velocity vs time graph is the (instantaneous) acceleration at that point. 
+      </p>  
+     </subsubsection>
+
+    <exercise xml:id="ex-motion-graphs">
+     <introduction>
+    <p>
+      Before continuing, let's practice reading motion graphs.   
+    </p>
+  </introduction>
+      <task>
+        <statement>
+          <p>
+            What's the same and what's different about the two graphs below?  Justify your response with a calculation.
+          </p>
+        <image source="graph.vel.dir.PNG" width="60%">
+          <description>Two position graphs, with the same origins and scaling; both objects travel 60 miles in 30 minutes, but Graph (A) begins at 0 miles and ends at 60 miles, while Graph (B) begins at 60 miles and ends at 0 miles.</description>
+          </image>
+        </statement>
+        <answer>
+          <p>
+            The graphs show objects that travel at the same speed but in opposite directions. We can use the equation for average velocity to see this mathematically. Assuming "away from origin" is chosen as the positive direction: 
+          </p>
+           <me>\vec{v}_{\text{ave,A}} = \frac{\Delta\vec{x}}{\Delta t} = \frac{60{\text{miles} - 0\text{miles}}}{{30\text{minutes} - 0\text{minutes}}}=\frac{30\text{mi}}{30\text{min}}=2.0 \frac{\text{mi}}{\text{min}}</me> 
+          <me>\vec{v}_{\text{ave,B}} = \frac{\Delta\vec{x}}{\Delta t} = \frac{0{\text{miles} - 60\text{miles}}}{{30\text{minutes}} - 0\text{minutes}}= \frac{60\text{mi}}{30\text{min}} =-2.0 \frac{\text{mi}}{\text{min}}</me>
+          <p>
+            Note that the negative sign of <m>\vec{v}_{\text{ave,B}}</m> indicates that the object is moving towards the origin. 
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p> Which of the graphs below shows an object moving with the larger average speed? Justify your answer with a calculation. 
+          </p>
+          <image source="graph.speed.mag.PNG" width="60%">
+          <description>Two position graphs, with the same origins and scaling; both objects begin at with an initial position of 0 miles and travel for 30 minutes. Graph (A) shows a final position of 30 miles, while Graph (B) shows a final position of 60 miles.</description>
+          </image>
+        </statement>
+        <answer>
+          <p>
+            The object in Graph (B) is moving faster, as seen immediately by the larger slope of its position graph. Mathematical justification: Both objects begin with an initial position of 0 miles and travel for 30 minutes. Graph (A) shows a final position of 30 miles, while Graph (B) shows a final position of 60 miles. We could calculate each speed from the equation for speed, but since these graphs both show 1D motion in a single direction, we know that the magnitude of the average velocity is the same as the average speed. So we can simply use the equation for average velocity again but without the vector signs:  
+          </p>
+          <me>v_{\text{ave,A}} = \frac{\Delta x}{\Delta t} = \frac{30{\text{miles} - 0\text{miles}}}{{30\text{minutes} - 0\text{minutes}}}=\frac{30\text{mi}}{30\text{min}}=1.0 \frac{\text{mi}}{\text{min}}</me> 
+          <me>v_{\text{ave,B}} = \frac{\Delta x}{\Delta t} = \frac{60{\text{miles} - 0\text{miles}}}{{30\text{minutes}} - 0\text{minutes}}= \frac{60\text{mi}}{30\text{min}} =2.0 \frac{\text{mi}}{\text{min}}</me>
+        </answer>
+      </task>
+      <task>
+      <statement>
+      <p> Which of the graphs below shows an object moving with the larger average speed? Justify your answer with a calculation. 
+          </p>
+          <image source="graph.speed.ave.PNG" width="60%">
+          <description>Two position graphs, with the same origins and scaling; both objects begin at position "zero" and travel for 30 minutes. Both graphs show a final position of 60 miles; the difference is that Graph (A) isn't linear while Graph (B) is. </description>
+          </image>
+        </statement>
+        <answer>
+          <p>
+            These two graphs indicate the <em>same average velocity</em> (and hence the same average speed over the time interval shown), because both objects have the same initial and final positions and travel for the same amount of time. Mathematical justification: Both objects change position by the same amount (60 miles) and travel for the same amount of time (30 minutes). We can again calculate each speed by considering only the magnitude of velocity:  
+          </p>
+          <me>v_{\text{ave,A}} = \frac{\Delta x}{\Delta t} = \frac{60{\text{miles} - 0\text{miles}}}{{30\text{minutes} - 0\text{minutes}}}=\frac{60\text{mi}}{30\text{min}}=2.0 \frac{\text{mi}}{\text{min}}</me> 
+          <me> v_{\text{ave,B}} = \frac{\Delta x}{\Delta t} = \frac{60{\text{miles} - 0\text{miles}}}{{30\text{minutes}} - 0\text{minutes}}= \frac{60\text{mi}}{30\text{min}} =2.0 \frac{\text{mi}}{\text{min}}</me>
+          <p> Here again, we see that the time interval under consideration affects the average velocity (and thus, average speed). Since the slope of Graph (B) is constant, the object travels at the same velocity the entire time. In contrast, the changing slope of Graph (A) shows that its velocity isn't constant the entire time: the object travels fastest for the first 10 minutes, is stationary for the next 10 minutes, and then continues in the same direction but at a slower speed for the last 10 minutes. 
+          </p>  
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            In the previous example, which object experienced acceleration? 
+          </p>
+        </statement>
+         <answer>
+          <p>
+           Graph (A) shows 2 places of acceleration, because the velocity of the object changed twice: it slowed down at the 10 minute mark and it sped up at 20 minute mark. Although all three instantaneous velocities can be determined from this graph (make sure you know how to do this), we notice that the acceleration can't be calculated from this idealized graph since it indicates that the changes happened instantly (time interval is zero). 
+           </p>
+         </answer>
+      </task>
+    </exercise>      
     </subsection>
       
-     
-
     <subsection xml:id="constant-a-lin-eqns">
+       <idx><h>constant acceleration</h></idx>
+        <idx><h>free fall</h></idx>
       <title>Special case: Motion with Constant (Translational) Acceleration </title> 
        <introduction>
         <p>
-          The equations in this subsection are only true for the <em>special case of constant acceleration</em>. Constant acceleration is a special case of motion, so take care to ask yourself whether the motion of interest is under constant acceleration <em>before</em> you try to use these equations. That said, constant acceleration is somewhat common in nature; for example, objects falling only under the influence of gravity (without air resistance) undergo constant acceleration. Furthermore, there are numerous examples of motion that can be approximated as constant acceleration, such as speeding up or slowing down at a relatively constant rate while walking or driving a car. 
+          The equations in this subsection are only true for the <em>special case of constant acceleration</em>. Constant acceleration is a subset of all possible motions, so be sure to ask yourself whether the motion of interest is undergoing constant acceleration <em>before</em> you try to use these equations. That said, constant acceleration is somewhat common in nature; for example, objects falling only under the influence of gravity (without air resistance) undergo constant acceleration, and we'll encounter some other examples beginning in <xref ref="dynamics"/>. Furthermore, there are numerous examples of motion that can be <em>approximated</em> as constant acceleration, such as speeding up or slowing down at a relatively constant rate while walking or driving a car. 
         </p>      
        </introduction>
-     
+
+       <paragraphs>
+        <title>Free Fall</title>    
+       <p>
+        <term> Free fall </term> refers to an object falling under the influence of gravity, with without air resistance or any other forces acting upon it. If we were to measure the position and velocity of an object in free fall, its motion would appear as shown in <xref ref="figure-free-fall"/> below. 
+       </p>
+
+      </paragraphs>
+
+    <figure width="80%" xml:id="figure-free-fall">
+      <title>Object in Free Fall</title>
+        <caption> Snapshots at five position-time pairs are shown, with position labeled to the left of each snapshot and time labeled to the right. The topmost snapshot shows the object at zero position and time, and subsequent snapshots show the object's position and time later in its journey, as measured relative to its beginning point. (Note that position is reported as <em>positive</em> in the <em>downward </em> direction in this case.) The far right column shows velocity magnitudes (reported to one significant figure), which could be measured by attaching a speedometer to the object. </caption>
+      <image source="free.fall.PNG" width="60%"> 
+      <description> Image shows increasingly larger distances fallen in successive seconds and velocity values increasing by the same amount in successive seconds. </description>
+      </image> 
+    </figure>
+
+    <p>
+      There are several important notes from <xref ref="figure-free-fall"/>:
+      <ul>
+        <li>
+          <p>
+            The object falls successively larger distances in one second as it falls. 
+          </p>
+        </li>
+        <li>
+          <p>
+            The speed of the object increases at a uniform rate as it falls.
+          </p>
+        </li>
+      </ul> 
+    Note that only an extremely compact, heavy object could fall <m>80 m</m> with negligible air resistance (see also <xref ref="dynamics"/>) in everyday life, but this somewhat idealized figure illustrates the second point very clearly. If we determine <m>\Delta \vec{v}</m> for each time interval shown, we see clearly that the velocity increases by <m>10 m/s</m> for each second the object falls. In other words, we can calculate the magnitude of the <em>acceleration</em> for any of the time intervals shown as    
+    <me> a_{\text{ave}} = \frac{\Delta v}{\Delta t} =\frac {10 \text{m/s}}{1 \text{s}} = 10 m/s^2</me>.
+    The direction of the acceleration due to gravity is always downward, towards the center of the earth, and it's generally denoted by <m>\vec{a}_{\text{g}}</m> or simply <m>\vec{g}</m>. The magnitude of <m>\vec{g}</m> varies slightly at different locations on earth, but to two significant figures, it's <m>9.8 m/s^2 </m>. You can look up its precise value at your location to keep the significant figures of <m>\vec{g}</m> from limiting the precision of your results in subsequent calculations; in most of the United States, it's between <m>9.79 m/s^2</m> and <m>9.81 m/s^2</m>.
+    </p>
+    <p></p> 
+    <p>
+    GENERAL STATEMENT: The acceleration due to gravity is given by:
+    <me> \vec{a}_{\text{g}} =\vec{g} = 9.8 m/s^2 </me>.
+    </p>
+    <p></p>
+    <p>
+
+    </p>   
+
+
 
     </subsection>
     </section>
@@ -321,6 +647,15 @@
     <section xml:id="rot-kin">
       <title>Rotational Kinematics</title>
       <p>Hello</p>
+
+  <!--
+  <quantity>
+    <mag>20.7</mag>
+    <unit prefix="kilo" base="gram" />
+    <unit base="meter" />
+    <per  base="second" exp="2" />
+</quantity>
+-->
     </section>
 
     <section xml:id="combo-kin">
@@ -334,66 +669,33 @@
     </section>
 
 </chapter>
-<!--<exercises xml:id="exercises-">
+
+<!--<exercises xml:id="exercises-kinematics">
             
-         <exercisegroup xml:id="grocery-trip-x">
-          <title>Kinematics definitions applied to grocery store trip</title> 
+         <exercisegroup xml:id="ex-lin-kin">
              <introduction>
-            <p> Let's use the example of the grocery store trip to explore these initial kinematics definitions. 
+            <p>  
             </p>
           </introduction>
 
           <exercise>
           <statement>
-              <p>
-                What two choices of <em>zero</em> position are most logical?
+              <p> 
               </p>
             </statement>
             <answer>
               <p>
-                Choosing <em>zero</em> position at either your home or the store would simplify the math.
               </p>
             </answer>
           </exercise>
             
           <exercise>
           <statement>
-            <p>
-              What <em>distance</em> did you travel?
+            <p> 
             </p>
           </statement>
-          <answer>
-            <p>
-              You traveled a distance of 10 blocks: 2 blocks towards the store, then 2 blocks to go back home to retrive your wallet, then the final 6 blocks to the store. In equation form, we can use <em>d</em> to represent <em>distance</em> and write 
-            </p>
-            <p> <m>d = 2 bks + 2 bks + 6 bks = 10 bks</m> </p>
-          </answer>
          </exercise>
 
-        <exercise>
-          <statement>
-            <p>
-              What was your <em>displacement</em>?
-            </p>
-          </statement>
-          <answer>
-            <p>
-              Your displacement was 6 blocks to the east. (Don't forget that <em>direction</em> is part of the answer for any vector!) Let's calculate the displacement for each of the two most logical choices of <em>zero</em> position to confirm that we get the same result: 
-            </p> 
-            <p>
-              <ul>
-                <li> Choose <em>zero</em> position at your home:
-                  <p> In this case, the initial position is 0 blocks and the final position is 6 blocks to the east, so displacement (delta x) is given by:
-                  </p> 
-                </li>
-                <li> Choose <em>zero</em> position at the store:
-                  <p> In this case, the initial position is 6 blocks to the west (or <em>negative east</em>) and the final position is 0 blocks, so displacement (delta x) is given by:
-                  </p> 
-                </li>
-              </ul>
-            </p>
-          </answer>
-        </exercise> 
       </exercisegroup> 
      </exercises>
      -->

@@ -306,16 +306,29 @@
         <em>When adding vector quantities, direction must be accounted for.</em>
       </p>
   
-      <p>FIGURE of pushing on a box</p>
-  
+      <figure width="80%" xml:id="figure-vector-intro">
+      <title>Example of vector nature</title>
+        <caption>Two people pulling on a box. Three cases are shown: Left: pulling in same direction; Center: pulling in opposite directions; Right: pulling at an angle.</caption>
+         <image source="vectors.PNG" width="80%"> 
+      <description>Three cases are shown: Left: pulling in same direction; center: pulling in opposite directions; right: pulling at an angle. </description>
+      </image> 
+      </figure>
+
       <p>
-        In one-dimension (1D) such as the first two examples in <xref provisional="figure-vector-intro" />, we can simply use positive and negative signs to account for the direction of each vector. However, things get a bit more complicated in 2 or 3 dimensions, as seen in the third example in <xref provisional="figure-vector-intro" />. Analytical methods for combining vectors require trigonometry and are thus beyond the scope of this learning guide. However, we can glean both quantitative and qualitative information about combining vectors using a visual method called <q>tip<ndash />to<ndash />tail vector addition</q>. Basically, the tail of the second vector is drawn at the tip of the first vector, and the combination<mdash />called the <em>resultant</em><mdash /> is drawn from the tip of the first vector to the tail of the second, as shown below. Note that this can be done as a quick sketch, drawing the vectors approximately to scale and oriented in approximate directions for a qualitative understanding of the physical situation, or by using a ruler and protractor to draw more accurately and then measuring the length and angle of the resultant vector to give a quantitative value (the latter is sometimes called the <q>graphical method</q> of vector addition). In either case, a reasonable way to double-check your work is to do the same process in the reverse order, forming a parallelogram as shown on the right side of the figure below.
+        In one-dimension (1D), such as the first two examples in <xref ref="figure-vector-intro"/>, we can simply use positive and negative signs to account for the direction of each vector. We thus see that pulls would add for the left case and subtract for the center case. However, things get a bit more complicated in 2 or 3 dimensions, as seen in the third example in <xref ref="figure-vector-intro" />. Analytical methods for combining vectors require trigonometry and are thus beyond the scope of this learning guide. However, we can glean both quantitative and qualitative information about combining vectors using a visual method called <q>tip<ndash />to<ndash />tail vector addition</q>. Basically, the tail of the second vector is drawn at the tip of the first vector, and the combination<mdash />called the <em>resultant</em><mdash /> is drawn from the tip of the first vector to the tail of the second, as shown in <xref ref ="figure-vector-addition" />. Note that this can be done as a quick sketch, drawing the vectors approximately to scale and oriented in approximate directions for a qualitative understanding of the physical situation, or by using a ruler and protractor to draw more accurately and then measuring the length and angle of the resultant vector to give a quantitative value (the latter is sometimes called the <q>graphical method</q> of vector addition). In either case, a reasonable way to double-check your work is to do the same process in the reverse order, forming a parallelogram (or rectangle in the case shown on the right side of the figure below.
       </p>
   
-      <p>FIGURE of vector addition for 3rd case above, including parallelogram method.</p>
-  
+      <figure width="80%" xml:id="figure-vector-addition">
+      <title>Example of vector addition</title>
+        <caption>Graphical method of adding vectors. Left: Two people pulling on a box at an angle; Center: addition of the two pulls (<m>V_1 + V_2 = R </m>); Right: double-check using parallelogram method (<m>V_2 + V_1 = R </m>).</caption>
+         <image source="vector.addition.PNG" width="80%"> 
+      <description> Left: Two people pulling on a box at an angle; center: addition of the two pulls (<m>V_1 + V_2 = R </m>); right: double-check using parallelogram method (<m>V_2 + V_1 = R </m>). </description>
+      </image> 
+      </figure>
+    <p> </p>
+      
       <p>
-        The PhET simulation below is provided to enhance your understanding of combining vectors.
+        The <em> Adding Vectors</em> PhET simulation below is provided to enhance your understanding of combining vectors.
         As you explore this PhET, please consider the following hints and suggestions: 
         <ul>
           <li>

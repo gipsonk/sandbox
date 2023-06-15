@@ -821,25 +821,114 @@ Finally, we can eliminate <m>t</m> between the two preceding equations to obtain
 </exercise>
 
 </subsection> 
-<p> The equations in this section are summarized below for easy reference, and to guide our thinking in the next section. 
+<p></p>
+<p></p>
+<p> The equations from this entire section are summarized below for easy reference, and to guide our thinking in <xref ref="rot-kin"/>. 
 </p>
 
-<paragraphs>
-  <title>Kinematics definitions</title>
-  
-</paragraphs>
+  <table xml:id="table-defns-lin-kin">
+  <title>Translational Kinematics Definitions</title>
+  <tabular top="major">
+    <col />
+    <col width="30%"/>
+    <col width="30%" />
+    <col width="20%" />
+    <row valign="top" bottom="medium">
+      <cell>Quantity</cell>
+      <cell>Definition</cell>
+    </row>
+    <row valign="top" bottom="minor">
+      <cell>displacement </cell>
+      <cell><m>\Delta \vec{x}=\vec{x}_{\text{final}}-\vec{x}_{\text{initial}} </m></cell>
+    </row>
+    <row valign="top" bottom="minor">
+      <cell>velocity</cell>
+      <cell><m>\vec{v}_{\text{ave}}=\frac{\Delta \vec{x}}{\Delta t}</m></cell>
+    </row>
+    <row valign="top" bottom="major">
+      <cell>acceleration</cell>
+      <cell><m>\vec{a}_{\text{ave}}=\frac{\Delta \vec{v}}{\Delta t}</m></cell>
+    </row>
+  </tabular>
+  </table> 
 
-<paragraphs>
-  <title>Special case equations for constant acceleration</title>
-  
-</paragraphs>
-
-
+<table xml:id="table-eqns-const-lin-a">
+  <title>Special equations for constant (translational) acceleration</title>
+  <tabular top="major">
+    <col />
+    <col width="40%" />
+    <col width="25%" />
+    <row valign="top" bottom="medium">
+      <cell>Usefulness</cell>
+      <cell>Special-case Equation</cell>
+    </row>
+    <row valign="top" bottom="minor">
+      <cell>average velocity eqn </cell>
+      <cell><m>\vec{v}_{\text{ave}}=\frac{ \vec{v}_{\text{initial}} + \vec{v}_{\text{final}} }{2}  </m></cell>
+    </row>
+    <row valign="top" bottom="minor">
+      <cell>velocity eqn</cell>
+      <cell><m>\vec{v}_{\text{final}}= \vec{v}_{\text{initial}} + \vec{a}\cdot t </m></cell>
+    </row>
+    <row valign="top" bottom="minor">
+      <cell>displacement eqn</cell>
+      <cell><m>\Delta \vec{x} = \vec{v}_{\text{initial}}\cdot t + \frac{1}{2} \vec{a}\cdot t^2 </m></cell>
+    </row>
+    <row valign="top" bottom="major">
+      <cell>"braking distance" eqn</cell>
+      <cell><m>\vec{v}_{\text{final}}^2= \vec{v}_{\text{initial}}^2 + 2 \vec{a}\cdot \Delta\vec{x}</m></cell>
+    </row>
+  </tabular>
+  </table> 
 </section>
 
     <section xml:id="rot-kin">
       <title>Rotational Kinematics</title>
-      <p>Hello</p>
+      <p>In addition to moving through space, </p>
+
+        <table xml:id="table-compare-kin-lin-ang">
+  <title>Comparison of Translational and Rotational Kinematics</title>
+  <tabular top="major">
+    <col />
+    <col />
+    <col width="40%" />
+    <col width="25%" />
+    <row valign="top" bottom="medium">
+      <cell>Quantity</cell>
+      <cell>Translation</cell>
+      <cell>Rotation</cell>
+      <cell>Connection</cell>
+    </row>
+    <row valign="top" bottom="minor">
+      <cell>displacement </cell>
+      <cell><m>\Delta \vec{x}=\vec{x}_{\text{f}}-\vec{x}_{\text{i}} </m></cell>
+      <cell><m>\Delta \vec{\theta}=\vec{\theta}_{\text{f}}-\vec{\theta}_{\text{i}}</m></cell>
+      <cell><m>x=r\cdot \theta</m></cell>
+    </row>
+    <row valign="top" bottom="minor">
+      <cell>velocity</cell>
+      <cell><m>\vec{v}_{\text{ave}}=\frac{\Delta \vec{x}}{\Delta t}</m></cell>
+      <cell>
+        <m>\vec{\omega}_{\text{ave}}=\frac{\Delta \vec{\theta}}{\Delta t}</m>
+      </cell>
+      <cell><m>v=r\cdot \omega</m>
+      </cell>
+    </row>
+    <row valign="top" bottom="major">
+      <cell>acceleration</cell>
+      <cell><m>\vec{a}_{\text{ave}}=\frac{\Delta \vec{v}}{\Delta t}</m></cell>
+      <cell>
+        <m>\vec{\alpha}_{\text{ave}}=\frac{\Delta \vec{\omega}}{\Delta t}</m>
+      </cell>
+      <cell>
+        <line><m>a_{\text{tan}}=r\cdot \alpha</m>
+        </line>
+        <line><m>a_{\text{rad}}=r \cdot \omega^2</m>
+          </line>  
+      </cell>
+    </row>
+  </tabular>
+  </table> 
 
   <!--
   <quantity>

@@ -587,23 +587,22 @@
       
     <subsection xml:id="constant-a-lin-eqns">
        <idx><h>constant acceleration</h></idx>
-        <idx><h>free fall</h></idx>
-      <title>Special case: Motion with Constant (Translational) Acceleration </title> 
+        
+      <title>Special Case: Motion with Constant (Translational) Acceleration </title> 
        <introduction>
         <p>
-          The equations in this subsection are only true for the <em>special case of constant acceleration</em>. Constant acceleration is a subset of all possible motions, so be sure to ask yourself whether the motion of interest is undergoing constant acceleration <em>before</em> you try to use these equations. That said, constant acceleration is somewhat common in nature; for example, objects falling only under the influence of gravity (without air resistance) undergo constant acceleration, and we'll encounter some other examples beginning in <xref ref="dynamics"/>. Furthermore, there are numerous examples of motion that can be <em>approximated</em> as constant acceleration, such as speeding up or slowing down at a relatively constant rate while walking or driving a car. 
+          The equations in this subsection are only true for the <em>special case of constant acceleration</em>. Constant acceleration is a small subset of all possible motions, so be sure to ask yourself whether the motion of interest is undergoing constant acceleration <em>before</em> you try to use the equations in <xref ref="subsubsec-constant-accel-eqns"/>.. That said, constant acceleration is somewhat common in nature; for example, objects falling under the influence of only gravity (without air resistance) undergo constant acceleration, and we'll encounter additional examples beginning in <xref ref="dynamics"/>. Furthermore, there are numerous examples of motion that can be <em>approximated</em> as constant acceleration, such as speeding up or slowing down at a relatively constant rate while walking or driving a car. 
         </p>      
        </introduction>
 
-       <paragraphs>
-        <title>Free Fall</title>    
+       <subsubsection xml:id="subsubsec-free-fall">
+        <title>Free Fall</title>
+        <idx><h>free fall</h></idx>   
        <p>
         <term> Free fall </term> refers to an object falling under the influence of gravity, with without air resistance or any other forces acting upon it. If we were to measure the position and velocity of an object in free fall, its motion would appear as shown in <xref ref="figure-free-fall"/> below. 
        </p>
 
-      </paragraphs>
-
-    <figure width="80%" xml:id="figure-free-fall">
+     <figure width="80%" xml:id="figure-free-fall">
       <title>Object in Free Fall</title>
         <caption> Snapshots at five position-time pairs are shown, with position labeled to the left of each snapshot and time labeled to the right. The topmost snapshot shows the object at zero position and time, and subsequent snapshots show the object's position and time later in its journey, as measured relative to its beginning point. (Note that position is reported as <em>positive</em> in the <em>downward </em> direction in this case.) The far right column shows velocity magnitudes (reported to one significant figure), which could be measured by attaching a speedometer to the object. </caption>
       <image source="free.fall.PNG" width="60%"> 
@@ -612,11 +611,11 @@
     </figure>
 
     <p>
-      There are several important notes from <xref ref="figure-free-fall"/>:
+     Although in everyday life, only an extremely compact and heavy object could fall a distance of <m>80 m</m> with negligible air resistance (see also <xref ref="dynamics"/>), this somewhat idealized figure illustrates two fundamental observations that are true for any object in free fall:
       <ul>
         <li>
           <p>
-            The object falls successively larger distances in one second as it falls. 
+            The object falls successively larger distances per unit time as it falls. 
           </p>
         </li>
         <li>
@@ -625,7 +624,7 @@
           </p>
         </li>
       </ul> 
-    Note that only an extremely compact, heavy object could fall <m>80 m</m> with negligible air resistance (see also <xref ref="dynamics"/>) in everyday life, but this somewhat idealized figure illustrates the second point very clearly. If we determine <m>\Delta \vec{v}</m> for each time interval shown, we see clearly that the velocity increases by <m>10 m/s</m> for each second the object falls. In other words, we can calculate the magnitude of the <em>acceleration</em> for any of the time intervals shown as    
+    Picking up on the second point, if we determine <m>\Delta \vec{v}</m> for each time interval shown, we see clearly that the velocity increases by <m>10 m/s</m> for each second the object falls. In other words, we can calculate the magnitude of the <em>acceleration</em> for any of the time intervals shown as    
     <me> a_{\text{ave}} = \frac{\Delta v}{\Delta t} =\frac {10 \text{m/s}}{1 \text{s}} = 10 m/s^2</me>.
     The direction of the acceleration due to gravity is always downward, towards the center of the earth, and it's generally denoted by <m>\vec{a}_{\text{g}}</m> or simply <m>\vec{g}</m>. The magnitude of <m>\vec{g}</m> varies slightly at different locations on earth, but to two significant figures, it's <m>9.8 m/s^2 </m>. You can look up its precise value at your location to keep the significant figures of <m>\vec{g}</m> from limiting the precision of your results in subsequent calculations; in most of the United States, it's between <m>9.79 m/s^2</m> and <m>9.81 m/s^2</m>.
     </p>
@@ -635,14 +634,208 @@
     <me> \vec{a}_{\text{g}} =\vec{g} = 9.8 m/s^2 </me>.
     </p>
     <p></p>
+    <p> We can also predict what the kinematics graphs of a freely-falling object would look like, based on the GENERAL STATEMENTS in <xref ref="graphing-motion"/>. Since the velocity is constantly increasing, the slope of the position graph would be constantly increasing (the mathematical way of saying this is that the position graph would be <q>parabolic</q>). <xref ref="figure-free-fall-graphs"/> shows sample data for the first half-second of a more realistic case; note that these graphs which align perfectly with our predictions.
+    </p>      
+  <p> </p>
+
+<figure width="85%" xml:id="figure-free-fall-graphs">
+      <title>Kinematics Graphs of an Object in Free Fall</title>
+        <caption>Realistic graphs of an object in free fall. Left: Position vs time graph (note parabolic shape correlates with sucessively larger distances per unit time); Right: Velocity vs time (note straight line correlates with increasing velocity at a uniform rate). </caption>
+      <sidebyside widths="37% 44%" margins="auto" valign="bottom">
+         <image source="freefall.position.graph.PNG">
+         <description> Position graph shows smooth curve with constantly increasing positive slope (half-parabola).</description> 
+          </image> 
+         <image source="freefall.velocity.graph.PNG">
+             <description> Velocity graph shows straight line of positive slope.</description>    
+         </image>
+      </sidebyside>       
+    </figure>
+    </subsubsection>
+    
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            What would the acceleration graph look like for the case shown in <xref ref="figure-free-fall-graphs"/>?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The acceleration graph would be a horizontal straight line at <m>a=980 cm/s^2</m> (or <m> 9.8 m/s^2</m> in SI units).
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            If you throw a ball upwards and it falls back to your hand, what would the velocity and acceleration values be at its highest point? 
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The acceleration is constant during its entire flight; it's always <m>9.8 m/s^2 </m>, directed downward.
+          </p>
+          <p> As the ball rises upward, the acceleration is in the opposite direction as its velocity, so the ball slows down. As the ball falls back down towards your hand, the acceleration is in the same direction as its velocity, so the ball speeds up (see <xref ref="figure-acceleration-cases"/>). At the highest point (or "top of flight"), the ball transitions from a very small upward velocity to a very small downward velocity; its instantaneous velocity at that highest point is zero (0.0 m/s). 
+          </p>   
+         <p> NOTE: It's interesting to realize that the constant acceleration of free fall indicates that the ball's upward journey is symmetric to its downward journey: when the ball is at the same position along its path, it will have the same speed, so its velocity will have the same magnitude but opposite direction, as seen in the image below. This point will be explored quantitatively in <xref ref="subsubsec-constant-accel-eqns"/>.
+         </p>    
+         <image source="symmetry.ff.PNG" width="20%">
+         <description>Image shows velocity vectors of ball that's thrown straight upward and comes back down. The velocity vector is respresented by progressively smaller arrows as the ball rises and progressively larger arrows as it falls, with the upward arrows at each position matching the size of the downward arrows.</description>
+        </image> 
+        </answer>
+      </task>
+    </exercise>
+    <p></p>   
+
+      <subsubsection xml:id="subsubsec-constant-accel-eqns">
+        <title>Special case kinematics equations for constant acceleration</title>
+      <idx><h>constant acceleration</h></idx> 
+       <p>
+       As previously emphasized, the equations presented here are only valid for the very special case of constant (translational) acceleration. They are NOT always true, and you won't get the correct answers if you use them for cases where the acceleration changes during the process of interest (for example, the grocery store trip in <xref ref="grocery-store-trip"/>). That said, these equations are extremely useful "shortcut" equations to use whenever the acceleration <em>is</em> constant. Other than a new way of thinking about the average velocity for the special case of constant acceleration, there's no new physics here! All of the physics is contained in the basic definitions in <xref ref="lin-kin-defns"/>; these special case equations are just simplifications and combinations of those definitions.  
+       </p>
+      <p>
+      Since we just saw in <xref ref="subsubsec-free-fall"/> that objects in free fall undergo constant acceleration, we can refer to <xref ref="figure-free-fall"/> to motivate the new way of thinking of average velocity mentioned in the preceding paragraph. The first few seconds of this case are shown in <xref ref="ave.vel.is.inst.at.mid"/> below.
+      </p>
+      <figure width="80%" xml:id="ave.vel.is.inst.at.mid">
+      <title>Velocity graph for <xref ref="figure-free-fall"/> </title>
+        <caption> Graph shows first few seconds of data in <xref ref="figure-free-fall"/>, with dashed lines overlaid to identify coordinates of points of interest more clearly. </caption>
+      <image source="graph.ave.instant.midpt.PNG" width="60%"> 
+      <description> Graph is linear, with two points identified via dashed lines as follows: velocity is 10m/s at time of 1 s and velocity is 20m/s at time of 2 s.</description>
+      </image> 
+    </figure>
+    <p>   
+      Consider the object's ("final") velocity after it has fallen for 2 seconds, and ask yourself two questions:
+      <ol>
+        <li>
+          <p>
+            What is its average velocity after falling two seconds?
+          </p>
+        </li>
+        <li>
+          <p>
+            At what time does its instantaneous velocity equal this value?
+          </p>
+        </li>
+      </ol>   
+    The answers to these two questions follow:  
+    <ol>
+      <li>
+        <p> We can use the definition of <em>average velocity</em> from <xref ref="more-grocery-store"/> and the corresponding displacement of 20 m in the downward direction (as shown in <xref ref="figure-free-fall"/>) to determine that the average velocity is <em>downward</em> with a magnitude of: 
+          <me> v_{\text{ave}} = \frac{\Delta x}{\Delta t} = \frac{20 \text{m}}{2\text{s}} = 10 m/s </me>. 
+
+          NOTE: If you thought the answer was 20 m/s, you're likely conflating average and instantaneous values. The numbers given in <xref ref="figure-free-fall"/>  - and hence plotted in <xref ref="ave.vel.is.inst.at.mid"/> - are <em>instantaneous</em> values at the times indicated (or in other words,  the "final" values at the end of the corresponding time intervals).   
+        </p>
+      </li>
+      <li>
+        <p>
+          We see from both <xref ref="figure-free-fall"/> and <xref ref="ave.vel.is.inst.at.mid"/> that the velocity is 10 m/s at a time of 1 s. We also notice that one second is midway between the "initial" time of zero seconds and the "final" time of two seconds, which motivates the general statement below.       
+        </p>
+      </li>
+    </ol>
+</p> 
+<p></p>
+  <p>
+    GENERAL STATEMENT: For an object undergoing constant acceleration, the average velocity over any time interval is equal to the instantaneous velocity at the midpoint in time, and an alternative way to calculate its value is:
+    <men> \vec{v}_{\text{ave}}=\frac{ \vec{v}_{\text{initial}} + \vec{v}_{\text{final}} }{2} </men>
+    As an aside: we may note that we can always calculate the average value of anything by adding up as many values as we have and dividing by the number of values; what's special about a linear function  - like the velocity of an object undergoing uniform acceleration - is that we only need to use two values (the beginning and ending values).   
+  </p>
+  <p>
+ The other three "special case equations" are found from rearranging the kinematics definitions from <xref ref="lin-kin-defns"/>, simplifying for the case of constant acceleration (<m>\vec{a}_{\text{ave}} \rightarrow \vec{a}) </m>, starting our clock at zero (<m>t_{\text{initial}} = 0 </m> and <m>t_{\text{final}} \rightarrow t </m>), and sometimes making use of the "special case equation" for average velocity above. 
+ </p>
+ <p>
+ We can rearrange the definition of average acceleration and simplify to obtain: 
+  <men> \vec{v}_{\text{final}}= \vec{v}_{\text{initial}} + \vec{a}\cdot t </men>
+This equation is particularly useful to find the velocity at any desired time if we know the acceleration and initial velocity (or to find any unknown quantity in the equation if given the others). 
+ </p>
+ <p></p>
+ <p>
+Combining the two equations for average velocity (the definition from  <xref ref="more-grocery-store"/> and the special case equation above) and rearranging gives:    
+  <men> \vec{x}_{\text{final}}= \vec{x}_{\text{initial}} + \vec{v}_{\text{initial}}\cdot t + \frac{1}{2} \vec{a}\cdot t^2 </men>
+This equation is particularly useful to find the position (or displacement) at any desired time if we know the acceleration and initial velocity (or to find any unknown quantity in the equation if given the others). 
+</p>
+<p></p>
+<p>
+Finally, we can eliminate <m>t</m> between the two preceding equations to obtain: 
+  <men>\vec{v}_{\text{final}}^2= \vec{v}_{\text{initial}}^2 + 2 \vec{a}\cdot \Delta\vec{x} </men>
+  This equation is particularly useful to relate the displacement of an object to its change in velocity; for example, to find the distance it takes a car to stop if its acceleration and initial velocity values are known, or to determine the initial speed a car was traveling from the length of the skid marks it leaves on the ground. For this reason, it is sometimes called the "braking distance equation." However, keep in mind it applies to any object undergoing constant acceleration - including free fall -  and like any equation, it can be rearranged to solve for any unknown variable.       
+  </p>
+ </subsubsection>
+
+<exercise>
+  <task>
+    <statement>
+      <p>
+      If you throw a ball straight up with an initial speed of 15 m/s, (a) with what speed will it later land in your hand, (b) how high will it rise, and (c) how much time will it take to land in your hand? (Assume air resistance can be neglected.)  
+      </p>
+    </statement>
+    <answer>
+      <p>
+        It's a good practice to begin with a sketch; the image from the previous checkpoint applies here, where the initial velocity vector would be labeled 15 m/s. 
+        <image source="symmetry.ff.PNG" width="20%">
+         <description>Image shows velocity vectors of ball that's thrown straight upward and comes back down. The velocity vector is respresented by progressively smaller arrows as the ball rises and progressively larger arrows as it falls, with the upward arrows at each position matching the size of the downward arrows.</description>
+        </image> 
+        </p>
+      <p>
+        (a) We can immediately see from this sketch that the ball would land with the same speed it was thrown, or 15 m/s. Let's use the "constant acceleration equations" to confirm this. Since the ball lands at its original position, its displacement is zero. So we could use the displacement equation to find the time, and then substitute into the velocity equation. But here, since we don't care about the time (yet), we could do this in a single step using the "braking distance" equation:
+         <me>\vec{v}_{\text{final}}^2= \vec{v}_{\text{initial}}^2 + 2 \vec{a}\cdot \Delta\vec{x} </me>.
+        Since <m> \Delta \vec{x} = 0 </m>, the last term is zero, so we're left with
+        <me>\vec{v}_{\text{final}}^2= \vec{v}_{\text{initial}}^2  </me>.
+        This offers two possible solutions, <m>\vec{v}_{\text{final}} = \pm \vec{v}_{\text{initial}}.</m> Since this question only asked for speed, we know that the speed is 15 m/s. However, if we wanted to know the velocity, we could use our physical knowledge that the ball is moving downward (opposite to its initial direction) to select the negative sign. If we choose "up" as the positive direction, then the velocity is -15 m/s (or 15 m/s, downward).
+        </p>
+        <p> (b) Here, too, we have a variety of options for determining how high the ball will rise. We could return to the "braking distance" equation, recognizing that displacement is <em>height</em> in this case, for a one-step calculation, or we could use the velocity equation to find the time, keeping in mind that the velocity at the top is zero, and then use that time in the displacement equation. Since we just practiced with the braking distance equation, let's take the latter (two-step) approach here:   
+        <me> \vec{v}_{\text{final}}= \vec{v}_{\text{initial}} + \vec{a}\cdot t </me>
+        Substituting in <m> \vec{v}_{\text{final}}= 0m/s </m> and solving for time gives
+         <me> t = -\frac {\vec{v}_{\text{initial}}} {\vec{a}} = - \frac {\vec{v}_{\text{initial}}} {\vec{g}} </me>
+         <me>t = - \frac {15 m/s} {-9.8m/s^2} = 1.5 s </me>.   
+          We can then substitute this value for time into the displacement equation: 
+          <me> \vec{x}_{\text{final}}=\vec{x}_{\text{initial}} + \vec{v}_{\text{initial}}\cdot t + \frac{1}{2} \vec{a}\cdot t^2 </me>.
+          Keeping in mind that zero position is arbitary (see <xref ref="grocery-store-trip"/>), we could logically choose <m>\vec{x}_{\text{initial}} =0 </m> (or even <m>\vec{x}_{\text{final}}=0 </m>). However, since the ball's <em> displacement</em> above your hand is the only thing we care about, we could just as well rewrite the displacement equation as 
+           <me> \Delta \vec{x} = \vec{v}_{\text{initial}}\cdot t + \frac{1}{2} \vec{a}\cdot t^2 </me>   
+          <me>\Delta \vec{x} = (15 m/s)(1.5 s) + \frac{1}{2} (-9.8 m/s^2)(1.5 s)^2 = 11 m  </me>    
+        </p>
+      <p>(c) Once again, we have a variety of options. The quickest is to use the symmetry of the situation to realize that the ball will take the same amount of time to fall as it did to fall, so we could simply double the rise time that we just found in part b; since it took 1.5 s to rise, it will take another 1.5 s to fall, so it will take 3.0 s to land back in your hand:
+      <me>t_{\text{total}} =t_{\text{up}}+t_{\text{down}}=2\cdot t_{\text{up}}= 2(1.5 s)= 3.0s </me>. 
+     Another approach (if we didn't notice the symmetry), would be to use the displacement equation to calculate the time, since we know all the other variables in that equation. In general, solving the displacement equation for time involves solving a quadratic equation, but in cases of zero displacement the calculation is even simpler.  (Reminder, we know the displacement is sero for Part (c) since the ball lands at the same position from which it was thrown.) Let's see how this works out and make sure we get the same answer for time: 
+     <me> \Delta \vec{x} = \vec{v}_{\text{initial}}\cdot t + \frac{1}{2} \vec{a}\cdot t^2 </me> 
+     Substituting in the known quantities gives
+    <me> 0 m =(15 m/s) \cdot t + \frac{1}{2}(-9.8m/s^2)\cdot t^2 </me>  
+      Dividing the equation by <m>t</m> and then solving for <m>t</m>, we have 
+      <me> t = \frac{(2)(15 m/s)}{9.8 m/s^2}=3.0 s </me>,
+      which matches the approach based on symmetry.
+   </p>
+  </answer>
+  </task>
+<task>
+  <statement>
     <p>
+      If a rock is dropped from a very high cliff, (a) how fast will it be going after 3.5 seconds and (b) how far will it have fallen in that time? 
+    </p>
+  </statement>
+  <answer>
+    <p>
+      
+    </p>
+  </answer>
+</task>
 
-    </p>   
+</exercise>
+
+</subsection> 
+<p> The equations in this section are summarized below for easy reference, and to guide our thinking in the next section. 
+</p>
+
+<paragraphs>
+  <title>Kinematics definitions</title>
+  
+</paragraphs>
+
+<paragraphs>
+  <title>Special case equations for constant acceleration</title>
+  
+</paragraphs>
 
 
-
-    </subsection>
-    </section>
+</section>
 
     <section xml:id="rot-kin">
       <title>Rotational Kinematics</title>

@@ -239,8 +239,8 @@
             Part 2 of trip (2 blocks back home in 4 minutes):
             <me> s_{\text{ave}_2} = \frac{2\text{blks}}{4\text{mins}} = 0.5\text{bks/min} </me>
             <me>\vec{v}_{\text{ave}_2}= \frac{-2\text{blks to the east}}{4\text{mins}} = - 0.5\text{bks/min to the east} </me>
-            <p> (NOTE: In physical terms, this is <m> 0.5\text{blks/min to the west}</m>) </p>
-            <p> </p>
+            (NOTE: In physical terms, this is <m> 0.5\text{blks/min to the west}</m>) </p>
+            <p>
             Part 3 of trip (6 blocks to store in 8 minutes):
             <me> s_{\text{ave}_3} = \frac{6\text{blks}}{8\text{mins}} = 0.8\text{bks/min} </me>
             <me>\vec{v}_{\text{ave}_3}= \frac{6\text{blks to the east}}{8\text{mins}} = 0.8\text{bks/min, to the east} </me>
@@ -335,7 +335,8 @@
           <description>Acceleration of a car rounding a curve. Left: top view of the physical situation, with the instantaneous velocity vecotrs at points 1 and 2 labeled; Right:  analysis of change in velocity vector, consistent with <m>\vec{v}_1+\Delta \vec{v} = \vec{v}_2 </m>. </description>
         </image> 
      </figure>
-      
+      <p></p>
+      <p></p> 
     <figure width="80%" xml:id="figure-acceleration-cases">
       <title>Vector depiction of acceleration</title>
         <caption>Vector depiction of acceleration. Four cases are shown, each consistent with <m>\vec{v}_1+\Delta \vec{v} = \vec{v}_2 </m>: Top two cases show changing magnitude only; Third case shows changing direction only; Bottom shows changing both magnitude and direction. </caption>
@@ -528,10 +529,9 @@
         <answer>
           <p>
             The graphs show objects that travel at the same speed but in opposite directions. We can use the equation for average velocity to see this mathematically. Assuming "away from origin" is chosen as the positive direction: 
-          </p>
-           <me>\vec{v}_{\text{ave,A}} = \frac{\Delta\vec{x}}{\Delta t} = \frac{60{\text{miles} - 0\text{miles}}}{{30\text{minutes} - 0\text{minutes}}}=\frac{30\text{mi}}{30\text{min}}=2.0 \frac{\text{mi}}{\text{min}}</me> 
-          <me>\vec{v}_{\text{ave,B}} = \frac{\Delta\vec{x}}{\Delta t} = \frac{0{\text{miles} - 60\text{miles}}}{{30\text{minutes}} - 0\text{minutes}}= \frac{60\text{mi}}{30\text{min}} =-2.0 \frac{\text{mi}}{\text{min}}</me>
-          <p>
+          <me>\vec{v}_{\text{ave,A}} = \frac{\Delta\vec{x}}{\Delta t} = \frac{60{\text{miles} - 0\text{miles}}}{{30\text{minutes} - 0\text{minutes}}}=\frac{30\text{mi}}{30\text{min}}=2.0 \frac{\text{mi}}{\text{min}} </me> 
+          <me>\vec{v}_{\text{ave,B}} = \frac{\Delta\vec{x}}{\Delta t} = \frac{0{\text{miles} - 60\text{miles}}}{{30\text{minutes}} - 0\text{minutes}}= \frac{60\text{mi}}{30\text{min}} =-2.0 \frac{\text{mi}}{\text{min}} </me>
+    
             Note that the negative sign of <m>\vec{v}_{\text{ave,B}}</m> indicates that the object is moving towards the origin. 
           </p>
         </answer>
@@ -547,9 +547,9 @@
         <answer>
           <p>
             The object in Graph (B) is moving faster, as seen immediately by the larger slope of its position graph. Mathematical justification: Both objects begin with an initial position of 0 miles and travel for 30 minutes. Graph (A) shows a final position of 30 miles, while Graph (B) shows a final position of 60 miles. We could calculate each speed from the equation for speed, but since these graphs both show 1D motion in a single direction, we know that the magnitude of the average velocity is the same as the average speed. So we can simply use the equation for average velocity again but without the vector signs:  
-          </p>
-          <me>v_{\text{ave,A}} = \frac{\Delta x}{\Delta t} = \frac{30{\text{miles} - 0\text{miles}}}{{30\text{minutes} - 0\text{minutes}}}=\frac{30\text{mi}}{30\text{min}}=1.0 \frac{\text{mi}}{\text{min}}</me> 
+           <me>v_{\text{ave,A}} = \frac{\Delta x}{\Delta t} = \frac{30{\text{miles} - 0\text{miles}}}{{30\text{minutes} - 0\text{minutes}}}=\frac{30\text{mi}}{30\text{min}}=1.0 \frac{\text{mi}}{\text{min}}</me> 
           <me>v_{\text{ave,B}} = \frac{\Delta x}{\Delta t} = \frac{60{\text{miles} - 0\text{miles}}}{{30\text{minutes}} - 0\text{minutes}}= \frac{60\text{mi}}{30\text{min}} =2.0 \frac{\text{mi}}{\text{min}}</me>
+          </p> 
         </answer>
       </task>
       <task>
@@ -563,9 +563,9 @@
         <answer>
           <p>
             These two graphs indicate the <em>same average velocity</em> (and hence the same average speed over the time interval shown), because both objects have the same initial and final positions and travel for the same amount of time. Mathematical justification: Both objects change position by the same amount (60 miles) and travel for the same amount of time (30 minutes). We can again calculate each speed by considering only the magnitude of velocity:  
-          </p>
-          <me>v_{\text{ave,A}} = \frac{\Delta x}{\Delta t} = \frac{60{\text{miles} - 0\text{miles}}}{{30\text{minutes} - 0\text{minutes}}}=\frac{60\text{mi}}{30\text{min}}=2.0 \frac{\text{mi}}{\text{min}}</me> 
+            <me>v_{\text{ave,A}} = \frac{\Delta x}{\Delta t} = \frac{60{\text{miles} - 0\text{miles}}}{{30\text{minutes} - 0\text{minutes}}}=\frac{60\text{mi}}{30\text{min}}=2.0 \frac{\text{mi}}{\text{min}}</me> 
           <me> v_{\text{ave,B}} = \frac{\Delta x}{\Delta t} = \frac{60{\text{miles} - 0\text{miles}}}{{30\text{minutes}} - 0\text{minutes}}= \frac{60\text{mi}}{30\text{min}} =2.0 \frac{\text{mi}}{\text{min}}</me>
+          </p>
           <p> Here again, we see that the time interval under consideration affects the average velocity (and thus, average speed). Since the slope of Graph (B) is constant, the object travels at the same velocity the entire time. In contrast, the changing slope of Graph (A) shows that its velocity isn't constant the entire time: the object travels fastest for the first 10 minutes, is stationary for the next 10 minutes, and then continues in the same direction but at a slower speed for the last 10 minutes. 
           </p>  
         </answer>
@@ -591,7 +591,7 @@
       <title>Special Case: Motion with Constant (Translational) Acceleration </title> 
        <introduction>
         <p>
-          The equations in this subsection are only true for the <em>special case of constant acceleration</em>. Constant acceleration is a small subset of all possible motions, so be sure to ask yourself whether the motion of interest is undergoing constant acceleration <em>before</em> you try to use the equations in <xref ref="subsubsec-constant-accel-eqns"/>.. That said, constant acceleration is somewhat common in nature; for example, objects falling under the influence of only gravity (without air resistance) undergo constant acceleration, and we'll encounter additional examples beginning in <xref ref="dynamics"/>. Furthermore, there are numerous examples of motion that can be <em>approximated</em> as constant acceleration, such as speeding up or slowing down at a relatively constant rate while walking or driving a car. 
+          The equations in this subsection are only true for the <em>special case of constant acceleration</em>. Constant acceleration is a small subset of all possible motions, so be sure to ask yourself whether the motion of interest is undergoing constant acceleration <em>before</em> you try to use the equations in <xref ref="subsubsec-constant-accel-eqns"/> or <xref ref="table-eqns-const-lin-a"/>. That said, constant acceleration is somewhat common in nature; for example, objects falling under the influence of only gravity (without air resistance) undergo constant acceleration, and we'll encounter additional examples beginning in <xref ref="dynamics"/>. Furthermore, there are numerous examples of motion that can be <em>approximated</em> as constant acceleration, such as speeding up or slowing down at a relatively constant rate while walking or driving a car. 
         </p>      
        </introduction>
 
@@ -684,14 +684,13 @@
         </image> 
         </answer>
       </task>
-    </exercise>
-    <p></p>   
+    </exercise>   
 
       <subsubsection xml:id="subsubsec-constant-accel-eqns">
         <title>Special case kinematics equations for constant acceleration</title>
       <idx><h>constant acceleration</h></idx> 
        <p>
-       As previously emphasized, the equations presented here are only valid for the very special case of constant (translational) acceleration. They are NOT always true, and you won't get the correct answers if you use them for cases where the acceleration changes during the process of interest (for example, the grocery store trip in <xref ref="grocery-store-trip"/>). That said, these equations are extremely useful "shortcut" equations to use whenever the acceleration <em>is</em> constant. Other than a new way of thinking about the average velocity for the special case of constant acceleration, there's no new physics here! All of the physics is contained in the basic definitions in <xref ref="lin-kin-defns"/>; these special case equations are just simplifications and combinations of those definitions.  
+       As previously emphasized, the equations presented here are only valid for the very special case of constant (translational) acceleration. They are NOT always true, and you won't get the correct answers if you use them for cases where the acceleration changes during the process of interest (for example, the grocery store trip in <xref ref="grocery-store-trip"/>). That said, these equations are extremely useful "shortcut" equations to use whenever the acceleration <em>is</em> constant. Other than a new way of thinking about the average velocity for the special case of constant acceleration, there's no new physics here! All of the physics is contained in the basic definitions in <xref ref="lin-kin-defns"/> (summarized in <xref ref="table-defns-lin-kin"/>); these special case equations are just simplifications and combinations of those definitions.  
        </p>
       <p>
       Since we just saw in <xref ref="subsubsec-free-fall"/> that objects in free fall undergo constant acceleration, we can refer to <xref ref="figure-free-fall"/> to motivate the new way of thinking of average velocity mentioned in the preceding paragraph. The first few seconds of this case are shown in <xref ref="ave.vel.is.inst.at.mid"/> below.
@@ -826,14 +825,12 @@ Finally, we can eliminate <m>t</m> between the two preceding equations to obtain
 <p> The equations from this entire section are summarized below for easy reference, and to guide our thinking in <xref ref="rot-kin"/>. 
 </p>
 
-  <table xml:id="table-defns-lin-kin">
+  <table xml:id="table-defns-lin-kin" >
   <title>Translational Kinematics Definitions</title>
-  <tabular top="major">
-    <col />
-    <col width="30%"/>
-    <col width="30%" />
-    <col width="20%" />
-    <row valign="top" bottom="medium">
+  <tabular top="major" left="major" halign="center">
+    <col right="medium" width="40%"/>
+    <col right="major" width="40%"/>
+    <row header="yes" valign="top" bottom="medium">
       <cell>Quantity</cell>
       <cell>Definition</cell>
     </row>
@@ -854,28 +851,27 @@ Finally, we can eliminate <m>t</m> between the two preceding equations to obtain
 
 <table xml:id="table-eqns-const-lin-a">
   <title>Special equations for constant (translational) acceleration</title>
-  <tabular top="major">
-    <col />
-    <col width="40%" />
-    <col width="25%" />
-    <row valign="top" bottom="medium">
+  <tabular top="major" left="major" halign="center">
+    <col right="medium" width="40%"/>
+    <col right="major" width="40%"/>
+    <row header="yes" valign="top" bottom="medium">
       <cell>Usefulness</cell>
       <cell>Special-case Equation</cell>
     </row>
     <row valign="top" bottom="minor">
-      <cell>average velocity eqn </cell>
+      <cell>"average velocity eqn" </cell>
       <cell><m>\vec{v}_{\text{ave}}=\frac{ \vec{v}_{\text{initial}} + \vec{v}_{\text{final}} }{2}  </m></cell>
     </row>
     <row valign="top" bottom="minor">
-      <cell>velocity eqn</cell>
+      <cell>"velocity eqn"</cell>
       <cell><m>\vec{v}_{\text{final}}= \vec{v}_{\text{initial}} + \vec{a}\cdot t </m></cell>
     </row>
     <row valign="top" bottom="minor">
-      <cell>displacement eqn</cell>
+      <cell>"displacement eqn"</cell>
       <cell><m>\Delta \vec{x} = \vec{v}_{\text{initial}}\cdot t + \frac{1}{2} \vec{a}\cdot t^2 </m></cell>
     </row>
     <row valign="top" bottom="major">
-      <cell>"braking distance" eqn</cell>
+      <cell>"braking distance eqn"</cell>
       <cell><m>\vec{v}_{\text{final}}^2= \vec{v}_{\text{initial}}^2 + 2 \vec{a}\cdot \Delta\vec{x}</m></cell>
     </row>
   </tabular>
@@ -884,16 +880,51 @@ Finally, we can eliminate <m>t</m> between the two preceding equations to obtain
 
     <section xml:id="rot-kin">
       <title>Rotational Kinematics</title>
-      <p>In addition to moving through space, </p>
+      <p>We now turn our attention to the other basic form of motion: <em>rotational</em> (also called <em>angular</em>) motion. We'll again begin by considering a situation that only includes rotational motion: two objects resting on a rotating platform. This example will help to clearly define terms and ellucidate the connection to translational motion. Relying on what we learned previously in <xref ref="lin-kin"/> will allow us to build our toolkit quickly by making use of the analagous definitions and equations for translational motion. We'll look at some other examples along the way, and then we'll summarize our findings by adding the kinematics equations for rotational motion to <xref ref="table-defns-lin-kin"/> and <xref ref="table-eqns-const-lin-a"/>.</p>
 
-        <table xml:id="table-compare-kin-lin-ang">
+        <subsubsection xml:id="subsubsec-">
+          <title>Kinematics Definitions (Rotational)</title>
+          <introduction>
+            <p>
+              We'll begin by considering the simplest possible case: two pennies on a rotating turntable, as shown in <xref ref="figure-pennies-on-turntable"/>. 
+            </p>
+          </introduction>
+
+         <figure width="80%" xml:id="figure-pennies-on-turntable">
+          <title>Two pennies on a rotating turntable</title>
+        <caption> Top view of two pennies on a turntable that's rotating counter-clockwise; the diamond marks the center of the turntable and the pennies are shown with different colors to clearly distinguish between them. The three images shown are identical except for labels: Image (A) shows the physical situation; Image (B) includes reference lines and motion paths; Image (C) also labels the radius for each penny and the angle it moves through. </caption>
+      <image source=".PNG" width="60%"> 
+      <description> Three images: (A), (B), and (C). Each image shows two colored circles (representing pennies) placed along the diameter of a larger circle (representing the turntable). Image (A) includes an arrow to show counter-clockwise rotation. Image (B) includes a dotted horizontal line through the two pennies (to mark the beginning position of the turntable) and another dotted vertical line (to mark its final position), as well as dotted curves showing the motion path of each penny. Image (C) also includes two additional features for each penny: a radius vector (pointing from the center of the turntable to the penny's location) and the angle each penny moves through. </description>
+      </image> 
+    </figure>
+
+      <figure width="80%" xml:id="figure-ang-velocity">
+          <title>Velocities of two pennies on a rotating turntable</title>
+        <caption> Similar to Image (B) of <xref ref="figure-pennies-on-turntable"/>, snapshot midway through the motion and with (translational) velocity vectors overlaid. We can see that the velocity is tangent to the motion and the larger radius corresponds to the larger velocity.</caption>
+      <image source="ang.velocity.PNG" width="60%"> 
+      <description>Image shows a short line labeled <m>v_1</m> at the location of the penny with the smaller radius and a longer line labeled <m>v_2</m> at the location of the penny with the larger radius. </description>
+      </image> 
+    </figure>
+
+    <figure width="80%" xml:id="figure-ang-acceleration">
+          <title>Acceleration of an object on a rotating turntable</title>
+        <caption> Similar to <xref ref="figure-ang-velocity"/>, with only one penny shown for simplicity; this snapshot  has (translational) acceleration vector overlaid. We note that the acceleration is neither parallel   </caption>
+      <image source="ang.acceleration.PNG" width="60%"> 
+      <description> Three images: (A), (B), and (C). Each image shows two colored circles (representing pennies) placed along the diameter of a larger circle (representing the turntable). Image (A) includes an arrow to show counter-clockwise rotation. Image (B) includes a dotted horizontal line through the two pennies (to mark the beginning position of the turntable) and another dotted vertical line (to mark its final position), as well as dotted curves showing the motion path of each penny. Image (C) also includes two additional features for each penny: a radius vector (pointing from the center of the turntable to the penny's location) and the angle each penny moves through. </description>
+      </image> 
+    </figure>
+
+        </subsubsection>
+
+  <table xml:id="table-compare-kin-lin-ang">
   <title>Comparison of Translational and Rotational Kinematics</title>
-  <tabular top="major">
-    <col />
-    <col />
-    <col width="40%" />
-    <col width="25%" />
-    <row valign="top" bottom="medium">
+  <tabular top="major" left="major" halign="center">
+    <col right="medium" width="20%"/>
+    <col right="medium" width="20%"/>
+    <col right="medium" width="20%"/>
+    <col right="major" width="40%"/>
+  
+    <row header="yes" valign="top" bottom="medium">
       <cell>Quantity</cell>
       <cell>Translation</cell>
       <cell>Rotation</cell>

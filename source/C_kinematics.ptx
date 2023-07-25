@@ -63,7 +63,7 @@
         <ul>
           <li>
             <p> 
-              <term>Position</term> refers to location in space. (As discussed in <xref ref="precision"/>, position is always measured with respect to an arbitrary reference point.)  
+              <term>Position</term> refers to location in space. (As discussed in <xref ref="subsec-zero"/>, position is always measured with respect to an arbitrary reference point.)  
             </p>
           </li>
     

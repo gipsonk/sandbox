@@ -392,39 +392,31 @@
               You should always measure as carefully as possible and record your measurements to an appropriate number of <em>significant digits</em> to make the precision of the measurement clear. For example, if you are able to measure to the nearest millimeter, you should record your answer to the nearest millimeter: e.g., <em>1.240 m</em> rather than <em>1.24m</em>, since <em>1.24 m</em> indicates a measurement to the nearest centimeter (the measurement is only known to be somewhere between <em>1.235 m</em> and <em>1.245 m</em>), whereas <em>1.240m</em> shows that the measurement was made to the nearest millimeter (is known to be somewhere between <em>1.2395 m</em> and <em>1.2405 m</em>).
             </p>
           </li>
-          <!--  <li><title>Wise choice of <q>zero</q> can simplify math</title>
-          <p> The number <em>zero</em> (0) sometimes has physical significance, while other times it doesn't.
-          Examples abound in both categories and will generally be made clear when the physical
-          quantity is introduced. For now, we'll rely on two examples from everyday life: 
+        </ol>
+      </p>
+    </subsection>
+    
+    <subsection xml:id="subsec-zero">
+        <title>Role of "Zero"</title>
+        <p> The number <em>zero</em> (0) sometimes has physical significance, while other times it doesn't. (In cases where zero can be chosen, a wise choice of where to call sero can often simplify the math.) Examples abound in both categories and will generally be made clear when the physical quantity is introduced. For now, we'll rely on two examples from everyday life: 
             <ul>
               <li><title>Example of arbitrary <em>zero</em>: position</title>
                 <p>The number <em>zero</em> is completely arbitrary for position. For example, if we hold an object
-          above a table, we could define its <q>zero</q> position to be at the floor, on top of the
-          table, at the object's position above the table, or anywhere in between. The only
-          physically meaningful quantity is its <em>change in position</em>, which will be the same
-          regardless of what we choose to call the <q>zero</q> position.(NOTE: If we only care about
-          the object's position relative to the top of the table<mdash/>as in some of the
-          labs<mdash/>the the math will be much simpler by choosing the zero position as either the
-          tabletop or the object's initial position. This point will be discussed further in <xref
-          ref="lin-kin"/> and thereafter.)  
+          above a table, we could define its <q>zero</q> position to be at the floor, on top of the table, at the object's position above the table, or anywhere in between. The only physically meaningful quantity is its <em>change in position</em>, which will be the same
+          regardless of what we choose to call the <q>zero</q> position.(NOTE: If we only care about the object's position relative to the top of the table<mdash/>as in some of the labs<mdash/>the the math will be much simpler by choosing the zero position as either the
+          tabletop or the object's initial position. This point will be discussed further in <xref ref="lin-kin"/> and thereafter.)  
                 </p>
               </li>
   
               <li><title>Example of non-arbitrary <em>zero</em>: mass</title>
                 <p> The number <em>zero</em> has a definite meaning for mass: the mass of an entity will have a
-          different numerical value in different systems of units, but an entity either has mass or
-          it doesn't. 
+          different numerical value in different systems of units, but an entity either has mass or it doesn't. 
                 </p>
               </li>
             </ul> 
           </p>
-        </li>
-      -->
-        </ol>
-      </p>
+        </li>        
     </subsection>
-  
   </section>
-
 
 </chapter>

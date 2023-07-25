@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<chapter xml:id="kinematics" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-kinematics" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Kinematics: The Description of Motion</title>
   <idx><h>kinematics</h></idx>
   <idx><h>translational motion</h></idx>
   <idx><h>rotational motion</h></idx>
     <introduction>
-      <p> As previously indicated, <term>kinematics</term> refers to the <em>description of motion</em>. If we toss a pencil across the room, its motion may appear quite complicated, wobbling around as it moves through the air. Its behavior can be more readily analyzed by separating its motion across the room from its wobbly motion. We'll therefore explore two basic types of motion in this chapter: <term>translational motion</term> (e.g., the pencil's movement from one side of the room to the other) will be the focus of <xref ref="lin-kin"/>, while <term>rotational motion</term> (e.g., the pencil's wobbling as it moves) will be the focus of <xref ref="rot-kin"/>. We'll return to the case of combination motion in <xref ref="combo-kin"/>.  
+      <p> As previously indicated, <term>kinematics</term> refers to the <em>description of motion</em>. If we toss a pencil across the room, its motion may appear quite complicated, wobbling around as it moves through the air. Its behavior can be more readily analyzed by separating its motion across the room from its wobbly motion. We'll therefore explore two basic types of motion in this chapter: <term>translational motion</term> (e.g., the pencil's movement from one side of the room to the other) will be the focus of <xref ref="sect-lin-kin"/>, while <term>rotational motion</term> (e.g., the pencil's wobbling as it moves) will be the focus of <xref ref="sect-rot-kin"/>. We'll return to the case of combination motion in <xref ref="sect-combo-kin"/>.  
       </p>
 
       <p> NOTE: In physics, the word <q>translation</q> refers to an object's movement through space; in 1D, <q>translational motion</q> is also called <q>linear motion</q>. We'll consider the words <em>translational</em> and <em>linear</em> to be equivalent for most of this learning guide. Similarly, another term for <em>rotational motion</em> is <em>angular motion</em>, and those terms will also be considered interchangeable.     
       </p>
     </introduction>
       
-      <objectives xml:id="kin-gq">
+      <objectives xml:id="gq-kin">
         <introduction>
           <p>
             Here are some questions to keep in mind as you read and work through the content in this chapter:
@@ -30,7 +30,7 @@
   
     </objectives>
 
-    <section xml:id="lin-kin">
+    <section xml:id="sect-lin-kin">
       <title>Translational Kinematics</title>
       <idx><h>translational motion</h></idx>
       <idx><h>linear motion</h></idx>
@@ -38,20 +38,20 @@
         As discussed at the beginning of this chapter, <em>translational motion</em> can refer to a portion of combined motion, or it can fully describe the motion. This section opens with an example of a case where translation is the only motion of interest, to motivate the definitions for kinematics quantities in the most straight-forward way possible. 
       </p> 
 
-    <subsection xml:id="lin-kin-defns">
+    <subsection xml:id="subsec-lin-kin-defns">
       <title>Kinematics Definitions (Translational)</title> 
        <introduction>
         <p> Kinematics is the description of motion, so we'll be considering <em> where</em> an object is at specific <em>times</em>. The first three kinematics definitions <mdash/> <em> position, distance,</em> and <em>displacement</em><mdash/> will be motivated by a considering the specific example of going to a store. After pausing to practice with the initial definitions, the same example will be extended to motivate the definitions of <em>speed, velocity,</em> and <em>acceleration</em>. 
         </p>
         <p>
-          SPECIAL NOTE: The equations in this subsection are <em>definitions</em>, which means that they are <em>always true</em>, in contrast to the specialized equations in <xref ref="constant-a-lin-eqns"/>, which aren't always true. 
+          SPECIAL NOTE: The equations in this subsection are <em>definitions</em>, which means that they are <em>always true</em>, in contrast to the specialized equations in <xref ref="subsec-constant-a-lin-eqns"/>, which aren't always true. 
           </p>
         <p>
-        A note on units: we aren't restricting our consideration to SI units in this subsection in order to motivate a closer connection to everyday life, but we could easily convert to SI units if we knew the appropriate conversion factors (see <xref ref="units"/> for review). For example, we could convert to SI units in <xref ref="grocery-store-trip"/> if given the number of meters in a city block, and we could convert to SI units in <xref ref="more-grocery-store"/> by recalling that one minute equals 60 seconds.   
+        A note on units: we aren't restricting our consideration to SI units in this subsection in order to motivate a closer connection to everyday life, but we could easily convert to SI units if we knew the appropriate conversion factors (see <xref ref="subsec-units"/> for review). For example, we could convert to SI units in <xref ref="subsub-grocery-store-trip"/> if given the number of meters in a city block, and we could convert to SI units in <xref ref="subsub-more-grocery-store"/> by recalling that one minute equals 60 seconds.   
         </p>
       </introduction>  
 
-       <subsubsection xml:id="grocery-store-trip">
+       <subsubsection xml:id="subsub-grocery-store-trip">
         <title>Position, Distance, and Displacement</title>
         <idx><h>position</h></idx>
         <idx><h>distance</h></idx>
@@ -69,7 +69,7 @@
     
           <li> 
             <p>
-              <term>Distance</term> is the actual path traveled. It's a <em>scalar</em> quantity (see <xref ref="vectors"/>). Distance has no direction, so distances always add. 
+              <term>Distance</term> is the actual path traveled. It's a <em>scalar</em> quantity (see <xref ref="subsec-vectors"/>). Distance has no direction, so distances always add. 
               </p>
               <p> Using <m>d</m> to represent <em>distance</em>, we can write this definition in equation form:   
                  <men> d = d_{1} + d_{2} + d_{3} + \cdots </men>
@@ -87,8 +87,7 @@
           </li>
         </ul>
       </p>
-      </subsubsection>
-
+     
       <exercise xml:id="ex-distance-displacement"> 
         <introduction>
           <p> Let's use the example of the grocery store trip to explore these first three kinematics definitions.    
@@ -135,13 +134,13 @@
 
             <p>
               <ul>
-                <li><title><p>Choose <em>zero</em> position at your home</p></title>
+                <li><title>Choose <em>zero</em> position at your home</title>
                   <p> In this case, the initial position is 0 blocks and the final position is 6 blocks to the east, so displacement (<m>\Delta\vec{x}</m>) is given by:
                      <me> \Delta\vec{x} = 6 \text{bks} - 0 \text{bks} = 6 \text{bks, to the east} </me> 
                   </p>
                 </li>
 
-                <li><title><p>Choose <em>zero</em> position at the store</p></title>
+                <li><title>Choose <em>zero</em> position at the store</title>
                   <p> In this case, the initial position is 6 blocks to the west (or <em>negative east</em>) and the final position is 0 blocks, so displacement (<m>\Delta\vec{x}</m>) is given by:
                      <me> \Delta\vec{x} = 0 \text{bks} - (-6) \text{bks} = 6 \text{bks, to the east}</me>  
                   </p>
@@ -151,8 +150,9 @@
           </answer>
        </task>
       </exercise>
+    </subsubsection>
 
-     <subsubsection xml:id="more-grocery-store">
+     <subsubsection xml:id="subsub-more-grocery-store">
        <title>Speed and Velocity</title>
        <idx><h>speed</h></idx>
        <idx><h>velocity</h></idx>
@@ -163,8 +163,9 @@
           </p>
         <p>
           First of all, we notice that the time interval under consideration matters alot! Are we concerned with the trip as a whole, or with the various portions of the trip? We'll explore this point more carefully after defining the terms and practicing with the equations, but for now just know that the concept of <q>average</q> (denoted by the subscript <q>ave</q> in the subsequent equations) is included to acknowledge that both speed and velocity depend on the time interval. 
-          </p> 
-        
+        </p>
+
+        <p> 
         <ul>
          <li> 
             <p>
@@ -183,12 +184,13 @@
             <p> Using <m>\Delta\vec{x}</m> to again represent displacement, <m>\Delta t</m> to represent the time interval over which the displacement occurred, and <m>\vec{v}_{\text{ave}}</m> to represent the average velocity over that time interval, this definition can be written in equation form as:
                    <men> \vec{v}_{\text{ave}} = \frac{\Delta\vec{x}}{\Delta t} = \frac{\vec{x}_{\text{final}} - \vec{x}_{\text{initial}}}{t_{\text{final}} - t_{\text{initial}}}  </men>
              Here, the positions and times are correlated: the initial position is the location of the object at the initial time (which could be zero, if you start your clock when the motion begins), and the final position is the location of the object at the final time (which could only be a step along the entire journey). As we'll see in <xref ref="ex-speed-velocity"/>, often only the displacements and time intervals matter. </p>
-             <p>It's also important to note that since displacement is a vector (and time is a scalar), velocity is also a <em>vector</em> quantity, having both magnitude and direction (see <xref ref="vectors"/>). The direction of the velocity is the same as the direction of the displacement (its magnitude is just <q>scaled</q> by the numerical value of the time interval, as are its units).  
+             <p>It's also important to note that since displacement is a vector (and time is a scalar), velocity is also a <em>vector</em> quantity, having both magnitude and direction (see <xref ref="subsec-vectors"/>). The direction of the velocity is the same as the direction of the displacement (its magnitude is just <q>scaled</q> by the numerical value of the time interval, as are its units).  
              </p>
            </li>
+          </p>
         </ul>
-    </subsubsection>
-
+      </p>
+    
       <exercise xml:id="ex-speed-velocity">
         <introduction>
           <p> Let's return to the example of the grocery store trip to explore the kinematics definitions of speed and velocity.    
@@ -251,9 +253,7 @@
 
      <p>
       Before continuing, we should take note of a few things from <xref ref="ex-speed-velocity"/>: (a) both your speed and your velocity changed during your trip to the grocery store (e.g., you were traveling slowest during Part 2 of the trip), and (b) the magnitude of the average velocity for each portion of the trip was the same as the average speed, but that wasn't true when the time interval was expanded to include the entire trip. These observations motivate the general statements below:  
-     </p>
-
-     <ul>
+       <ul>
          <li> 
             <p>
               <term>Time-averaged values</term><mdash/> or, more simply, <em> average values</em><mdash/> always depend on the time interval under consideration. 
@@ -272,8 +272,9 @@
              </p>
           </li>
         </ul>
-        
-    <subsubsection xml:id="last-grocery-store">
+      </subsubsection>
+
+    <subsubsection xml:id="subsub-last-grocery-store">
         <title>Acceleration</title>
         <idx><h>acceleration</h></idx>
 
@@ -305,7 +306,7 @@
                 Acceleration <em>definitely</em> occured during two time intervals of the trip: the transition period from Part 1 to Part 2 and the transition period from Part 2 to Part 3; both the magnitude and the direction of the velocity changed during each of these transition periods. Without knowing the amount of time for each change to occur, however, the numerical value of the acceleration cannot be determined.
               </p>
               <p>
-                NOTE: There may have also been periods of acceleration within each part of the trip. (For example, compare the two "Grocery Store Trip" graphs in <xref ref="graphing-motion"/>.) The consistency of motion is sometimes stated explicitly, while other times it's implicit in the problem's statement. It's crucial to consider the consistency of motion before attempting to use the special-case equations in <xref ref="constant-a-lin-eqns"/>.  
+                NOTE: There may have also been periods of acceleration within each part of the trip. (For example, compare the two "Grocery Store Trip" graphs in <xref ref="subsub-graphing-motion"/>.) The consistency of motion is sometimes stated explicitly, while other times it's implicit in the problem's statement. It's crucial to consider the consistency of motion before attempting to use the special-case equations in <xref ref="subsec-constant-a-lin-eqns"/>.  
               </p>
           </answer>
         </task>
@@ -318,7 +319,7 @@
         </statement>
         <answer>
             <p> 
-              The object can speed up, slow down, or change direction. We can calculate changes in magnitude directly from the equation for acceleration, and we can employ graphical methods to that equation to determine the acceleration resulting from changes in direction. (See <xref ref="vectors"/> as a reminder of the background upon which <xref ref="figure-car-on-curve"/> and <xref ref="figure-acceleration-cases"/> both rely.)     
+              The object can speed up, slow down, or change direction. We can calculate changes in magnitude directly from the equation for acceleration, and we can employ graphical methods to that equation to determine the acceleration resulting from changes in direction. (See <xref ref="subsec-vectors"/> as a reminder of the background upon which <xref ref="figure-car-on-curve"/> and <xref ref="figure-acceleration-cases"/> both rely.)     
             </p> 
         </answer>
        </task>
@@ -366,13 +367,12 @@
           </li> 
        </ul>
       </p> 
-         
+        
         <p>
              Note also that the same distinctions hold for average and instantaneous accelerations (as well as for many other dynamics quantities in Part 1 of this learning guide). For example, as the two points in <xref ref ="figure-car-on-curve"/> become closer to one another, the time interval shrinks, and the average acceleration approaches an instantaneous value.    
              </p> 
-  </subsubsection>
-
-  <exercise xml:id="kin-num-practice">
+  
+  <exercise xml:id="ex-kin-num-practice">
   <introduction>
     <p>
       Let's now explore a few additional kinematics examples to get more practice with these basic definitions and equations.   
@@ -426,12 +426,13 @@
       </answer>
     </task>
   </exercise>
+</subsubsection>
 
-  <subsubsection xml:id="graphing-motion">
+  <subsubsection xml:id="subsub-graphing-motion">
   <title>Kinematics Graphs</title>
   <idx><h>kinematics graphs</h></idx>
 
-  <p> To motivate this discussion, let's return to the example of the grocery store trip from <xref ref="grocery-store-trip"/>. A graph of the motion previously described is shown in <xref ref="figure-grocery-graph"/> below. 
+  <p> To motivate this discussion, let's return to the example of the grocery store trip from <xref ref="subsub-grocery-store-trip"/>. A graph of the motion previously described is shown in <xref ref="figure-grocery-graph"/> below. 
   </p>
 <figure width="85%" xml:id="figure-grocery-graph">
       <title>Graph of Grocery Store Trip</title>
@@ -460,7 +461,7 @@
     </li>
     <li>
       <p>
-        We can use the graphs above to visualize our previous observation that the time interval determines the value of average velocity. For example, compare the slope of the each part of the trip to the slope of the overall trip (the red line shown in the above graph at right), and relate to the results cited in <xref ref="ex-speed-velocity "/>.)     
+        We can use the graphs above to visualize our previous observation that the time interval determines the value of average velocity. For example, compare the slope of the each part of the trip to the slope of the overall trip (the red line shown in the above graph at right), and relate to the results cited in <xref ref="ex-speed-velocity "/>.     
       </p>
     </li>
     <li>
@@ -500,17 +501,16 @@
     <p>GENERAL STATEMENT: The slope at any point of a position vs time graph is the (instantaneous) velocity at that point. 
       </p>
     <p>
-       Similarly, if we consider a graph of velocity vs time, we find that its slope is given by the equation for average acceleration, as given in <xref ref="last-grocery-store"/>:  
+       Similarly, if we consider a graph of velocity vs time, we find that its slope is given by the equation for average acceleration, as given in <xref ref="subsub-last-grocery-store"/>:  
          <me>\text{slope} =\frac{\text{rise}}{\text{run}} =\frac{\Delta\vec{v}}{\Delta t} = \frac{\vec{v}_{\text{final}} - \vec{v}_{\text{initial}}}{t_{\text{final}} - t_{\text{initial}}} = \vec{a}_{\text{ave}} </me>. 
        So we see that if we plot velocity vs time, the slope will be the average acceleration: the (instantaneous) velocity <m>\vec{v}</m> plays the role of the dependent variable <m>y</m>, the time <m>t</m> plays the role of the independent variable  <m>x</m>, and <m>\vec{a}_{\text{ave}}</m> plays the role of the slope, <m>m</m>.
       </p> 
     <p>
-       If the acceleration is constant (as will be the case in <xref ref="constant-a-lin-eqns"/>), the graph of velocity vs time will be a straight line, with the instantaneous acceleration at each point equal to the value of the average acceleration. If the acceleration is changing, as is often the case in real life, we can make use of definition of instantaneous values to realize that the value of the instantaneous acceleration at any given time can be found from the slope of curve at that point on the velocity vs time graph.    
+       If the acceleration is constant (as will be the case in <xref ref="subsec-constant-a-lin-eqns"/>), the graph of velocity vs time will be a straight line, with the instantaneous acceleration at each point equal to the value of the average acceleration. If the acceleration is changing, as is often the case in real life, we can make use of definition of instantaneous values to realize that the value of the instantaneous acceleration at any given time can be found from the slope of curve at that point on the velocity vs time graph.    
       </p>
       <p>GENERAL STATEMENT: The slope at any point of a velocity vs time graph is the (instantaneous) acceleration at that point. 
       </p>  
-     </subsubsection>
-
+     
     <exercise xml:id="ex-motion-graphs">
      <introduction>
     <p>
@@ -582,20 +582,21 @@
            </p>
          </answer>
       </task>
-    </exercise>      
-    </subsection>
+    </exercise>
+  </subsubsection>      
+  </subsection>
       
-    <subsection xml:id="constant-a-lin-eqns">
+    <subsection xml:id="subsec-constant-a-lin-eqns">
        <idx><h>constant acceleration</h></idx>
         
       <title>Special Case: Motion with Constant (Translational) Acceleration </title> 
        <introduction>
         <p>
-          The equations in this subsection are only true for the <em>special case of constant acceleration</em>. Constant acceleration is a small subset of all possible motions, so be sure to ask yourself whether the motion of interest is undergoing constant acceleration <em>before</em> you try to use the equations in <xref ref="subsubsec-constant-accel-eqns"/> or <xref ref="table-eqns-const-lin-a"/>. That said, constant acceleration is somewhat common in nature; for example, objects falling under the influence of only gravity (without air resistance) undergo constant acceleration, and we'll encounter additional examples beginning in <xref ref="dynamics"/>. Furthermore, there are numerous examples of motion that can be <em>approximated</em> as constant acceleration, such as speeding up or slowing down at a relatively constant rate while walking or driving a car. 
+          The equations in this subsection are only true for the <em>special case of constant acceleration</em>. Constant acceleration is a small subset of all possible motions, so be sure to ask yourself whether the motion of interest is undergoing constant acceleration <em>before</em> you try to use the equations in <xref ref="subsub-constant-accel-eqns"/> or <xref ref="table-eqns-const-lin-a"/>. That said, constant acceleration is somewhat common in nature; for example, objects falling under the influence of only gravity (without air resistance) undergo constant acceleration, and we'll encounter additional examples beginning in <xref ref="ch-dynamics"/>. Furthermore, there are numerous examples of motion that can be <em>approximated</em> as constant acceleration, such as speeding up or slowing down at a relatively constant rate while walking or driving a car. 
         </p>      
        </introduction>
 
-       <subsubsection xml:id="subsubsec-free-fall">
+       <subsubsection xml:id="subsub-free-fall">
         <title>Free Fall</title>
         <idx><h>free fall</h></idx>   
        <p>
@@ -611,7 +612,7 @@
     </figure>
 
     <p>
-     Although in everyday life, only an extremely compact and heavy object could fall a distance of <m>80 m</m> with negligible air resistance (see also <xref ref="dynamics"/>), this somewhat idealized figure illustrates two fundamental observations that are true for any object in free fall:
+     Although in everyday life, only an extremely compact and heavy object could fall a distance of <m>80 m</m> with negligible air resistance (see also <xref ref="ch-dynamics"/>), this somewhat idealized figure illustrates two fundamental observations that are true for any object in free fall:
       <ul>
         <li>
           <p>
@@ -634,7 +635,7 @@
     <me> \vec{a}_{\text{g}} =\vec{g} = 9.8 m/s^2 </me>.
     </p>
     <p></p>
-    <p> We can also predict what the kinematics graphs of a freely-falling object would look like, based on the GENERAL STATEMENTS in <xref ref="graphing-motion"/>. Since the velocity is constantly increasing, the slope of the position graph would be constantly increasing (the mathematical way of saying this is that the position graph would be <q>parabolic</q>). <xref ref="figure-free-fall-graphs"/> shows sample data for the first half-second of a more realistic case; note that these graphs which align perfectly with our predictions.
+    <p> We can also predict what the kinematics graphs of a freely-falling object would look like, based on the GENERAL STATEMENTS in <xref ref="subsub-graphing-motion"/>. Since the velocity is constantly increasing, the slope of the position graph would be constantly increasing (the mathematical way of saying this is that the position graph would be <q>parabolic</q>). <xref ref="figure-free-fall-graphs"/> shows sample data for the first half-second of a more realistic case; note that these graphs which align perfectly with our predictions.
     </p>      
   <p> </p>
 
@@ -650,8 +651,7 @@
          </image>
       </sidebyside>       
     </figure>
-    </subsubsection>
-    
+        
     <exercise>
       <task>
         <statement>
@@ -677,7 +677,7 @@
           </p>
           <p> As the ball rises upward, the acceleration is in the opposite direction as its velocity, so the ball slows down. As the ball falls back down towards your hand, the acceleration is in the same direction as its velocity, so the ball speeds up (see <xref ref="figure-acceleration-cases"/>). At the highest point (or "top of flight"), the ball transitions from a very small upward velocity to a very small downward velocity; its instantaneous velocity at that highest point is zero (0.0 m/s). 
           </p>   
-         <p> NOTE: It's interesting to realize that the constant acceleration of free fall indicates that the ball's upward journey is symmetric to its downward journey: when the ball is at the same position along its path, it will have the same speed, so its velocity will have the same magnitude but opposite direction, as seen in the image below. This point will be explored quantitatively in <xref ref="subsubsec-constant-accel-eqns"/>.
+         <p> NOTE: It's interesting to realize that the constant acceleration of free fall indicates that the ball's upward journey is symmetric to its downward journey: when the ball is at the same position along its path, it will have the same speed, so its velocity will have the same magnitude but opposite direction, as seen in the image below. This point will be explored quantitatively in <xref ref="subsub-constant-accel-eqns"/>.
          </p>    
          <image source="symmetry.ff.PNG" width="20%">
          <description>Image shows velocity vectors of ball that's thrown straight upward and comes back down. The velocity vector is respresented by progressively smaller arrows as the ball rises and progressively larger arrows as it falls, with the upward arrows at each position matching the size of the downward arrows.</description>
@@ -685,17 +685,18 @@
         </answer>
       </task>
     </exercise>   
+  </subsubsection>
 
-      <subsubsection xml:id="subsubsec-constant-accel-eqns">
+    <subsubsection xml:id="subsub-constant-accel-eqns">
         <title>Special case kinematics equations for constant acceleration</title>
       <idx><h>constant acceleration</h></idx> 
        <p>
-       As previously emphasized, the equations presented here are only valid for the very special case of constant (translational) acceleration. They are NOT always true, and you won't get the correct answers if you use them for cases where the acceleration changes during the process of interest (for example, the grocery store trip in <xref ref="grocery-store-trip"/>). That said, these equations are extremely useful "shortcut" equations to use whenever the acceleration <em>is</em> constant. Other than a new way of thinking about the average velocity for the special case of constant acceleration, there's no new physics here! All of the physics is contained in the basic definitions in <xref ref="lin-kin-defns"/> (summarized in <xref ref="table-defns-lin-kin"/>); these special case equations are just simplifications and combinations of those definitions.  
+       As previously emphasized, the equations presented here are only valid for the very special case of constant (translational) acceleration. They are NOT always true, and you won't get the correct answers if you use them for cases where the acceleration changes during the process of interest (for example, the grocery store trip in <xref ref="subsub-grocery-store-trip"/>). That said, these equations are extremely useful "shortcut" equations to use whenever the acceleration <em>is</em> constant. Other than a new way of thinking about the average velocity for the special case of constant acceleration, there's no new physics here! All of the physics is contained in the basic definitions in <xref ref="subsec-lin-kin-defns"/> (summarized in <xref ref="table-defns-lin-kin"/>); these special case equations are just simplifications and combinations of those definitions.  
        </p>
       <p>
-      Since we just saw in <xref ref="subsubsec-free-fall"/> that objects in free fall undergo constant acceleration, we can refer to <xref ref="figure-free-fall"/> to motivate the new way of thinking of average velocity mentioned in the preceding paragraph. The first few seconds of this case are shown in <xref ref="ave.vel.is.inst.at.mid"/> below.
+      Since we just saw in <xref ref="subsub-free-fall"/> that objects in free fall undergo constant acceleration, we can refer to <xref ref="figure-free-fall"/> to motivate the new way of thinking of average velocity mentioned in the preceding paragraph. The first few seconds of this case are shown in <xref ref="ave.vel.is.inst.at.mid"/> below.
       </p>
-      <figure width="80%" xml:id="ave.vel.is.inst.at.mid">
+      <figure width="80%" xml:id="figure-ave-vel-is-inst-at-mid">
       <title>Velocity graph for <xref ref="figure-free-fall"/> </title>
         <caption> Graph shows first few seconds of data in <xref ref="figure-free-fall"/>, with dashed lines overlaid to identify coordinates of points of interest more clearly. </caption>
       <image source="graph.ave.instant.midpt.PNG" width="60%"> 
@@ -719,15 +720,15 @@
     The answers to these two questions follow:  
     <ol>
       <li>
-        <p> We can use the definition of <em>average velocity</em> from <xref ref="more-grocery-store"/> and the corresponding displacement of 20 m in the downward direction (as shown in <xref ref="figure-free-fall"/>) to determine that the average velocity is <em>downward</em> with a magnitude of: 
+        <p> We can use the definition of <em>average velocity</em> from <xref ref="subsub-more-grocery-store"/> and the corresponding displacement of 20 m in the downward direction (as shown in <xref ref="figure-free-fall"/>) to determine that the average velocity is <em>downward</em> with a magnitude of: 
           <me> v_{\text{ave}} = \frac{\Delta x}{\Delta t} = \frac{20 \text{m}}{2\text{s}} = 10 m/s </me>. 
 
-          NOTE: If you thought the answer was 20 m/s, you're likely conflating average and instantaneous values. The numbers given in <xref ref="figure-free-fall"/>  - and hence plotted in <xref ref="ave.vel.is.inst.at.mid"/> - are <em>instantaneous</em> values at the times indicated (or in other words,  the "final" values at the end of the corresponding time intervals).   
+          NOTE: If you thought the answer was 20 m/s, you're likely conflating average and instantaneous values. The numbers given in <xref ref="figure-free-fall"/>  - and hence plotted in <xref ref="figure-ave-vel-is-inst-at-mid"/> - are <em>instantaneous</em> values at the times indicated (or in other words,  the "final" values at the end of the corresponding time intervals).   
         </p>
       </li>
       <li>
         <p>
-          We see from both <xref ref="figure-free-fall"/> and <xref ref="ave.vel.is.inst.at.mid"/> that the velocity is 10 m/s at a time of 1 s. We also notice that one second is midway between the "initial" time of zero seconds and the "final" time of two seconds, which motivates the general statement below.       
+          We see from both <xref ref="figure-free-fall"/> and <xref ref="figure-ave-vel-is-inst-at-mid"/> that the velocity is 10 m/s at a time of 1 s. We also notice that one second is midway between the "initial" time of zero seconds and the "final" time of two seconds, which motivates the general statement below.       
         </p>
       </li>
     </ol>
@@ -739,7 +740,7 @@
     As an aside: we may note that we can always calculate the average value of anything by adding up as many values as we have and dividing by the number of values; what's special about a linear function  - like the velocity of an object undergoing uniform acceleration - is that we only need to use two values (the beginning and ending values).   
   </p>
   <p>
- The other three "special case equations" are found from rearranging the kinematics definitions from <xref ref="lin-kin-defns"/>, simplifying for the case of constant acceleration (<m>\vec{a}_{\text{ave}} \rightarrow \vec{a}) </m>, starting our clock at zero (<m>t_{\text{initial}} = 0 </m> and <m>t_{\text{final}} \rightarrow t </m>), and sometimes making use of the "special case equation" for average velocity above. 
+ The other three "special case equations" are found from rearranging the kinematics definitions from <xref ref="subsec-lin-kin-defns"/>, simplifying for the case of constant acceleration (<m>\vec{a}_{\text{ave}} \rightarrow \vec{a}) </m>, starting our clock at zero (<m>t_{\text{initial}} = 0 </m> and <m>t_{\text{final}} \rightarrow t </m>), and sometimes making use of the "special case equation" for average velocity above. 
  </p>
  <p>
  We can rearrange the definition of average acceleration and simplify to obtain: 
@@ -748,7 +749,7 @@ This equation is particularly useful to find the velocity at any desired time if
  </p>
  <p></p>
  <p>
-Combining the two equations for average velocity (the definition from  <xref ref="more-grocery-store"/> and the special case equation above) and rearranging gives:    
+Combining the two equations for average velocity (the definition from  <xref ref="subsub-more-grocery-store"/> and the special case equation above) and rearranging gives:    
   <men> \vec{x}_{\text{final}}= \vec{x}_{\text{initial}} + \vec{v}_{\text{initial}}\cdot t + \frac{1}{2} \vec{a}\cdot t^2 </men>
 This equation is particularly useful to find the position (or displacement) at any desired time if we know the acceleration and initial velocity (or to find any unknown quantity in the equation if given the others). 
 </p>
@@ -758,8 +759,7 @@ Finally, we can eliminate <m>t</m> between the two preceding equations to obtain
   <men>\vec{v}_{\text{final}}^2= \vec{v}_{\text{initial}}^2 + 2 \vec{a}\cdot \Delta\vec{x} </men>
   This equation is particularly useful to relate the displacement of an object to its change in velocity; for example, to find the distance it takes a car to stop if its acceleration and initial velocity values are known, or to determine the initial speed a car was traveling from the length of the skid marks it leaves on the ground. For this reason, it is sometimes called the "braking distance equation." However, keep in mind it applies to any object undergoing constant acceleration - including free fall -  and like any equation, it can be rearranged to solve for any unknown variable.       
   </p>
- </subsubsection>
-
+ 
 <exercise>
   <task>
     <statement>
@@ -788,7 +788,7 @@ Finally, we can eliminate <m>t</m> between the two preceding equations to obtain
          <me>t = - \frac {15 m/s} {-9.8m/s^2} = 1.5 s </me>.   
           We can then substitute this value for time into the displacement equation: 
           <me> \vec{x}_{\text{final}}=\vec{x}_{\text{initial}} + \vec{v}_{\text{initial}}\cdot t + \frac{1}{2} \vec{a}\cdot t^2 </me>.
-          Keeping in mind that zero position is arbitary (see <xref ref="grocery-store-trip"/>), we could logically choose <m>\vec{x}_{\text{initial}} =0 </m> (or even <m>\vec{x}_{\text{final}}=0 </m>). However, since the ball's <em> displacement</em> above your hand is the only thing we care about, we could just as well rewrite the displacement equation as 
+          Keeping in mind that zero position is arbitary (see <xref ref="subsub-grocery-store-trip"/>), we could logically choose <m>\vec{x}_{\text{initial}} =0 </m> (or even <m>\vec{x}_{\text{final}}=0 </m>). However, since the ball's <em> displacement</em> above your hand is the only thing we care about, we could just as well rewrite the displacement equation as 
            <me> \Delta \vec{x} = \vec{v}_{\text{initial}}\cdot t + \frac{1}{2} \vec{a}\cdot t^2 </me>   
           <me>\Delta \vec{x} = (15 m/s)(1.5 s) + \frac{1}{2} (-9.8 m/s^2)(1.5 s)^2 = 11 m  </me>    
         </p>
@@ -812,17 +812,15 @@ Finally, we can eliminate <m>t</m> between the two preceding equations to obtain
   </statement>
   <answer>
     <p>
-      
     </p>
   </answer>
 </task>
-
 </exercise>
-
+</subsubsection>
 </subsection> 
 <p></p>
 <p></p>
-<p> The equations from this entire section are summarized below for easy reference, and to guide our thinking in <xref ref="rot-kin"/>. 
+<p> The equations from this entire section are summarized below for easy reference, and to guide our thinking in <xref ref="sect-rot-kin"/>. 
 </p>
 
   <table xml:id="table-defns-lin-kin" >
@@ -878,11 +876,13 @@ Finally, we can eliminate <m>t</m> between the two preceding equations to obtain
   </table> 
 </section>
 
-    <section xml:id="rot-kin">
+    <section xml:id="sect-rot-kin">
       <title>Rotational Kinematics</title>
+      <idx><h>rotational kinematics</h></idx>
+
       <p>We now turn our attention to the other basic form of motion: <em>rotational</em> (also called <em>angular</em>) motion. We'll again begin by considering a situation that only includes rotational motion: two objects resting on a rotating platform. This example will help to clearly define terms and ellucidate the connection to translational motion. Relying on what we learned previously in <xref ref="lin-kin"/> will allow us to build our toolkit quickly by making use of the analagous definitions and equations for translational motion. We'll look at some other examples along the way, and then we'll summarize our findings by adding the kinematics equations for rotational motion to <xref ref="table-defns-lin-kin"/> and <xref ref="table-eqns-const-lin-a"/>.</p>
 
-        <subsubsection xml:id="subsubsec-">
+        <subsubsection xml:id="subsub-rot-kin-defns">
           <title>Kinematics Definitions (Rotational)</title>
           <introduction>
             <p>
@@ -914,7 +914,7 @@ Finally, we can eliminate <m>t</m> between the two preceding equations to obtain
       </image> 
     </figure>
 
-        </subsubsection>
+    </subsubsection>
 
   <table xml:id="table-compare-kin-lin-ang">
   <title>Comparison of Translational and Rotational Kinematics</title>
@@ -971,12 +971,12 @@ Finally, we can eliminate <m>t</m> between the two preceding equations to obtain
 -->
     </section>
 
-    <section xml:id="combo-kin">
+    <section xml:id="sect-combo-kin">
       <title>Combination Motion</title>
       <p>Hello</p>
     </section>
 
-    <section xml:id="kin-apps">
+    <section xml:id="sect-kin-apps">
       <title>Applications of Kinematics to Health Sciences</title>
       <p>Hello</p>
     </section>

@@ -1,13 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<chapter xml:id="using-physics" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-using-physics" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Using Physics to Inform Health Sciences</title>
 
-  <objectives xml:id="intro-gq">
+  <objectives xml:id="gq-intro">
     <introduction>
       <p>
-        Here are some questions to keep in mind as you read and work through the content in this
-        chapter:
+        Here are some questions to keep in mind as you read and work through the content in this chapter:
       </p>
     </introduction>
 
@@ -20,7 +19,7 @@
 
   </objectives>
 
-  <section xml:id="prelim-concepts">
+  <section xml:id="sect-prelim-concepts">
     <title>Preliminary Concepts</title>
 
     <introduction>
@@ -29,7 +28,7 @@
       </p>
     </introduction>
 
-    <subsection xml:id="matter-and-energy">
+    <subsection xml:id="subsec-matter-and-energy">
       <title>Matter and Energy</title>
       <idx><h>matter</h></idx>
       <idx><h>energy</h><see>conservation of energy</see></idx> 
@@ -39,7 +38,7 @@
       </p>
 
       <p>
-        As stated above, energy is a core physics concept. We will see beginning in the next chapter that one of the most fundamental theoretical constructs in physics is the <em>Law of Conservation of Energy</em>. The PhET simulation below introduces you to some of the diverse forms of energy that will be explored in more detail in subsequent chapters. In particular, we will spend more time on the <q>Intro</q> tab of this PhET in <xref ref="thermo" />; at this point you may prefer to instead focus on the <q>Systems</q> tab to become familar with how the PhETs work and to see how one form of energy can be converted into another. As you explore this PhET, consider the following suggestions: 
+        As stated above, energy is a core physics concept. We will see beginning in the next chapter that one of the most fundamental theoretical constructs in physics is the <em>Law of Conservation of Energy</em>. The PhET simulation below introduces you to some of the diverse forms of energy that will be explored in more detail in subsequent chapters. In particular, we will spend more time on the <q>Intro</q> tab of this PhET in <xref ref="ch-thermo" />; at this point you may prefer to instead focus on the <q>Systems</q> tab to become familar with how the PhETs work and to see how one form of energy can be converted into another. As you explore this PhET, consider the following suggestions: 
         <ul>
           <li>
             Turn on the <q>Energy symbols</q> option (in the upper right corner) to observe how the various forms of energy convert into one another.
@@ -62,7 +61,7 @@
 
     </subsection>
 
-    <subsection xml:id="hs-connects">
+    <subsection xml:id="subsec-hs-connects">
       <title>Relevance of Physics to Health Sciences </title>
       <p>
         Physics undergirds health sciences in two main ways: 
@@ -84,14 +83,16 @@
     </subsection>
   </section>
 
-  <section xml:id="nature-of-science">
+  <section xml:id="sect-nature-of-science">
     <title>The Nature of Science</title>
     <introduction>
       <p>Physics is sometimes said to be the most <em>fundamental science</em>, because all natural sciences <ndash /> such as biology, chemistry, geology, and the various interdisciplinary and applied sciences <ndash /> are essentially attempts to understand the <em>physical</em> aspects of the natural world through careful observation and experimentation. Specifically, <q> fundamental</q> in this sense doesn't mean <q>most important</q> but rather <q>most basic,</q> as all other natural sciences rely upon physics, at least at the microscopic scale. Therefore, although the following discussion about the nature of science uses physics examples, this discussion applies equally well to all natural sciences. (You're invited to consider for yourself whether it's also applicable to the various social and political sciences.) </p>
     </introduction>
   
-    <subsection xml:id="sci-method">
+    <subsection xml:id="subsec-sci-method">      
       <title>The Scientific Method</title>
+      <idx><h>scientific method</h></idx> 
+
       <p> 
         Since a hallmark of science is its reproducibility, the scientific method is an approach to investigating the natural world that seeks to remove biases of the investigator. It is generally presented as a series of sequential steps, but it's important to keep in mind that science is actually an iterative process; in practice the result of any given step often motivates the return to an earlier step before progressing to the next step. The short video below begins by showing how the scientific method applies to solving problems in every day life.
       </p>
@@ -99,7 +100,7 @@
       <figure>
         <title>One Version of the Scientific Method</title>
         <caption>A video discussion of the scientific method (about 4 minutes)</caption>
-        <video xml:id="sci-meth-vid" youtube="SMGRe824kak" />
+        <video xml:id="vid-sci-meth" youtube="SMGRe824kak" />
       </figure>
   
       <p> 
@@ -131,7 +132,7 @@
       </p>
   
       <p> 
-        As an example, consider the behavior of a pendulum, which will be explored in more detail in <xref ref="sound" />. A scientist may <em>observe</em> an object on a string oscillating to<ndash />and<ndash />fro and <em>hypothesize</em> about which of its physical characteristics (or <q>parameters</q>) affect the rate at which it oscillates. Predictions made be made about how parameters such as mass or shape of the object, the mass or length of the string, how far the object is pulled to the side before being released, (etc.) affect the rate of oscillation. Careful <em>experiments</em> could then be performed to test each of these predictions by varying only the parameter under consideration without changing any other parameters. The result of this process might be a <em>theoretical construct</em> in the form of an equation.
+        As an example, consider the behavior of a pendulum, which will be explored in more detail in <xref ref="ch-sound" />. A scientist may <em>observe</em> an object on a string oscillating to<ndash />and<ndash />fro and <em>hypothesize</em> about which of its physical characteristics (or <q>parameters</q>) affect the rate at which it oscillates. Predictions made be made about how parameters such as mass or shape of the object, the mass or length of the string, how far the object is pulled to the side before being released, (etc.) affect the rate of oscillation. Careful <em>experiments</em> could then be performed to test each of these predictions by varying only the parameter under consideration without changing any other parameters. The result of this process might be a <em>theoretical construct</em> in the form of an equation.
       </p>
   
       <p>
@@ -139,8 +140,9 @@
       </p>
     </subsection>
   
-    <subsection xml:id="models">
+    <subsection xml:id="subsec-models">
       <title>Important Philosophical Considerations</title>
+      <idx><h>theoretical constructs in physics</h></idx> 
       <p>
         Many discussions of the scientific method assert the emergence of <em>theories</em> or <em> laws</em> as the final outcome, but physics also makes frequent use of other theoretical constructs, such as <em>models</em> and <em>equations</em>. In fact, many physics concepts (such as energy) are themselves theoretical constructs, in that they do not immediately correspond with directly measurable quantities. (The historical evolution of the concept of <em> energy</em> is a primary reason that there are so many different units for its measurement; people have not always been aware that its various manifestations were even related!) A few important philosophical notes are therefore important to consider.
         <ul>
@@ -150,13 +152,13 @@
               There has been much discussion in recent years that science is fundamentally flawed, because scientists keep changing their perspectives. Such critiques display a profound misunderstanding of what science is, because <em>science is intended to change</em> in response to new evidence. In the Western world, Aristotle is often considered the founder of <em>natural philosophy</em> (the basis of natural science); his theories were based on a combination of logic (philosophical <q>idealism</q>) and everyday observations, but his ideas about motion were seen to be flawed when Galileo began doing carefully<ndash />controlled experiments in the 1600's.
             </p>
             <p>
-              Galileo's conclusions, based on his underlying philosophy of <em>empiricism,</em> are considered the beginning of the science of physics and led directly to Newton developing his famous laws of motion (to be explored in much more detail in <xref ref="dynamics" />). For now, it's important to note that there have been numerous similar upheavals (or <q>paradigm shifts</q>) in the history of all natural sciences. However, earlier interpretations are seldom dismissed outright; instead, the new insights expand the domain of investigation. As a specific example: another significant paradigm shift in physics occured around 1910: <q>Modern Physics</q> (so<ndash />named to distinguish it from the <q>Classical Physics</q> that preceeded it), emcompassing both <em>relativity theory</em> and <em>quantum mechanics</em>, was born as a consequence of irresolvable disputes between predictions of established branches of physics and new experimental evidence. However, classical physics is still valid within the everyday domain of objects of sizes comparable to human beings moving at moderate speeds. For this reason, classical physics ideas comprise most of this learning guide <ndash /> and, indeed, most other introductory physics resources (texts, etc.) <ndash /> with modern physics content mostly regulated to <xref ref='qm' />.
+              Galileo's conclusions, based on his underlying philosophy of <em>empiricism,</em> are considered the beginning of the science of physics and led directly to Newton developing his famous laws of motion (to be explored in much more detail in <xref ref="ch-dynamics" />). For now, it's important to note that there have been numerous similar upheavals (or <q>paradigm shifts</q>) in the history of all natural sciences. However, earlier interpretations are seldom dismissed outright; instead, the new insights expand the domain of investigation. As a specific example: another significant paradigm shift in physics occured around 1910: <q>Modern Physics</q> (so<ndash />named to distinguish it from the <q>Classical Physics</q> that preceeded it), emcompassing both <em>relativity theory</em> and <em>quantum mechanics</em>, was born as a consequence of irresolvable disputes between predictions of established branches of physics and new experimental evidence. However, classical physics is still valid within the everyday domain of objects of sizes comparable to human beings moving at moderate speeds. For this reason, classical physics ideas comprise most of this learning guide <ndash /> and, indeed, most other introductory physics resources (texts, etc.) <ndash /> with modern physics content mostly regulated to <xref ref='ch-qm' />.
             </p>
           </li>
           <li>
             <title>Categories are artificial</title>
             <p>
-              This learning guide is necessarily divided into parts and chapters, sequenced to build upon one another. However, it's important to keep in mind that nature doesn't care about these man<ndash />made categories! Most topics in everyday life require knowledge from more than one category: for example, a thorough understanding of <em>light</em> requires understanding not only electromagnetism (as discussed in <xref ref="electromagnetism" />), but also aspects of modern physics (relativity and light quanta) that are not covered thoroughly in this learning guide; likewise, a more complete description of <em>sound</em> requires understanding its quantum nature, and relativity theory has much more to say about <em> gravity</em> than presented in this learning guide. Similar remarks apply to the distinctions between and among the natural sciences; in some sense, this artificial separation of physical reality into supposedly distinct categories accounts for the rise of interdisciplinary and applied sciences.
+              This learning guide is necessarily divided into parts and chapters, sequenced to build upon one another. However, it's important to keep in mind that nature doesn't care about these man<ndash />made categories! Most topics in everyday life require knowledge from more than one category: for example, a thorough understanding of <em>light</em> requires understanding not only electromagnetism (as discussed in <xref ref="ch-electromagnetism" />), but also aspects of modern physics (relativity and light quanta) that are not covered thoroughly in this learning guide; likewise, a more complete description of <em>sound</em> requires understanding its quantum nature, and relativity theory has much more to say about <em> gravity</em> than presented in this learning guide. Similar remarks apply to the distinctions between and among the natural sciences; in some sense, this artificial separation of physical reality into supposedly distinct categories accounts for the rise of interdisciplinary and applied sciences.
             </p>
           </li>
           <li>
@@ -169,13 +171,13 @@
               </ol>
             </p>
             <p>
-              Many models (like the flat earth) are known to be untrue or incomplete, but are still very useful scientific models. For example, the planetary model of the atom <mdash /> with negative particles called <em>electrons</em> orbiting a nucleus composed of positive <em> protons</em> and neutral <em>neutrons</em> <mdash /> will be used in <xref ref="systems" /> and again in <xref ref="electromagnetism" />, even though we know it's not the most accurate description. In fact, the idea of an <em>atomic particle</em> is itself an incomplete model, as quantum physics has revealed the wave nature of all atomic <q>particles</q>. Similarly, sound and light will be treated as waves in <xref ref="sound" /> and <xref ref="light" />, but quantum physics discloses their particulate natures. Entire philosophical treatises have been written on this <em>wave<ndash />particle duality</em>, because no two concepts could be more opposite than particles and waves. (For example, particles stay intact (<q>localized</q>) as they move through space and interact via collisions, whereas waves spread out as they travel and can pass through one another.) The fact that two such opposite models are needed to fully describe common phenomena like matter, sound, and light discloses the limitations inherent in all models. As you enter other scientific models, please consider whether you ever conflate models with reality. 
+              Many models (like the flat earth) are known to be untrue or incomplete, but are still very useful scientific models. For example, the planetary model of the atom <mdash /> with negative particles called <em>electrons</em> orbiting a nucleus composed of positive <em> protons</em> and neutral <em>neutrons</em> <mdash /> will be used in <xref ref="ch-systems" /> and again in <xref ref="ch-electromagnetism" />, even though we know it's not the most accurate description. In fact, the idea of an <em>atomic particle</em> is itself an incomplete model, as quantum physics has revealed the wave nature of all atomic <q>particles</q>. Similarly, sound and light will be treated as waves in <xref ref="ch-sound" /> and <xref ref="ch-light" />, but quantum physics discloses their particulate natures. Entire philosophical treatises have been written on this <em>wave<ndash />particle duality</em>, because no two concepts could be more opposite than particles and waves. (For example, particles stay intact (<q>localized</q>) as they move through space and interact via collisions, whereas waves spread out as they travel and can pass through one another.) The fact that two such opposite models are needed to fully describe common phenomena like matter, sound, and light discloses the limitations inherent in all models. As you enter other scientific models, please consider whether you ever conflate models with reality. 
             </p>
           </li>
           <li>
             <title>Idealizations are necessary</title>
             <p>
-              One reason physics can seem more abstract than the other natural sciences is that its idealizations often neglect interesting features of reality. For example, if the physics of interest is to describe an object's motion through space (as in <xref ref="kinematics" />), then we can model it as a simple <em>point mass</em>, which ignores the very features of most interest to a biologist, chemist, or health scientist. However, this simplication is also what makes physics so powerful: we can discern the commonalities underlying seemingly different scenarios, and often express them in equation form, which<mdash />as mentioned in the preface <ndash /> allows trends to be made explicit and facilitates deeper understanding of the relationship between the parameters under investigation. The next section discusses additional quantitative aspects of physics.
+              One reason physics can seem more abstract than the other natural sciences is that its idealizations often neglect interesting features of reality. For example, if the physics of interest is to describe an object's motion through space (as in <xref ref="ch-kinematics" />), then we can model it as a simple <em>point mass</em>, which ignores the very features of most interest to a biologist, chemist, or health scientist. However, this simplication is also what makes physics so powerful: we can discern the commonalities underlying seemingly different scenarios, and often express them in equation form, which<mdash />as mentioned in the preface <ndash /> allows trends to be made explicit and facilitates deeper understanding of the relationship between the parameters under investigation. The next section discusses additional quantitative aspects of physics.
             </p>
           </li>
         </ul>
@@ -183,7 +185,7 @@
     </subsection>
   </section>
 
-  <section xml:id="quantitative">
+  <section xml:id="sect-quantitative">
     <title>Important Aspects of Physical Quantities</title>
     <introduction>
       <p>
@@ -191,7 +193,7 @@
       </p>
     </introduction>
   
-    <subsection xml:id="units">
+    <subsection xml:id="subsec-units">
       <title>Units of Measurement</title>
       <p>
         Almost all quantities encountered in physics have <em>units</em>, which are as important as the numerical value associated with them. To illustrate the importance of units, imagine that you're in a marketplace in another country. You see a shirt that you're interested in purchasing, so you inquire about its cost. Do you have the information you need if the vendor responds, <q>This wonderful shirt takes 5</q>? No, because you don't know whether they're saying 5 US dollars, 5 of the local currency, 5 hours (or days) to construct, etc. Without units, the number <q>5</q> is quite meaningless.
@@ -223,7 +225,7 @@
         </ul>
       </p>
       <p>
-        There are certainly a great many additional physical quantities<mdash />such as <em>speed, force, energy, etc.</em><mdash />but all other quantities can be expressed as combinations of these seven fundamental quantities (also called <em>base units</em>). For example, <em> speed</em> is distance (or <em>length</em>) divided by <em>time</em> (the time it takes to travel the distance), so it's measured in length units divided by time units<mdash />mph (miles per hour) or m<solidus />s (meters per second). As we'll see beginning in <xref ref="dynamics" />, more complicated combinations of base units are generally given their own names.
+        There are certainly a great many additional physical quantities<mdash />such as <em>speed, force, energy, etc.</em><mdash />but all other quantities can be expressed as combinations of these seven fundamental quantities (also called <em>base units</em>). For example, <em> speed</em> is distance (or <em>length</em>) divided by <em>time</em> (the time it takes to travel the distance), so it's measured in length units divided by time units<mdash />mph (miles per hour) or m<solidus />s (meters per second). As we'll see beginning in <xref ref="ch-dynamics" />, more complicated combinations of base units are generally given their own names.
       </p>
       <p>
         The previous paragraph included our first example of <em>systems of units</em>. If you grew up in the United States, you're likely already familiar with some aspects of the <q>US Customary</q> system, which (for example) reports distances in units of inches, feet, yards, miles (etc.). The rest of the world uses the metric system, because metric units are based on powers of 10, rendering unit conversions much more straight<ndash />forward. Technically, the base unit for length in the US Customary system is the foot, with other length units defined in terms of the foot (1 inch is defined as 1<solidus />12 of a foot, etc.). Similarly, there are two particularly useful versions of the metric system: <em>SI</em>, the <q>International System of Units</q> (or <foreign>System Internationale</foreign>, in French), which is sometimes called <em>the</em> metric system, and the <em>CGS</em> system, which is useful for everyday objects (<em>CGS</em> stands for <em>Centimeters, Grams, Seconds</em>). These three systems are summarized in the chart below.
@@ -254,18 +256,18 @@
       </p>
   
       <p>
-        While converting from one metric unit to another just involves moving the decimal place, converting between systems of units requires more careful attention. If we know the <em>conversion factor</em> for the unit as measured in the two systems, we can write the number <em>1</em> in a useful way to convert the quantity as reported in the original system to that reported in the new system, as demonstrated in the video below. (Note: the video uses <em>v</em> to represent <em>speed</em> and an overbar over the <em>v</em> to designate it as the <em>average</em> speed; <em>v</em> actually stands for <em>velocity</em> (<xref ref="vectors" /> will elucidate the connection between <em>speed</em> and <em>velocity</em>), and we'll explore the reason for specifying <em>average</em> speed in <xref ref="lin-kin" />.)
+        While converting from one metric unit to another just involves moving the decimal place, converting between systems of units requires more careful attention. If we know the <em>conversion factor</em> for the unit as measured in the two systems, we can write the number <em>1</em> in a useful way to convert the quantity as reported in the original system to that reported in the new system, as demonstrated in the video below. (Note: the video uses <em>v</em> to represent <em>speed</em> and an overbar over the <em>v</em> to designate it as the <em>average</em> speed; <em>v</em> actually stands for <em>velocity</em> (<xref ref="subsec-vectors" /> will elucidate the connection between <em>speed</em> and <em>velocity</em>), and we'll explore the reason for specifying <em>average</em> speed in <xref ref="sect-lin-kin" />.)
       </p>
   
       <figure>
         <title>Unit Conversions</title>
         <caption>Hewitt-Drew-It video discussion of unit conversions (about 5 minutes)</caption>
-        <video xml:id="unit-conversions" youtube="4EhkFuVGmco" />
+        <video xml:id="vid-unit-conversions" youtube="4EhkFuVGmco" />
       </figure>
   
     </subsection>
   
-    <subsection xml:id="vectors">
+    <subsection xml:id="subsec-vectors">
       <title>Scalars and Vectors</title>
       <p>
         We'll encounter a variety of quantities in our study of physics, which can be divided into two broad categories:
@@ -296,7 +298,7 @@
       </p>
   
       <p>
-        A primary example of a vector in everyday life is a <em>force</em>. We'll discuss forces in more detail beginning in <xref ref="dynamics" />, but given our everyday experience with forces as <em>pushes</em> or <em>pulls</em>, we can use force to illustrate the important distinction between scalars and vectors.
+        A primary example of a vector in everyday life is a <em>force</em>. We'll discuss forces in more detail beginning in <xref ref="ch-dynamics" />, but given our everyday experience with forces as <em>pushes</em> or <em>pulls</em>, we can use force to illustrate the important distinction between scalars and vectors.
       </p>
   
       <p>
@@ -315,7 +317,7 @@
       </figure>
 
       <p>
-        In one-dimension (1D), such as the first two examples in <xref ref="figure-vector-intro"/>, we can simply use positive and negative signs to account for the direction of each vector. We thus see that pulls would add for the left case and subtract for the center case. However, things get a bit more complicated in 2 or 3 dimensions, as seen in the third example in <xref ref="figure-vector-intro" />. Analytical methods for combining vectors require trigonometry and are thus beyond the scope of this learning guide. However, we can glean both quantitative and qualitative information about combining vectors using a visual method called <q>tip<ndash />to<ndash />tail vector addition</q>. Basically, the tail of the second vector is drawn at the tip of the first vector, and the combination<mdash />called the <em>resultant</em><mdash /> is drawn from the tip of the first vector to the tail of the second, as shown in <xref ref ="figure-vector-addition" />. Note that this can be done as a quick sketch, drawing the vectors approximately to scale and oriented in approximate directions for a qualitative understanding of the physical situation, or by using a ruler and protractor to draw more accurately and then measuring the length and angle of the resultant vector to give a quantitative value (the latter is sometimes called the <q>graphical method</q> of vector addition). In either case, a reasonable way to double-check your work is to do the same process in the reverse order, forming a parallelogram (or rectangle in the case shown on the right side of the figure below.
+        In one-dimension (1D), such as the first two examples in <xref ref="figure-vector-intro"/>, we can simply use positive and negative signs to account for the direction of each vector. We thus see that pulls would add for the left case and subtract for the center case. However, things get a bit more complicated in 2 or 3 dimensions, as seen in the third example in <xref ref="figure-vector-intro" />. Analytical methods for combining vectors require trigonometry and are thus beyond the scope of this learning guide. However, we can glean both quantitative and qualitative information about combining vectors using a visual method called <q>tip<ndash />to<ndash />tail vector addition</q>. Basically, the tail of the second vector is drawn at the tip of the first vector, and the combination<mdash />called the <em>resultant</em><mdash /> is drawn from the tip of the first vector to the tail of the second, as shown in <xref ref ="figure-vector-addition" />. Note that this can be done as a quick sketch, drawing the vectors approximately to scale and oriented in approximate directions for a qualitative understanding of the physical situation, or by using a ruler and protractor to draw more accurately and then measuring the length and angle of the resultant vector to give a quantitative value (the latter is sometimes called the <q>graphical method</q> of vector addition). In either case, a reasonable way to double-check your work is to do the same process in the reverse order, forming a parallelogram (or rectangle in the case shown on the right side of the figure below).
       </p>
   
       <figure width="80%" xml:id="figure-vector-addition">
@@ -343,7 +345,7 @@
           </li>
           <li>
             <p>
-              Experiment with the <q>Explore 1D</q> tab first. Experiment with vectors of different lengths and orientations. (You may like to recreate the 1D examples in <xref provisional="figure-vector-intro" />.)
+              Experiment with the <q>Explore 1D</q> tab first. Experiment with vectors of different lengths and orientations. (You may like to recreate the 1D examples in <xref ref="figure-vector-intro" />.)
             </p>
           </li>
           <li>
@@ -368,7 +370,7 @@
   
     </subsection>
   
-    <subsection xml:id="precision">
+    <subsection xml:id="subsec-precision">
       <title>Accuracy and Precision</title>
   
       <p>
@@ -398,13 +400,13 @@
     
     <subsection xml:id="subsec-zero">
         <title>Role of "Zero"</title>
-        <p> The number <em>zero</em> (0) sometimes has physical significance, while other times it doesn't. (In cases where zero can be chosen, a wise choice of where to call sero can often simplify the math.) Examples abound in both categories and will generally be made clear when the physical quantity is introduced. For now, we'll rely on two examples from everyday life: 
+        <p> The number <em>zero</em> (0) sometimes has physical significance, while other times it doesn't. (In cases where zero can be chosen, a wise choice of where to call zero can often simplify the math.) Examples abound in both categories and will generally be made clear when the physical quantity is introduced. For now, we'll rely on two examples from everyday life: 
             <ul>
               <li><title>Example of arbitrary <em>zero</em>: position</title>
                 <p>The number <em>zero</em> is completely arbitrary for position. For example, if we hold an object
           above a table, we could define its <q>zero</q> position to be at the floor, on top of the table, at the object's position above the table, or anywhere in between. The only physically meaningful quantity is its <em>change in position</em>, which will be the same
           regardless of what we choose to call the <q>zero</q> position.(NOTE: If we only care about the object's position relative to the top of the table<mdash/>as in some of the labs<mdash/>the the math will be much simpler by choosing the zero position as either the
-          tabletop or the object's initial position. This point will be discussed further in <xref ref="lin-kin"/> and thereafter.)  
+          tabletop or the object's initial position. This point will be discussed further in <xref ref="sect-lin-kin"/> and thereafter.)  
                 </p>
               </li>
   

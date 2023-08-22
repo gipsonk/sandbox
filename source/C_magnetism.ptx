@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="magnetism">
+<chapter xml:id="ch-magnetism">
   <title>Magnetism</title>
   <introduction>
     <p>
@@ -8,22 +8,22 @@
     </p>
   </introduction>
 
-  <section xml:id="m-statics">
+  <section xml:id="sect-m-statics">
     <title>Magnetostatics</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="b-force">
+  <section xml:id="sect-b-force">
     <title>Magnetic forces</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="em-induction">
+  <section xml:id="sect-em-induction">
     <title>Electromagnetic Induction</title>
     <p>Hello</p>
   </section>
   
-  <section xml:id="apps-em">
+  <section xml:id="sect-apps-em">
     <title>Applications of Electromagnetism</title>
     <p>Hello</p>
   </section>

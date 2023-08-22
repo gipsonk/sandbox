@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="nukes">
+<chapter xml:id="ch-nukes">
   <title>Nuclear Physics</title>
   <introduction>
     <p>
@@ -9,17 +9,17 @@
 
   </introduction>
 
-  <section xml:id="nucleus">
+  <section xml:id="sect-nucleus">
     <title>The Nucleus</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="radioactivity">
+  <section xml:id="sect-radioactivity">
     <title>Radioactivity</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="apps-nukes">
+  <section xml:id="sect-apps-nukes">
     <title>Applications of Nuclear Physics</title>
     <p>Hello</p>
   </section>

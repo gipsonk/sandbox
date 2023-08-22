@@ -13,57 +13,51 @@
     <latex-image-preamble>
       \usepackage{tikz}
     </latex-image-preamble>
-
+  
   </docinfo>
 
   <book xml:id="essential-physics-health-science">
     <title>Essential Physics for Health Sciences</title>
     <subtitle>An Algebra-Based Interactive Learning Guide</subtitle>
 
-    <xi:include href="frontmatter.ptx" />
+    <xi:include href="frontmatter.ptx"/>
 
-    <part xml:id="intro">
+    <part xml:id="part-intro">
       <title>Introduction</title>
-
     <xi:include href="C_using_physics.ptx" />
-    
     </part>
 
-   <part xml:id="motion">
+   <part xml:id="part-motion">
     <title>Mechanics: The Study of Motion</title>
-  
-  <introduction>
+   <introduction>
     <p>
-      In physics, the term <q>mechanics</q> refers to the study of motion. The chapters in Part 2 discuss various aspects of the mechanics of individual objects. We'll begin with <em>kinematics: the description of motion</em>. After carefully discussing important kinematics definitions in <xref ref="kinematics"/>, we'll progress to exploring <em>dynamics: the causes of changes in motion</em> in <xref ref="dynamics"/>. Part 2 will close with an alternate approach to analyzing motion based on <em>conserved quantities</em> in <xref ref="cons-laws"/>.     
+      In physics, the term <q>mechanics</q> refers to the study of motion. The chapters in Part 2 discuss various aspects of the mechanics of individual objects. We'll begin with <em>kinematics: the description of motion</em>. After carefully discussing important kinematics definitions in <xref ref="ch-kinematics"/>, we'll progress to exploring <em>dynamics: the causes of changes in motion</em> in <xref ref="ch-dynamics"/>. Part 2 will close with an alternate approach to analyzing motion based on <em>conserved quantities</em> in <xref ref="ch-cons-laws"/>.  
     </p>
   </introduction>
-  
-    
+   
   <xi:include href="C_kinematics.ptx" />
   <xi:include href="C_dynamics.ptx" />
   <xi:include href="C_cons_laws.ptx" />
-    
   </part>
 
-  <part xml:id="systems">
+  <part xml:id="part-systems">
     <title>Mechanical Behavior of Systems</title>
     <introduction>
       <p>
-        Part 2 explored the motion of individual objects, which were often modeled as <em>particles</em>. Part 3 extends the study of motion to systems of particles. The behavior of systems containing many particles can be predicted by applying statistical methods to the numerous particles that comprise the system and accounting for the interactions between them; our discussion in this learning guide is limited to the results of such endeavors. In <xref ref="C_matter.ptx" />, various states and properties of <em>matter</em> will be discussed, before proceeding to the study of <em>thermodynamics</em> in <href ref="C_thermo.ptx" />. The physical aspects of <em>sound</em> will be explored in <href ref="C_sound.ptx"/>.       
+        Part 2 explored the motion of individual objects, which were often modeled as <em>particles</em>. Part 3 extends the study of motion to systems of particles. The behavior of systems containing many particles can be predicted by applying statistical methods to the numerous particles that comprise the system and accounting for the interactions between them; our discussion in this learning guide is limited to the results of such endeavors. In <xref ref="ch-matter" />, various states and properties of <em>matter</em> will be discussed, before proceeding to the study of <em>thermodynamics</em> in <xref ref="ch-thermo" />. The physical aspects of <em>sound</em> will be explored in <xref ref="ch-sound"/>.       
       </p>
     </introduction>
 
     <xi:include href="C_matter.ptx" />
     <xi:include href="C_thermo.ptx" />
     <xi:include href="C_sound.ptx" />    
-
 </part>
 
-<part xml:id="electromagnetism">
+<part xml:id="part-electromagnetism">
   <title>Electromagnetism</title>
   <introduction>
     <p>
-      Part 4 of this learning guide opens another realm of physics called <em>electromagnetism</em>. We'll begin by investigating the behavior of <em>electric charges </em> in <href ref="C_electricity.ptx"/>. We'll then progress to doing the same for <em>magnets</em> in <href ref="C_magnetism" />, where our investigations will reveal both similarities and differences between <em>electricity</em> and <em>magnetism</em>. Part 4 culminates in <href ref="C_light.ptx" />, which explores the creation, characteristics, and behavior of <em>electromagnetic waves</em>.     
+      Part 4 of this learning guide opens another realm of physics called <em>electromagnetism</em>. We'll begin by investigating the behavior of <em>electric charges </em> in <xref ref="ch-electricity"/>. We'll then progress to doing the same for <em>magnets</em> in <xref ref="ch-magnetism" />, where our investigations will reveal both similarities and differences between <em>electricity</em> and <em>magnetism</em>. Part 4 culminates in <xref ref="ch-light" />, which explores the creation, characteristics, and behavior of <em>electromagnetic waves</em>.     
     </p>
   </introduction>
 
@@ -73,11 +67,11 @@
     
 </part>
 
-<part xml:id="qm">
+<part xml:id="part-qm">
   <title>Selected Topics in Quantum Physics</title>
   <introduction>
     <p>
-      The previous content in this learning guide has focused on what is commonly called <q>Classical Physics</q>; here <em> classical</em> is used in the sense of <em>original</em>. In the late 1800's, some experimental results were found to be inconsistent with the predictions of Classical Physics - and furthermore, contradictions became apparent between certain predictions of two main branches of Classical Physics (namely <em>mechanics</em> and <em>electromagnetism</em>). These various conflicts were reconciled in the early 1900's, and a new physics emerged, aptly named <q>Modern Physics</q>. Modern Physics also includes two main branches:<em>relativity theory</em> and <em>quantum mechanics</em> (also called <em>quantum theory</em> or <em>quantum physics</em>). Relativity theory<mdash/>while fascinating<mdash/>is beyond the scope of this learning guide, but Part 5 includes some highlights of quantum physics that are highly relevant to health sciences. Highlights of <em>atomic physics</em> are explored in <href ref="C_atoms.ptx"/>, while highlights of <em>nuclear physics</em> are explored in <href ref="C_nukes.ptx"/>.       
+      The previous content in this learning guide has focused on what is commonly called <q>Classical Physics</q>; here <em> classical</em> is used in the sense of <em>original</em>. In the late 1800's, some experimental results were found to be inconsistent with the predictions of Classical Physics - and furthermore, contradictions became apparent between certain predictions of two main branches of Classical Physics (namely <em>mechanics</em> and <em>electromagnetism</em>). These various conflicts were reconciled in the early 1900's, and a new physics emerged, aptly named <q>Modern Physics</q>. Modern Physics also includes two main branches:<em>relativity theory</em> and <em>quantum mechanics</em> (also called <em>quantum theory</em> or <em>quantum physics</em>). Relativity theory<mdash/>while fascinating<mdash/>is beyond the scope of this learning guide, but Part 5 includes some highlights of quantum physics that are highly relevant to health sciences. Highlights of <em>atomic physics</em> are explored in <xref ref="ch-atoms"/>, while highlights of <em>nuclear physics</em> are explored in <xref ref="ch-nukes"/>.       
     </p>
   </introduction>
   

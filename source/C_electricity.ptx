@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<chapter xml:id="electricity">
+<chapter xml:id="ch-electricity">
   <title>Electricity</title>
   <introduction>
     <p>
@@ -8,22 +8,22 @@
     </p>
   </introduction>
 
-  <section xml:id="e-statics">
+  <section xml:id="sect-e-statics">
     <title>Electrostatics</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="e-circuits">
+  <section xml:id="sect-e-circuits">
     <title>Simple Electric Circuits</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="e-energy">
+  <section xml:id="sect-e-energy">
     <title>Electrical energy</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="apps-elect">
+  <section xml:id="sect-apps-elect">
     <title>Applications of Electrostatics</title>
     <p>Hello</p>
   </section>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="light">
+<chapter xml:id="ch-light">
   <title>Light</title>
   <introduction>
     <p>
@@ -8,22 +8,22 @@
     </p>
   </introduction>
 
-  <section xml:id="em-spectrum">
+  <section xml:id="sect-em-spectrum">
     <title>Light as an Electromagnetic Wave</title>
     <p>Hello</p>
   </section>
   
-  <section xml:id="geo-optics">
+  <section xml:id="sect-geo-optics">
     <title>Geometric Optics</title>
     <p>Hello</p>
   </section>
   
-  <section xml:id="phys-optics">
+  <section xml:id="sect-phys-optics">
     <title>Physical Optics</title>
     <p>Hello</p>
   </section>
   
-  <section xml:id="apps-optics">
+  <section xml:id="sect-apps-optics">
     <title>Applications of Optics</title>
     <p>Hello</p>
   </section>

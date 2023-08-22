@@ -34,9 +34,12 @@
       <title>Translational Kinematics</title>
       <idx><h>translational motion</h></idx>
       <idx><h>linear motion</h></idx>
-      <p>
+
+      <introduction>
+        <p>
         As discussed at the beginning of this chapter, <em>translational motion</em> can refer to a portion of combined motion, or it can fully describe the motion. This section opens with an example of a case where translation is the only motion of interest, to motivate the definitions for kinematics quantities in the most straight-forward way possible. 
-      </p> 
+        </p>
+      </introduction> 
 
     <subsection xml:id="subsec-lin-kin-defns">
       <title>Kinematics Definitions (Translational)</title> 
@@ -163,9 +166,6 @@
           </p>
         <p>
           First of all, we notice that the time interval under consideration matters alot! Are we concerned with the trip as a whole, or with the various portions of the trip? We'll explore this point more carefully after defining the terms and practicing with the equations, but for now just know that the concept of <q>average</q> (denoted by the subscript <q>ave</q> in the subsequent equations) is included to acknowledge that both speed and velocity depend on the time interval. 
-        </p>
-
-        <p> 
         <ul>
          <li> 
             <p>
@@ -187,7 +187,6 @@
              <p>It's also important to note that since displacement is a vector (and time is a scalar), velocity is also a <em>vector</em> quantity, having both magnitude and direction (see <xref ref="subsec-vectors"/>). The direction of the velocity is the same as the direction of the displacement (its magnitude is just <q>scaled</q> by the numerical value of the time interval, as are its units).  
              </p>
            </li>
-          </p>
         </ul>
       </p>
     
@@ -252,8 +251,8 @@
      </exercise>
 
      <p>
-      Before continuing, we should take note of a few things from <xref ref="ex-speed-velocity"/>: (a) both your speed and your velocity changed during your trip to the grocery store (e.g., you were traveling slowest during Part 2 of the trip), and (b) the magnitude of the average velocity for each portion of the trip was the same as the average speed, but that wasn't true when the time interval was expanded to include the entire trip. These observations motivate the general statements below:  
-       <ul>
+      Before continuing, we should take note of a few things from <xref ref="ex-speed-velocity"/>: (a) both your speed and your velocity changed during your trip to the grocery store (e.g., you were traveling slowest during Part 2 of the trip), and (b) the magnitude of the average velocity for each portion of the trip was the same as the average speed, but that wasn't true when the time interval was expanded to include the entire trip. These observations motivate the general statements below: 
+      <ul>
          <li> 
             <p>
               <term>Time-averaged values</term><mdash/> or, more simply, <em> average values</em><mdash/> always depend on the time interval under consideration. 
@@ -272,6 +271,7 @@
              </p>
           </li>
         </ul>
+      </p>
       </subsubsection>
 
     <subsubsection xml:id="subsub-last-grocery-store">
@@ -587,9 +587,9 @@
   </subsection>
       
     <subsection xml:id="subsec-constant-a-lin-eqns">
-       <idx><h>constant acceleration</h></idx>
-        
       <title>Special Case: Motion with Constant (Translational) Acceleration </title> 
+       <idx><h>constant acceleration</h></idx>
+             
        <introduction>
         <p>
           The equations in this subsection are only true for the <em>special case of constant acceleration</em>. Constant acceleration is a small subset of all possible motions, so be sure to ask yourself whether the motion of interest is undergoing constant acceleration <em>before</em> you try to use the equations in <xref ref="subsub-constant-accel-eqns"/> or <xref ref="table-eqns-const-lin-a"/>. That said, constant acceleration is somewhat common in nature; for example, objects falling under the influence of only gravity (without air resistance) undergo constant acceleration, and we'll encounter additional examples beginning in <xref ref="ch-dynamics"/>. Furthermore, there are numerous examples of motion that can be <em>approximated</em> as constant acceleration, such as speeding up or slowing down at a relatively constant rate while walking or driving a car. 
@@ -652,7 +652,7 @@
       </sidebyside>       
     </figure>
         
-    <exercise>
+    <exercise xml:id="ex-practice-free-fall">
       <task>
         <statement>
           <p>
@@ -694,7 +694,7 @@
        As previously emphasized, the equations presented here are only valid for the very special case of constant (translational) acceleration. They are NOT always true, and you won't get the correct answers if you use them for cases where the acceleration changes during the process of interest (for example, the grocery store trip in <xref ref="subsub-grocery-store-trip"/>). That said, these equations are extremely useful "shortcut" equations to use whenever the acceleration <em>is</em> constant. Other than a new way of thinking about the average velocity for the special case of constant acceleration, there's no new physics here! All of the physics is contained in the basic definitions in <xref ref="subsec-lin-kin-defns"/> (summarized in <xref ref="table-defns-lin-kin"/>); these special case equations are just simplifications and combinations of those definitions.  
        </p>
       <p>
-      Since we just saw in <xref ref="subsub-free-fall"/> that objects in free fall undergo constant acceleration, we can refer to <xref ref="figure-free-fall"/> to motivate the new way of thinking of average velocity mentioned in the preceding paragraph. The first few seconds of this case are shown in <xref ref="ave.vel.is.inst.at.mid"/> below.
+      Since we just saw in <xref ref="subsub-free-fall"/> that objects in free fall undergo constant acceleration, we can refer to <xref ref="figure-free-fall"/> to motivate the new way of thinking of average velocity mentioned in the preceding paragraph. The first few seconds of this case are shown in <xref ref="figure-ave-vel-is-inst-at-mid"/> below.
       </p>
       <figure width="80%" xml:id="figure-ave-vel-is-inst-at-mid">
       <title>Velocity graph for <xref ref="figure-free-fall"/> </title>
@@ -760,7 +760,7 @@ Finally, we can eliminate <m>t</m> between the two preceding equations to obtain
   This equation is particularly useful to relate the displacement of an object to its change in velocity; for example, to find the distance it takes a car to stop if its acceleration and initial velocity values are known, or to determine the initial speed a car was traveling from the length of the skid marks it leaves on the ground. For this reason, it is sometimes called the "braking distance equation." However, keep in mind it applies to any object undergoing constant acceleration - including free fall -  and like any equation, it can be rearranged to solve for any unknown variable.       
   </p>
  
-<exercise>
+<exercise xml:id="ex-practice-constant-accel">
   <task>
     <statement>
       <p>
@@ -770,10 +770,11 @@ Finally, we can eliminate <m>t</m> between the two preceding equations to obtain
     <answer>
       <p>
         It's a good practice to begin with a sketch; the image from the previous checkpoint applies here, where the initial velocity vector would be labeled 15 m/s. 
+      </p>
         <image source="symmetry.ff.PNG" width="20%">
          <description>Image shows velocity vectors of ball that's thrown straight upward and comes back down. The velocity vector is respresented by progressively smaller arrows as the ball rises and progressively larger arrows as it falls, with the upward arrows at each position matching the size of the downward arrows.</description>
         </image> 
-        </p>
+    
       <p>
         (a) We can immediately see from this sketch that the ball would land with the same speed it was thrown, or 15 m/s. Let's use the "constant acceleration equations" to confirm this. Since the ball lands at its original position, its displacement is zero. So we could use the displacement equation to find the time, and then substitute into the velocity equation. But here, since we don't care about the time (yet), we could do this in a single step using the "braking distance" equation:
          <me>\vec{v}_{\text{final}}^2= \vec{v}_{\text{initial}}^2 + 2 \vec{a}\cdot \Delta\vec{x} </me>.
@@ -817,9 +818,11 @@ Finally, we can eliminate <m>t</m> between the two preceding equations to obtain
 </task>
 </exercise>
 </subsubsection>
-</subsection> 
-<p></p>
-<p></p>
+
+<subsubsection xml:id="subsub-lin-kin-tables">
+  <title>Tabulated equations for linear kinematics</title>
+  <idx><h>kinematics equations</h></idx>
+
 <p> The equations from this entire section are summarized below for easy reference, and to guide our thinking in <xref ref="sect-rot-kin"/>. 
 </p>
 
@@ -874,15 +877,20 @@ Finally, we can eliminate <m>t</m> between the two preceding equations to obtain
     </row>
   </tabular>
   </table> 
+</subsubsection>
+</subsection> 
 </section>
 
-    <section xml:id="sect-rot-kin">
-      <title>Rotational Kinematics</title>
-      <idx><h>rotational kinematics</h></idx>
+<section xml:id="sect-rot-kin">
+  <title>Rotational Kinematics</title>
+  <idx><h>rotational kinematics</h></idx>
 
-      <p>We now turn our attention to the other basic form of motion: <em>rotational</em> (also called <em>angular</em>) motion. We'll again begin by considering a situation that only includes rotational motion: two objects resting on a rotating platform. This example will help to clearly define terms and ellucidate the connection to translational motion. Relying on what we learned previously in <xref ref="lin-kin"/> will allow us to build our toolkit quickly by making use of the analagous definitions and equations for translational motion. We'll look at some other examples along the way, and then we'll summarize our findings by adding the kinematics equations for rotational motion to <xref ref="table-defns-lin-kin"/> and <xref ref="table-eqns-const-lin-a"/>.</p>
-
-        <subsubsection xml:id="subsub-rot-kin-defns">
+  <introduction>
+    <p>We now turn our attention to the other basic form of motion: <em>rotational</em> (also called <em>angular</em>) motion. We'll again begin by considering a situation that only includes rotational motion: two objects resting on a rotating platform. This example will help to clearly define terms and ellucidate the connection to translational motion. Relying on what we learned previously in <xref ref="lin-kin"/> will allow us to build our toolkit quickly by making use of the analagous definitions and equations for translational motion. We'll look at some other examples along the way, and then we'll summarize our findings by adding the kinematics equations for rotational motion to <xref ref="table-defns-lin-kin"/> and <xref ref="table-eqns-const-lin-a"/>.
+    </p>    
+  </introduction>
+  
+      <subsection xml:id="subsec-rot-kin-defns">
           <title>Kinematics Definitions (Rotational)</title>
           <introduction>
             <p>
@@ -913,9 +921,12 @@ Finally, we can eliminate <m>t</m> between the two preceding equations to obtain
       <description> Three images: (A), (B), and (C). Each image shows two colored circles (representing pennies) placed along the diameter of a larger circle (representing the turntable). Image (A) includes an arrow to show counter-clockwise rotation. Image (B) includes a dotted horizontal line through the two pennies (to mark the beginning position of the turntable) and another dotted vertical line (to mark its final position), as well as dotted curves showing the motion path of each penny. Image (C) also includes two additional features for each penny: a radius vector (pointing from the center of the turntable to the penny's location) and the angle each penny moves through. </description>
       </image> 
     </figure>
+    </subsection>
 
-    </subsubsection>
-
+    <subsection xml:id="connects-rot-lin">
+      <title>Connections between  </title>
+      
+    </subsection>
   <table xml:id="table-compare-kin-lin-ang">
   <title>Comparison of Translational and Rotational Kinematics</title>
   <tabular top="major" left="major" halign="center">

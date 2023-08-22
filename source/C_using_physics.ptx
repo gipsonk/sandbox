@@ -152,15 +152,17 @@
               There has been much discussion in recent years that science is fundamentally flawed, because scientists keep changing their perspectives. Such critiques display a profound misunderstanding of what science is, because <em>science is intended to change</em> in response to new evidence. In the Western world, Aristotle is often considered the founder of <em>natural philosophy</em> (the basis of natural science); his theories were based on a combination of logic (philosophical <q>idealism</q>) and everyday observations, but his ideas about motion were seen to be flawed when Galileo began doing carefully<ndash />controlled experiments in the 1600's.
             </p>
             <p>
-              Galileo's conclusions, based on his underlying philosophy of <em>empiricism,</em> are considered the beginning of the science of physics and led directly to Newton developing his famous laws of motion (to be explored in much more detail in <xref ref="ch-dynamics" />). For now, it's important to note that there have been numerous similar upheavals (or <q>paradigm shifts</q>) in the history of all natural sciences. However, earlier interpretations are seldom dismissed outright; instead, the new insights expand the domain of investigation. As a specific example: another significant paradigm shift in physics occured around 1910: <q>Modern Physics</q> (so<ndash />named to distinguish it from the <q>Classical Physics</q> that preceeded it), emcompassing both <em>relativity theory</em> and <em>quantum mechanics</em>, was born as a consequence of irresolvable disputes between predictions of established branches of physics and new experimental evidence. However, classical physics is still valid within the everyday domain of objects of sizes comparable to human beings moving at moderate speeds. For this reason, classical physics ideas comprise most of this learning guide <ndash /> and, indeed, most other introductory physics resources (texts, etc.) <ndash /> with modern physics content mostly regulated to <xref ref='ch-qm' />.
+              Galileo's conclusions, based on his underlying philosophy of <em>empiricism,</em> are considered the beginning of the science of physics and led directly to Newton developing his famous laws of motion (to be explored in much more detail in <xref ref="ch-dynamics" />). For now, it's important to note that there have been numerous similar upheavals (or <q>paradigm shifts</q>) in the history of all natural sciences. However, earlier interpretations are seldom dismissed outright; instead, the new insights expand the domain of investigation. As a specific example: another significant paradigm shift in physics occured around 1910: <q>Modern Physics</q> (so<ndash />named to distinguish it from the <q>Classical Physics</q> that preceeded it), emcompassing both <em>relativity theory</em> and <em>quantum mechanics</em>, was born as a consequence of irresolvable disputes between predictions of established branches of physics and new experimental evidence. However, classical physics is still valid within the everyday domain of objects of sizes comparable to human beings moving at moderate speeds. For this reason, classical physics ideas comprise most of this learning guide <ndash /> and, indeed, most other introductory physics resources (texts, etc.) <ndash /> with modern physics content mostly regulated to <xref ref="part-qm"/>.
             </p>
           </li>
+          
           <li>
             <title>Categories are artificial</title>
             <p>
-              This learning guide is necessarily divided into parts and chapters, sequenced to build upon one another. However, it's important to keep in mind that nature doesn't care about these man<ndash />made categories! Most topics in everyday life require knowledge from more than one category: for example, a thorough understanding of <em>light</em> requires understanding not only electromagnetism (as discussed in <xref ref="ch-electromagnetism" />), but also aspects of modern physics (relativity and light quanta) that are not covered thoroughly in this learning guide; likewise, a more complete description of <em>sound</em> requires understanding its quantum nature, and relativity theory has much more to say about <em> gravity</em> than presented in this learning guide. Similar remarks apply to the distinctions between and among the natural sciences; in some sense, this artificial separation of physical reality into supposedly distinct categories accounts for the rise of interdisciplinary and applied sciences.
+              This learning guide is necessarily divided into parts and chapters, sequenced to build upon one another. However, it's important to keep in mind that nature doesn't care about these man<ndash />made categories! Most topics in everyday life require knowledge from more than one category: for example, a thorough understanding of <em>light</em> requires understanding not only electromagnetism (as discussed in <xref ref="ch-electromagnetism"/>), but also aspects of modern physics (relativity and light quanta) that are not covered thoroughly in this learning guide; likewise, a more complete description of <em>sound</em> requires understanding its quantum nature, and relativity theory has much more to say about <em>gravity</em> than presented in this learning guide. Similar remarks apply to the distinctions between and among the natural sciences; in some sense, this artificial separation of physical reality into supposedly distinct categories accounts for the rise of interdisciplinary and applied sciences.
             </p>
           </li>
+          
           <li>
             <title>Models are not reality</title>
             <p>
@@ -171,13 +173,14 @@
               </ol>
             </p>
             <p>
-              Many models (like the flat earth) are known to be untrue or incomplete, but are still very useful scientific models. For example, the planetary model of the atom <mdash /> with negative particles called <em>electrons</em> orbiting a nucleus composed of positive <em> protons</em> and neutral <em>neutrons</em> <mdash /> will be used in <xref ref="ch-systems" /> and again in <xref ref="ch-electromagnetism" />, even though we know it's not the most accurate description. In fact, the idea of an <em>atomic particle</em> is itself an incomplete model, as quantum physics has revealed the wave nature of all atomic <q>particles</q>. Similarly, sound and light will be treated as waves in <xref ref="ch-sound" /> and <xref ref="ch-light" />, but quantum physics discloses their particulate natures. Entire philosophical treatises have been written on this <em>wave<ndash />particle duality</em>, because no two concepts could be more opposite than particles and waves. (For example, particles stay intact (<q>localized</q>) as they move through space and interact via collisions, whereas waves spread out as they travel and can pass through one another.) The fact that two such opposite models are needed to fully describe common phenomena like matter, sound, and light discloses the limitations inherent in all models. As you enter other scientific models, please consider whether you ever conflate models with reality. 
+              Many models (like the flat earth) are known to be untrue or incomplete, but are still very useful scientific models. For example, the planetary model of the atom <mdash /> with negative particles called <em>electrons</em> orbiting a nucleus composed of positive <em> protons</em> and neutral <em>neutrons</em> <mdash /> will be used in <xref ref="part-systems" /> and again in <xref ref="ch-electromagnetism" />, even though we know it's not the most accurate description. In fact, the idea of an <em>atomic particle</em> is itself an incomplete model, as quantum physics has revealed the wave nature of all atomic <q>particles</q>. Similarly, sound and light will be treated as waves in <xref ref="ch-sound" /> and <xref ref="ch-light" />, but quantum physics discloses their particulate natures. Entire philosophical treatises have been written on this <em>wave<ndash />particle duality</em>, because no two concepts could be more opposite than particles and waves. (For example, particles stay intact (<q>localized</q>) as they move through space and interact via collisions, whereas waves spread out as they travel and can pass through one another.) The fact that two such opposite models are needed to fully describe common phenomena like matter, sound, and light discloses the limitations inherent in all models. As you encounter other scientific models, please consider whether you ever conflate models with reality. 
             </p>
           </li>
+          
           <li>
             <title>Idealizations are necessary</title>
             <p>
-              One reason physics can seem more abstract than the other natural sciences is that its idealizations often neglect interesting features of reality. For example, if the physics of interest is to describe an object's motion through space (as in <xref ref="ch-kinematics" />), then we can model it as a simple <em>point mass</em>, which ignores the very features of most interest to a biologist, chemist, or health scientist. However, this simplication is also what makes physics so powerful: we can discern the commonalities underlying seemingly different scenarios, and often express them in equation form, which<mdash />as mentioned in the preface <ndash /> allows trends to be made explicit and facilitates deeper understanding of the relationship between the parameters under investigation. The next section discusses additional quantitative aspects of physics.
+              One reason physics can seem more abstract than the other natural sciences is that its idealizations often neglect interesting features of reality. For example, if the physics of interest is to describe an object's motion through space (as in <xref ref="ch-kinematics" />), then we can model it as a simple <em>point mass</em>, which ignores the very features of most interest to a biologist, chemist, or health scientist. However, this simplication is also what makes physics so powerful: we can discern the commonalities underlying seemingly different scenarios, and often express them in equation form, which<ndash /> as mentioned in the preface <ndash /> allows trends to be made explicit and facilitates deeper understanding of the relationship between the parameters under investigation. The next section discusses additional quantitative aspects of physics.
             </p>
           </li>
         </ul>
@@ -401,23 +404,17 @@
     <subsection xml:id="subsec-zero">
         <title>Role of "Zero"</title>
         <p> The number <em>zero</em> (0) sometimes has physical significance, while other times it doesn't. (In cases where zero can be chosen, a wise choice of where to call zero can often simplify the math.) Examples abound in both categories and will generally be made clear when the physical quantity is introduced. For now, we'll rely on two examples from everyday life: 
-            <ul>
-              <li><title>Example of arbitrary <em>zero</em>: position</title>
-                <p>The number <em>zero</em> is completely arbitrary for position. For example, if we hold an object
-          above a table, we could define its <q>zero</q> position to be at the floor, on top of the table, at the object's position above the table, or anywhere in between. The only physically meaningful quantity is its <em>change in position</em>, which will be the same
-          regardless of what we choose to call the <q>zero</q> position.(NOTE: If we only care about the object's position relative to the top of the table<mdash/>as in some of the labs<mdash/>the the math will be much simpler by choosing the zero position as either the
-          tabletop or the object's initial position. This point will be discussed further in <xref ref="sect-lin-kin"/> and thereafter.)  
-                </p>
-              </li>
-  
-              <li><title>Example of non-arbitrary <em>zero</em>: mass</title>
-                <p> The number <em>zero</em> has a definite meaning for mass: the mass of an entity will have a
-          different numerical value in different systems of units, but an entity either has mass or it doesn't. 
+          <ul>
+             <li><title>Example of arbitrary <em>zero</em>: position</title>
+            <p>The number <em>zero</em> is completely arbitrary for position. For example, if we hold an object above a table, we could define its <q>zero</q> position to be at the floor, on top of the table, at the object's position above the table, or anywhere in between. The only physically meaningful quantity is its <em>change in position</em>, which will be the same regardless of what we choose to call the <q>zero</q> position.(NOTE: If we only care about the object's position relative to the top of the table<mdash/>as in some of the labs<mdash/>the the math will be much simpler by choosing the zero position as either the tabletop or the object's initial position. This point will be discussed further in <xref ref="sect-lin-kin"/> and thereafter.)  
+           </p>
+          </li>
+          <li><title>Example of non-arbitrary <em>zero</em>: mass</title>
+              <p> The number <em>zero</em> has a definite meaning for mass: the mass of an entity will have a different numerical value in different systems of units, but an entity either has mass or it doesn't. 
                 </p>
               </li>
             </ul> 
-          </p>
-        </li>        
+          </p>       
     </subsection>
   </section>
 

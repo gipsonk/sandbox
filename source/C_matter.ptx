@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<chapter xml:id="matter" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-matter" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Matter</title>
   <introduction>
     <p>
@@ -8,22 +8,22 @@
     </p>
   </introduction>
 
-  <section xml:id="states-of-matter">
+  <section xml:id="sect-states-of-matter">
     <title>States of Matter</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="props-of-solids">
+  <section xml:id="sect-props-of-solids">
     <title>Selected Properties of Solids</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="props-of-fluids">
+  <section xml:id="sect-props-of-fluids">
     <title>Selected Properties of Fluids</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="apps-matter">
+  <section xml:id="sect-apps-matter">
     <title>Applications of Material Science</title>
     <p>Hello</p>
   </section>

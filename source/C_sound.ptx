@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<chapter xml:id="sound">
+<chapter xml:id="ch-sound">
   <title>Sound</title>
   <introduction>
     <p>
@@ -8,22 +8,22 @@
     </p>
   </introduction>
 
-  <section xml:id="vibs-waves">
+  <section xml:id="sect-vibs-waves">
     <title>Vibrations and Waves</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="wave-behav">
+  <section xml:id="sect-wave-behav">
     <title>Behavior of Waves</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="sound-props">
+  <section xml:id="sect-sound-props">
     <title>Properties of Sound</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="apps-sound">
+  <section xml:id="sect-apps-sound">
     <title>Applications of Sound</title>
     <p>Hello</p>
   </section>

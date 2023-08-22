@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="atomic-phys">
+<chapter xml:id="ch-atomic-phys">
   <title>Atomic Physics</title>
   <introduction>
     <p>
@@ -8,12 +8,12 @@
     </p>
   </introduction>
 
-  <section xml:id="atoms">
+  <section xml:id="sect-atoms">
     <title>The Atom</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="qm-basics">
+  <section xml:id="sect-qm-basics">
     <title>Basics of Quantum Mechanics</title>
     <p>Hello</p>
   </section>

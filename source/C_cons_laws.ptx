@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<chapter xml:id="cons-laws" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-cons-laws" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Conservation Laws for Mechanics</title>
 
   <introduction>
@@ -9,28 +9,28 @@
     </p>
   </introduction>  
 
-  <section xml:id="work-energy">
+  <section xml:id="sect-work-energy">
     <title>Work and Energy</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="cons-energy">
+  <section xml:id="sect-cons-energy">
     <title>Conservation of Mechanical Energy</title>
     <p>Hello</p>
   </section>
 
 
-  <section xml:id="momentum">
+  <section xml:id="sect-momentum">
     <title>Momentum</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="cons-momentum">
+  <section xml:id="sect-cons-momentum">
     <title>Conservation of Momentum</title>
     <p>Hello</p>
   </section>
   
-  <section xml:id="apps-conserve">
+  <section xml:id="sect-apps-conserve">
     <title>Applications of Conservation Laws to Health Sciences</title>
     <p>Hello</p>
   </section>

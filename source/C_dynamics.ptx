@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<chapter xml:id="dynamics" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-dynamics" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Dynamics: The Causes of Changes in Motion </title>
 
   <introduction>
@@ -9,17 +9,17 @@
     </p>
   </introduction>
 
-  <section xml:id="lin-dyn">
+  <section xml:id="sect-lin-dyn">
     <title>Translational Dynamics</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="rot-dyn">
+  <section xml:id="sect-rot-dyn">
     <title>Rotational Dynamics</title>
     <p>Hello</p>
   </section>
 
-  <section xml:id="equilib">
+  <section xml:id="sect-equilib">
     <title>Mechanical Equilibrium</title>
   
     <introduction>
@@ -28,7 +28,7 @@
       </p>
     </introduction>
     
-    <subsection xml:id="equib-cond">
+    <subsection xml:id="subsec-equib-cond">
       <title>Conditions for Mechanical Equilibrium</title>
       
       <p>
@@ -38,7 +38,7 @@
     </subsection>
   </section>
 
-  <section xml:id="dyn-apps">
+  <section xml:id="sect-dyn-apps">
     <title>Applications of Dynamics to Health Sciences</title>
     <p>Hello</p>
   </section>
